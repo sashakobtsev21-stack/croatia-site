@@ -6,8 +6,8 @@
  */
 import sharp from 'sharp';
 
-const SRC = 'src/assets/hero/gergeti-kazbek.jpg';
+const SRC = 'src/assets/hero/dubrovnik.jpg';
 const OUT = 'public/og-default.jpg';
 
-await sharp(SRC).resize(1200, 630, { fit: 'cover', position: 'attention' }).jpeg({ quality: 82 }).toFile(OUT);
+await sharp(SRC).resize(1200, 630, { fit: 'cover', position: 'attention' }).jpeg({ quality: 72 }).toFile(OUT);
 console.log(`og: ${OUT} written from ${SRC}`);

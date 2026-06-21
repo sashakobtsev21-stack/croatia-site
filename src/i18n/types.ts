@@ -131,15 +131,14 @@ export interface UIDictionary {
   backToTop: string;
   /** Страница 404 (не найдена) — единая на сайт, рендерится на языке по умолчанию. */
   notFound: { heading: string; text: string; home: string };
-  /** Блок «Сейчас в Грузии» на главной (§8.4): погода + курс лари. */
+  /** Блок «Сейчас в Хорватии» на главной (§8.4): погода городов + море Адриатики. */
   liveData: {
     heading: string;
     /** Короткое описание слева от панели (вёрстка «сбоку»). */
     desc: string;
     weather: string;
     sea: string;
-    fx: string;
-    cities: { tbilisi: string; kutaisi: string; batumi: string };
+    cities: { zagreb: string; split: string; dubrovnik: string };
     updated: string;
     source: string;
   };

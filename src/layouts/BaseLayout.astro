@@ -132,10 +132,11 @@ const siteLd = {
       />
     )}
 
-    <!-- TODO(croatia): аналитика отключена на bootstrap. Прежний тег принадлежал
-         Croatia Guidebook (GA4 G-PV88LQSD3W) — НЕ использовать на Хорватии. Подключить
-         GA4/аналитику Хорватии, когда заведены ресурс аналитики и домен; при возврате
-         инлайн-инициализации пересчитать её sha256 в public/_headers → script-src (§18). -->
+    <!-- Google Analytics 4 (G-MD4WT1JQ57, §17). Загрузчик — внешний (googletagmanager.com,
+         разрешён в script-src). Инициализация вынесена во внешний /js/ga-init.js (script-src
+         'self', §18) — без инлайна, поэтому строгому CSP не нужен sha256-хеш инициализации. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD4WT1JQ57"></script>
+    <script is:inline src="/js/ga-init.js"></script>
 
     <!--
       Гейт движения (ui-ux-pro-max §7): СИНХРОННЫЙ внешний модуль со 'self'

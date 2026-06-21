@@ -5,8 +5,8 @@
 import type { UIDictionary } from './types';
 
 export const en: UIDictionary = {
-  siteName: 'Georgia Guidebook',
-  tagline: 'Georgia travel guide: vetted places',
+  siteName: 'Croatia Guidebook',
+  tagline: 'Croatia travel guide: vetted places',
   langName: 'English',
   skipToContent: 'Skip to content',
   backToTop: 'Back to top',
@@ -68,9 +68,9 @@ export const en: UIDictionary = {
     samplePlaceholder: 'date verified',
   },
   home: {
-    heroTitle: 'Georgia travel guide: vetted places',
+    heroTitle: 'Croatia travel guide: vetted places',
     heroSubtitle:
-      'Plan your Georgia trip without the tourist traps: we pick places by rating and cross-check them with guides and locals. Updated regularly.',
+      'Plan your Croatia trip without the tourist traps: we pick places by rating and cross-check them with guides and locals. Updated regularly.',
     heroCredit: 'Photo: Braveheart / Wikimedia Commons · CC BY-SA 4.0',
     photoPrefix: 'Photo',
     search: {

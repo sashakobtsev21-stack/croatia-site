@@ -5,8 +5,8 @@
 import type { UIDictionary } from './types';
 
 export const uk: UIDictionary = {
-  siteName: 'Georgia Guidebook',
-  tagline: 'Довідник по Грузії: перевірені місця',
+  siteName: 'Croatia Guidebook',
+  tagline: 'Довідник по Хорватії: перевірені місця',
   langName: 'Українська',
   skipToContent: 'До змісту',
   backToTop: 'Догори',
@@ -68,9 +68,9 @@ export const uk: UIDictionary = {
     samplePlaceholder: 'дата перевірки',
   },
   home: {
-    heroTitle: 'Довідник по Грузії: перевірені місця',
+    heroTitle: 'Довідник по Хорватії: перевірені місця',
     heroSubtitle:
-      'Сплануйте подорож Грузією без туристичних пасток: місця відбираємо за рейтингом і звіряємо з гідами та місцевими. Оновлюємо регулярно.',
+      'Сплануйте подорож Хорватією без туристичних пасток: місця відбираємо за рейтингом і звіряємо з гідами та місцевими. Оновлюємо регулярно.',
     heroCredit: 'Фото: Braveheart / Wikimedia Commons · CC BY-SA 4.0',
     photoPrefix: 'Фото',
     search: {

@@ -7,7 +7,7 @@
  * CSP (§18): SW и manifest отдаются со 'self' (default-src 'self'). Кэш версионируется
  * (CACHE = gg-vN): при активации новой версии старые кэши удаляются.
  */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'gg-' + VERSION;
 const OFFLINE_URL = '/offline.html';
 
@@ -15,7 +15,23 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(CACHE)
-      .then((c) => c.addAll([OFFLINE_URL, '/favicon.svg']))
+      .then((c) =>
+        Promise.all([
+          // На хостинге /offline.html может 307-редиректить (Cloudflare html_handling →
+          // /offline). Редиректнутый Response нельзя отдать как fallback для навигации
+          // («redirected response used…»), поэтому следуем редиректу и кладём в кэш ЧИСТУЮ
+          // (не-redirected) копию под ключ OFFLINE_URL — она корректно отдаётся в офлайне.
+          fetch(OFFLINE_URL)
+            .then((r) => r.blob())
+            .then((body) =>
+              c.put(
+                OFFLINE_URL,
+                new Response(body, { headers: { 'Content-Type': 'text/html; charset=utf-8' } }),
+              ),
+            ),
+          c.add('/favicon.svg'),
+        ]),
+      )
       .then(() => self.skipWaiting()),
   );
 });

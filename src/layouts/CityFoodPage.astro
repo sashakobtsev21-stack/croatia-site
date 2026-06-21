@@ -53,20 +53,21 @@ const edaHref = sectionHref(lang, 'eda');
 // Кросс-ссылки с фолбэком на язык по умолчанию (ru), если перевода на текущий язык
 // ещё нет (фазовая раскатка en) — чтобы не было битых ссылок (§12).
 const articlesAll = await getCollectionSafe('articles', (entry) => entry.data.draft !== true);
-const hasArticle = (category: string, slug: string): boolean =>
+const hasArticleIn = (lg: Lang, category: string, slug: string): boolean =>
   articlesAll.some(
-    (e) => e.data.lang === lang && e.data.category === category && e.data.slug === slug,
+    (e) => e.data.lang === lg && e.data.category === category && e.data.slug === slug,
   );
-const cuisineHref = articleHref(
-  hasArticle('eda', 'chto-poprobovat') ? lang : DEFAULT_LANG,
-  'eda',
-  'chto-poprobovat',
-);
-const cityGuideHref = articleHref(
-  hasArticle('goroda', cfg.citySlug) ? lang : DEFAULT_LANG,
-  'goroda',
-  cfg.citySlug,
-);
+// Кросс-ссылку отдаём ТОЛЬКО если материал реально существует: в текущем языке, иначе
+// в дефолтном (фазовая раскатка en, §12). Нет ни там, ни там → null, и ссылка не
+// рендерится — иначе была бы битая ссылка на ещё ненаписанную статью (гейт links падал).
+const articleHrefIfExists = (category: string, slug: string): string | null =>
+  hasArticleIn(lang, category, slug)
+    ? articleHref(lang, category, slug)
+    : hasArticleIn(DEFAULT_LANG, category, slug)
+      ? articleHref(DEFAULT_LANG, category, slug)
+      : null;
+const cuisineHref = articleHrefIfExists('eda', 'chto-poprobovat');
+const cityGuideHref = articleHrefIfExists('goroda', cfg.citySlug);
 
 /** Места этого города, не черновики (§11). */
 const places = await getCollectionSafe(
@@ -157,11 +158,13 @@ const breadcrumbLd = {
         <div class="head__intro">
           {city.intro.map((p: string) => <p>{p}</p>)}
         </div>
-        <a class="head__guide" href={cuisineHref}>
-          <Icon name="utensils" size={18} class="head__guide-icon" />
-          <span>{dict.eda.cuisineGuide}</span>
-          <Icon name="arrow-right" size={16} />
-        </a>
+        {cuisineHref && (
+          <a class="head__guide" href={cuisineHref}>
+            <Icon name="utensils" size={18} class="head__guide-icon" />
+            <span>{dict.eda.cuisineGuide}</span>
+            <Icon name="arrow-right" size={16} />
+          </a>
+        )}
       </header>
 
       {
@@ -221,11 +224,13 @@ const breadcrumbLd = {
           <span class="u-underline">{cp.backToAll}</span>
           <Icon name="arrow-right" size={16} />
         </a>
-        <a class="more__link" href={cityGuideHref}>
-          <Icon name="building" size={18} />
-          <span class="u-underline">{cp.cityGuideLink}: {city.cityName}</span>
-          <Icon name="arrow-right" size={16} />
-        </a>
+        {cityGuideHref && (
+          <a class="more__link" href={cityGuideHref}>
+            <Icon name="building" size={18} />
+            <span class="u-underline">{cp.cityGuideLink}: {city.cityName}</span>
+            <Icon name="arrow-right" size={16} />
+          </a>
+        )}
       </nav>
     </div>
   </div>

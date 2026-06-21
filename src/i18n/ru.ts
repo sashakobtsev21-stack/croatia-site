@@ -6,7 +6,7 @@ import type { UIDictionary } from './types';
 
 export const ru: UIDictionary = {
   siteName: 'Croatia Guidebook',
-  tagline: 'Справочник по Хорватии: проверенные места',
+  tagline: 'Справочник Хорватии: проверенные места',
   langName: 'Русский',
   skipToContent: 'К содержанию',
   backToTop: 'Наверх',

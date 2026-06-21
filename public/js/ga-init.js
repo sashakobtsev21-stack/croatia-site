@@ -9,5 +9,21 @@ window.dataLayer = window.dataLayer || [];
 function gtag() {
   dataLayer.push(arguments);
 }
+// Consent Mode v2 (GDPR/ЕС): по умолчанию всё denied — GA не пишет cookies до согласия.
+// Баннер CookieConsent поднимает analytics_storage до 'granted' при «Принять».
+gtag('consent', 'default', {
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  analytics_storage: 'denied',
+});
+// Если пользователь уже соглашался ранее — поднимаем согласие сразу (до показа баннера).
+try {
+  if (localStorage.getItem('cg-consent') === 'granted') {
+    gtag('consent', 'update', { analytics_storage: 'granted' });
+  }
+} catch (e) {
+  /* localStorage недоступен (приватный режим) — остаёмся на denied */
+}
 gtag('js', new Date());
 gtag('config', 'G-MD4WT1JQ57');

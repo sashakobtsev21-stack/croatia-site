@@ -129,6 +129,8 @@ export interface UIDictionary {
   skipToContent: string;
   /** Плавающая кнопка «наверх» на длинных страницах (aria-label). */
   backToTop: string;
+  /** Баннер согласия на cookies под GA4 (Consent Mode v2, §17/§18). */
+  cookieConsent: { text: string; accept: string; decline: string; aria: string };
   /** Страница 404 (не найдена) — единая на сайт, рендерится на языке по умолчанию. */
   notFound: { heading: string; text: string; home: string };
   /** Блок «Сейчас в Хорватии» на главной (§8.4): погода городов + море Адриатики. */

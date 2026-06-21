@@ -10,6 +10,12 @@ export const en: UIDictionary = {
   langName: 'English',
   skipToContent: 'Skip to content',
   backToTop: 'Back to top',
+  cookieConsent: {
+    text: 'We use cookies only for analytics (Google Analytics) to understand what readers find useful. Analytics runs only with your consent.',
+    accept: 'Accept',
+    decline: 'Decline',
+    aria: 'Cookie consent',
+  },
   notFound: {
     heading: 'Page not found',
     text: 'The page you are looking for doesn’t exist or has moved. Use the menu above or head back to the homepage.',

@@ -111,6 +111,10 @@ const heroVariants = await Promise.all(
       avifSrcset: avif.srcSet.attribute,
       webpSrcset: webp.srcSet.attribute,
       src: webp.src,
+      // Интринсик-размеры webp-варианта → аспект-хинт браузеру (best practice; hero и так
+      // position:absolute и CLS не даёт, но снимаем замечание линтера и задаём пропорции).
+      width: webp.attributes.width,
+      height: webp.attributes.height,
       focus: s.focus,
       href: s.href,
       credit: s.credit,
@@ -315,6 +319,8 @@ for (const pick of showcasePicks) {
         src={heroDefault.src}
         srcset={heroDefault.webpSrcset}
         sizes="100vw"
+        width={heroDefault.width}
+        height={heroDefault.height}
         alt=""
         decoding="async"
         fetchpriority="high"

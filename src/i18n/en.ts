@@ -145,57 +145,47 @@ export const en: UIDictionary = {
     sections: {
       dostoprimechatelnosti: {
         intro: [
-          'What to see in Georgia — from the snowy peaks of Kazbegi and the cave towns of Vardzia and Uplistsikhe to waterfalls, canyons, and ancient churches. In this section we gather the places worth traveling for: nature, fortresses, monasteries, and viewpoints across the country — from Kakheti in the east to Svaneti in the west.',
-          'For each attraction we try to honestly answer the main questions: what exactly to see, how to get there, how much time to set aside, and when to go so you’re not disappointed. Where it makes sense, the end of the article has tips on car rental and tours, because the most convenient way to reach many places in Georgia is by car.',
+          'What to see in Croatia — the Adriatic coast and islands, the waterfalls of Plitvice and Krka, the old towns of Dubrovnik and Split, Istrian hill towns and the national parks. Browse the catalog by type and region and open a card for the details: what to see, how to get there, and when to go.',
         ],
       },
       goroda: {
         intro: [
-          'Georgia’s cities are like different countries in miniature: multilayered Tbilisi, seaside Batumi, calm Kutaisi, the resort of Borjomi, mountainous Mestia, and wine-country Sighnaghi. This section has city guides: what to see, where to eat honestly, how to get there, and where to stay.',
-          'Cities are a handy starting point for planning: routes branch out from them, attractions are nearby, and this is where you book accommodation, pick up a car, and sort out connectivity. That’s why in the city guides we link to related sections — food, routes, and rental — to put your whole trip in one place.',
+          'City guides across Croatia — Zagreb, Split, Dubrovnik, Rijeka, Zadar and the coastal towns: what to see, where to eat, how to get there and where to stay, with links to nearby routes, food and car rental so your whole trip is in one place.',
         ],
       },
       razvlecheniya: {
         intro: [
-          'Entertainment in Georgia — where to go for experiences beyond ancient churches and mountains: Black Sea beaches, cable cars and parks, botanical gardens, museums, and casinos. In this section we gather places to relax and have fun across the country’s cities — with a focus on what matters in practice: where it is, how much admission costs, and when it’s open.',
-          'We keep building the section out, city by city. Prices and opening hours are listed per place, so a night out or a day trip is easy to plan ahead.',
+          'Things to do in Croatia beyond the sights — beaches and islands, nightlife, festivals, parks and museums. Each place lists where it is, the price and the opening hours, so a night out or a day trip is easy to plan ahead.',
         ],
       },
       marshruty: {
         intro: [
-          'Ready-made road trips around Georgia: a day-by-day plan, a budget guideline, key stops, and a map. The country is compact but mountainous — a car opens up what’s hard to reach by public transport: passes, the wine villages of Kakheti, the canyons of Imereti, and the road to Svaneti.',
-          'How to choose a direction. East — wine-country Kakheti with the Alazani Valley and monasteries; north — the Georgian Military Road to Kazbegi and the Gergeti church; south — mineral-water Borjomi and the cave town of Vardzia; west — Imereti with its emerald canyons and caves; to the sea — the Tbilisi → Batumi corridor. And to see it all in one trip, there’s the “Grand Tour of Georgia,” roughly two weeks long.',
-          'Season and preparation. The best time for most routes is from late spring to autumn. In winter the mountain sections (the Georgian Military Road, the pass to Vardzia, the road to Svaneti) are harder, and passes are sometimes closed because of snow — check road conditions before setting off. For the high mountains and dirt roads, take an SUV. The mileage, days, and budget in the cards are guidelines, not exact measurements: it all depends on the number of stops, the season, and accommodation.',
+          'Ready-made road trips around Croatia: a day-by-day plan, a budget guideline, key stops and a map. A car opens up the coast, the islands and the national parks; the best season runs from late spring to autumn. The mileage, days and budget in the cards are guidelines, not exact measurements.',
         ],
       },
       transport: {
         intro: [
-          'Transport in Georgia — how to get around the country: airports, trains, marshrutkas, intercity buses, and transfers. This section has practical guides: how to get from point to point, roughly how long the trip takes, and what options there are.',
-          'Here you’ll find the country’s airports (Tbilisi, Kutaisi, Batumi), city transport, and popular routes like Tbilisi → Batumi (train, bus, car) — and we keep adding directions and modes of transport. It’s handy to plan transport together with the “Car rental” and “Routes” sections.',
+          'Getting around Croatia — airports (Zagreb, Split, Dubrovnik, Zadar, Pula, Rijeka), ferries to the islands, trains, buses and transfers. Practical guides on how to get from point to point and roughly how long it takes; handy to plan together with the Car rental and Routes sections.',
         ],
       },
       'arenda-avto': {
         intro: [
-          'Car rental in Georgia is one of the most common questions before a trip: where to get a car, how much it costs, whether you need a deposit, and what catches there are in the contracts. In this section we break down rental by city and airport and compare the options — from international aggregators to local rental companies.',
-          'We write about rental from the perspective of a traveler who has personally dealt with deposits, surcharges, and “insurance on site.” Specific prices and terms are something that goes out of date fast, so we mark the date they’re current and don’t pass off old figures as fresh.',
+          'Car rental in Croatia — where to pick up a car, what it costs, deposits and the catches in the contracts. We break rental down by city and airport and compare international aggregators with local companies; prices are marked with a check date, not passed off as evergreen.',
         ],
       },
       strahovka: {
         intro: [
-          'Insurance for a trip to Georgia and for living in the country is a topic that’s easy to put off and that people regret at the worst possible moment. In this section we break down which insurance policies actually work for travelers and relocators, how they differ, and what to look for when choosing.',
-          'Different readers need different solutions: a tourist staying a week needs one kind of insurance, someone living in Georgia for months needs another, with regular renewal. For Ukrainian travelers we call out options that still work, such as EKTA, since some of the standard policies are off-limits to them.',
+          'Travel and long-stay insurance for Croatia — which policies actually work for tourists, nomads and relocators, how they differ and what to check when choosing. As an EU and Schengen country, the relevant cover is Schengen travel insurance and nomad or long-stay plans.',
         ],
       },
       planirovanie: {
         intro: [
-          'Planning a trip to Georgia is what people look up before booking: do you need a visa, when to go, how much money to bring, and what about insurance and safety. This section gives short, practical answers with links to the sections that cover each topic in depth.',
-          'We keep only what actually affects your prep here: visa and entry rules, seasons and weather, money and budget, the mandatory insurance. Regulatory things (visas, insurance) change fast — we mark the date and link the official source rather than passing off old facts as current.',
+          'Planning a trip to Croatia — entry and Schengen rules, when to go, budget, money (the euro) and insurance. Short, practical answers with links to the sections that cover each topic in depth; regulatory details are dated and link to the official source.',
         ],
       },
       novosti: {
         intro: [
-          'News and updates to the guide: new vetted places, seasonal tips, and changes worth knowing before a trip. Georgia changes — venues open and close, prices and rental terms shift, new routes appear — and this section keeps the guide up to date.',
-          'We don’t chase “hot” news for the sake of traffic. What lands here is what actually affects trip planning: what we’ve re-checked, what we’ve updated by season, and which places we’ve added after cross-checking with locals and guides. The entries show a date — so you always know how current the information is.',
+          'Updates to the guide: newly vetted places, seasonal tips and changes worth knowing before a trip. We keep only what actually affects trip planning, and every entry shows a date so you know how current it is.',
         ],
       },
     },
@@ -467,8 +457,8 @@ export const en: UIDictionary = {
     channels: {
       heading: 'How to get in touch',
       emailLabel: 'Write to us by email:',
-      email: 'info@georgiaguidebook.com',
-      emailUrl: 'mailto:info@georgiaguidebook.com',
+      email: 'info@croatiaguidebook.com',
+      emailUrl: 'mailto:info@croatiaguidebook.com',
     },
   },
   relocation: {

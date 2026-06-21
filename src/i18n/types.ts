@@ -313,7 +313,7 @@ export interface UIDictionary {
   };
   /**
    * Блок «Как доехать» (AccessFrom §8.1) — расстояние/время из крупных
-   * точек въезда. Лейблы городов-истоков по слугам tbilisi/kutaisi/batumi.
+   * точек въезда. Лейблы городов-истоков по слугам zagreb/split/dubrovnik.
    */
   access: {
     /** Заголовок <summary> блока. */
@@ -322,9 +322,9 @@ export interface UIDictionary {
     km: string;
     /** Локализованные названия городов-истоков. */
     origins: {
-      tbilisi: string;
-      kutaisi: string;
-      batumi: string;
+      zagreb: string;
+      split: string;
+      dubrovnik: string;
     };
   };
   /** Блок «Вход и часы работы» места (VisitInfo §8.1). */

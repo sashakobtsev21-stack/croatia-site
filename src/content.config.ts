@@ -232,27 +232,28 @@ const articleBase = z.object({
     .optional(),
   /**
    * «Как доехать» из крупных точек въезда (§8.1). Опционально: статьи о
-   * местах получают блок AccessFrom с расстоянием/временем из Тбилиси,
-   * Кутаиси и Батуми. Все поля внутри опциональны — указываем только то,
-   * что известно (CLAUDE правило 4). На контракт API (§23) не влияет.
+   * местах получают блок AccessFrom с расстоянием/временем из Загреба,
+   * Сплита и Дубровника (главные аэропорты/хабы Хорватии, см. CROATIA-ANALYSIS
+   * §1). Все поля внутри опциональны — указываем только то, что известно
+   * (CLAUDE правило 4). На контракт API (§23) не влияет.
    */
   accessFrom: z
     .object({
-      tbilisi: z
+      zagreb: z
         .object({
           km: z.number().optional(),
           duration: z.string().optional(),
           note: z.string().optional(),
         })
         .optional(),
-      kutaisi: z
+      split: z
         .object({
           km: z.number().optional(),
           duration: z.string().optional(),
           note: z.string().optional(),
         })
         .optional(),
-      batumi: z
+      dubrovnik: z
         .object({
           km: z.number().optional(),
           duration: z.string().optional(),

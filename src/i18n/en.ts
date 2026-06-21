@@ -215,9 +215,9 @@ export const en: UIDictionary = {
     heading: 'Distance',
     km: 'km',
     origins: {
-      tbilisi: 'Tbilisi',
-      kutaisi: 'Kutaisi',
-      batumi: 'Batumi',
+      zagreb: 'Zagreb',
+      split: 'Split',
+      dubrovnik: 'Dubrovnik',
     },
   },
   visit: {

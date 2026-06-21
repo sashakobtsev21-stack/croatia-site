@@ -3,7 +3,7 @@ import { z } from 'astro/zod';
 import { contentGlob } from './loaders/contentGlob';
 
 /**
- * Контент-модель Georgia Guidebook (SPEC §11, v3.1).
+ * Контент-модель Croatia Guidebook (SPEC §11, v3.1).
  *
  * ВАЖНО: эти схемы — будущий API мобильного приложения (§23) и источник
  * автоматических schema.org. Менять только осознанно, со сверкой со SPEC §11.
@@ -31,7 +31,7 @@ const CATEGORIES = [
 ] as const;
 
 /** Уровни цен для директории «Где поесть» (§8.6, §11). */
-const PRICE_LEVELS = ['₾', '₾₾', '₾₾₾'] as const;
+const PRICE_LEVELS = ['€', '€€', '€€€'] as const;
 
 /**
  * Язык-нейтральные ключи кухни для фильтра /eda/ (аудит 2026-06-20). Чип
@@ -39,7 +39,7 @@ const PRICE_LEVELS = ['₾', '₾₾', '₾₾₾'] as const;
  * карточка по-прежнему показывает полную строку `cuisine`.
  */
 const CUISINE_KEYS = [
-  'georgian',
+  'croatian',
   'seafood',
   'wine',
   'cafe',
@@ -67,22 +67,22 @@ const ATTRACTION_TYPES = [
 ] as const;
 
 /**
- * Регион (мхаре) Грузии (§7) — для фильтра каталога достопримечательностей.
- * Опционально (используют только достопримечательности). Слаги ↔ ru/uk лейблы
- * в i18n (`regions`). 11 мхаре + столица Тбилиси.
+ * Туристический макрорегион Хорватии (§7) — для фильтра каталога
+ * достопримечательностей. Опционально (используют только достопримечательности).
+ * Слаги ↔ en/ru/uk лейблы в i18n (`regions`). 8 макрорегионов: побережье
+ * (Истрия, Кварнер, Далмация сев./ср./юж.) + Лика-Карловац (Плитвице) +
+ * континент (Центр. Хорватия, Славония). Острова и нацпарки — отдельные
+ * измерения/POI, не регион (docs/CROATIA-ANALYSIS-2026-06-20.md §1).
  */
 const REGIONS = [
-  'tbilisi',
-  'adjara',
-  'guria',
-  'imereti',
-  'kakheti',
-  'kvemo-kartli',
-  'mtskheta-mtianeti',
-  'racha-lechkhumi',
-  'samegrelo-zemo-svaneti',
-  'samtskhe-javakheti',
-  'shida-kartli',
+  'istria',
+  'kvarner',
+  'dalmatia-north',
+  'dalmatia-central',
+  'dalmatia-south',
+  'lika-karlovac',
+  'central-croatia',
+  'slavonia',
 ] as const;
 
 /**

@@ -71,21 +71,18 @@ export const EDA_CITY_KEYS = ['tbilisi', 'batumi', 'kutaisi'] as const;
 export type EdaCityKey = (typeof EDA_CITY_KEYS)[number];
 
 /**
- * Слаги регионов (мхаре) Грузии (§7) — совпадают с enum REGIONS в
+ * Слаги туристических макрорегионов Хорватии (§7) — совпадают с enum REGIONS в
  * content.config.ts (поле `region`). Лейблы — в словарях (`regions`).
  */
 export const REGION_SLUGS = [
-  'tbilisi',
-  'adjara',
-  'guria',
-  'imereti',
-  'kakheti',
-  'kvemo-kartli',
-  'mtskheta-mtianeti',
-  'racha-lechkhumi',
-  'samegrelo-zemo-svaneti',
-  'samtskhe-javakheti',
-  'shida-kartli',
+  'istria',
+  'kvarner',
+  'dalmatia-north',
+  'dalmatia-central',
+  'dalmatia-south',
+  'lika-karlovac',
+  'central-croatia',
+  'slavonia',
 ] as const;
 export type RegionSlug = (typeof REGION_SLUGS)[number];
 
@@ -113,7 +110,7 @@ export type ServiceRubricSlug = (typeof SERVICE_RUBRIC_SLUGS)[number];
 
 /** Язык-нейтральные ключи кухни /eda/ ↔ enum CUISINE_KEYS в content.config (check-enums). */
 export const CUISINE_KEY_SLUGS = [
-  'georgian',
+  'croatian',
   'seafood',
   'wine',
   'cafe',
@@ -676,7 +673,7 @@ export interface UIDictionary {
    * Полная запись (Record) — расхождение слугов схемы и словаря ловит TypeScript.
    */
   attractionTypes: Record<AttractionTypeSlug, string>;
-  /** Лейблы регионов (мхаре) Грузии (§7) по слугам REGION_SLUGS. */
+  /** Лейблы туристических макрорегионов Хорватии (§7) по слугам REGION_SLUGS. */
   regions: Record<RegionSlug, string>;
   /** Лейблы подкатегорий «Развлечений» (§7) по слугам RAZVL_TYPE_SLUGS. */
   razvlTypes: Record<RazvlTypeSlug, string>;

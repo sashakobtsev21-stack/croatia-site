@@ -75,7 +75,7 @@ const CONTENT_DATES = collectContentDates();
 
 // https://astro.build/config
 export default defineConfig({
-  // ⚠ ПЛЕЙСХОЛДЕР: домен ещё не куплен — заглушка, реальный задаётся на деплое.
+  // Домен куплен и подключён (Cloudflare Workers & Pages). Каноникал/sitemap/hreflang — отсюда.
   site: 'https://croatiaguidebook.com',
   trailingSlash: 'always',
   output: 'static',

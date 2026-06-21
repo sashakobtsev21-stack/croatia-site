@@ -1,10 +1,10 @@
 ---
 /**
  * Header (§9, §10) — направление «Полевой журнал».
- * Тонкая белая sticky-шапка: сверху utility-полоса с курсом/погодой (RatesBar),
- * ниже — бренд слева, ОСНОВНЫЕ разделы в строке (десктоп), переключатель языка
- * и кнопка-меню справа. Кнопка ☰ открывает компактный блок-выпадашку с
- * остальными разделами (а на мобайле — со всеми). Меню — нативный JS (минимум).
+ * Тонкая белая sticky-шапка: сверху utility-полоса с погодой (RatesBar),
+ * ниже — бренд слева, ОСНОВНЫЕ разделы в строке (десктоп), кнопка-меню справа.
+ * Кнопка ☰ открывает компактный блок-выпадашку с остальными разделами и
+ * переключателем языка (а на мобайле — со всеми разделами). Меню — нативный JS.
  *
  * Раскладка разделов (решение владельца): основные (PRIMARY_TILE_KEYS) вынесены
  * в строку на десктопе; вторичные — всегда в выпадашке. На мобайле строка
@@ -58,11 +58,7 @@ const secondaryKeys = SECTION_KEYS.filter((key) => !primarySet.includes(key));
       </ul>
     </nav>
 
-    <div class="bar__lang">
-      <LangSwitcher lang={lang} availableLangs={availableLangs} />
-    </div>
-
-    {/* Кнопка-меню + компактный блок-выпадашка с остальными разделами. */}
+    {/* Кнопка-меню + компактный блок-выпадашка (разделы + переключатель языка). */}
     <div class="menu">
       <button
         type="button"
@@ -109,6 +105,10 @@ const secondaryKeys = SECTION_KEYS.filter((key) => !primarySet.includes(key));
             })
           }
         </ul>
+        {/* Переключатель языка — в выпадашке, не в основной строке шапки (решение владельца). */}
+        <div class="nav__lang">
+          <LangSwitcher lang={lang} availableLangs={availableLangs} />
+        </div>
       </nav>
     </div>
   </div>
@@ -218,9 +218,17 @@ const secondaryKeys = SECTION_KEYS.filter((key) => !primarySet.includes(key));
     font-weight: 600;
   }
 
-  /* Группа «язык» прижата вправо (бренд и основные разделы — слева). */
-  .bar__lang {
+  /* Кнопка-меню прижата вправо (бренд и основные разделы — слева). */
+  .menu {
     margin-left: auto;
+  }
+  /* Переключатель языка внутри выпадашки — отделён тонкой линией сверху. */
+  .nav__lang {
+    margin-top: var(--space-2);
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--border-hairline);
+    display: flex;
+    justify-content: center;
   }
 
   /* Кнопка-меню + выпадашка. */
@@ -376,7 +384,6 @@ const secondaryKeys = SECTION_KEYS.filter((key) => !primarySet.includes(key));
       width: 32px;
       height: 21px;
     }
-    .bar__lang,
     .menu {
       flex: 0 0 auto;
     }

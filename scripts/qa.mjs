@@ -1,4 +1,4 @@
-// Финальный QA-оркестратор Georgia Guidebook (ROADMAP #21).
+// Финальный QA-оркестратор Croatia Guidebook (ROADMAP #21).
 // Запуск: node scripts/qa.mjs   (или npm run qa)
 //
 // Делает два прохода и печатает отчёт GO/NO-GO с разбивкой
@@ -18,8 +18,8 @@ import { execSync } from 'node:child_process';
 import { readFileSync, statSync, readdirSync, existsSync, rmSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
-const ORIGIN = 'https://georgiaguidebook.com';
-const TITLE_SUFFIX = ' — Georgia Guidebook';
+const ORIGIN = 'https://croatiaguidebook.com';
+const TITLE_SUFFIX = ' — Croatia Guidebook';
 const DIST = 'dist';
 
 const findings = []; // {sev:'critical'|'medium'|'minor', area, where, msg}

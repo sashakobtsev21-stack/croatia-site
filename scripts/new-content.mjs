@@ -1,4 +1,4 @@
-// Скаффолдер контента Georgia Guidebook (ROADMAP #20b).
+// Скаффолдер контента Croatia Guidebook (ROADMAP #20b).
 // Генерирует ТРИ языковые версии (ru/uk/en) скелета с корректным по
 // content.config.ts frontmatter + папку фото public/images/<slug>/ + .gitkeep.
 //

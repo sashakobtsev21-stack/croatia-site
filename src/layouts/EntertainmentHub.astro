@@ -82,21 +82,21 @@ interface HubCard {
   gallery?: { src: string; alt: string; credit?: string }[];
 }
 
-/** Город места — по суффиксу slug (-tbilisi/-batumi/-kutaisi), иначе «другое». */
+/** Город места — по суффиксу slug (-zagreb/-split/-dubrovnik), иначе «другое». */
 const CITY_NAMES: Record<string, string> = {
-  tbilisi: lang === 'uk' ? 'Тбілісі' : lang === 'en' ? 'Tbilisi' : 'Тбилиси',
-  batumi: lang === 'uk' ? 'Батумі' : lang === 'en' ? 'Batumi' : 'Батуми',
-  kutaisi: lang === 'uk' ? 'Кутаїсі' : lang === 'en' ? 'Kutaisi' : 'Кутаиси',
+  zagreb: lang === 'uk' ? 'Загреб' : lang === 'en' ? 'Zagreb' : 'Загреб',
+  split: lang === 'uk' ? 'Спліт' : lang === 'en' ? 'Split' : 'Сплит',
+  dubrovnik: lang === 'uk' ? 'Дубровник' : lang === 'en' ? 'Dubrovnik' : 'Дубровник',
   other: lang === 'uk' ? 'Інше' : lang === 'en' ? 'Elsewhere' : 'Другое',
 };
-const CITY_ORDER = ['tbilisi', 'batumi', 'kutaisi', 'other'];
+const CITY_ORDER = ['zagreb', 'split', 'dubrovnik', 'other'];
 const cityKeyOf = (slug: string): string =>
-  slug.endsWith('-tbilisi')
-    ? 'tbilisi'
-    : slug.endsWith('-batumi')
-      ? 'batumi'
-      : slug.endsWith('-kutaisi')
-        ? 'kutaisi'
+  slug.endsWith('-zagreb')
+    ? 'zagreb'
+    : slug.endsWith('-split')
+      ? 'split'
+      : slug.endsWith('-dubrovnik')
+        ? 'dubrovnik'
         : 'other';
 
 const cards: HubCard[] = places.map((entry) => {
@@ -157,7 +157,7 @@ const hasFilter = facetDefs.length > 0;
 const ogImage = cards.find((c) => c.cover)?.cover?.src;
 
 /** ItemList (§14): список развлечений — rich-результаты. */
-const SITE = Astro.site ?? new URL('https://georgiaguidebook.com');
+const SITE = Astro.site ?? new URL('https://croatiaguidebook.com');
 const itemListLd = hasPlaces
   ? {
       '@context': 'https://schema.org',

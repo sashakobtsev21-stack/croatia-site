@@ -1,5 +1,5 @@
 /*
- * Дизайн-токены — Georgia Guidebook (SPEC §10).
+ * Дизайн-токены — Croatia Guidebook (SPEC §10).
  * Значения утверждены владельцем в §10; R2 (ui-ux-pro-max) их уточнит.
  * Единственный источник цветов/отступов/радиусов/типографики.
  * Хардкод hex в компонентах запрещён — только var(--...) отсюда.
@@ -9,11 +9,12 @@
  */
 
 :root {
-  /* --- Палитра (§10) --- */
-  --color-wine: #6b1f2e; /* вино-саперави: акцент / CTA-альтернатива */
-  --color-sun: #e8a33d; /* солнце: CTA, AffiliateBox */
-  --color-slate: #23282e; /* сланец: текст */
-  --color-stone: #f2efe9; /* камень: фон секций */
+  /* --- Палитра (§10) — адриатическая идентичность Хорватии (редизайн) --- */
+  --color-sea: #0f5a73; /* Адриатика: глубокая морская синь — основной акцент (заголовки, ссылки, шапка-бар, фокус, карта) */
+  --color-wine: var(--color-sea); /* legacy-алиас: компоненты и Tailwind (@theme) ссылаются на --color-wine; значение — морская синь */
+  --color-sun: #e8a33d; /* золотое средиземноморское солнце: CTA, AffiliateBox */
+  --color-slate: #23282e; /* графит: текст */
+  --color-stone: #f2efe9; /* далматинский известняк: фон секций */
   --color-white: #ffffff;
 
   /* --- Шрифты (§10) --- */
@@ -67,12 +68,12 @@
 
   /* Текст. */
   --text-body: var(--color-slate); /* body — сланец */
-  --text-heading: var(--color-wine); /* H1/H2 — вино-саперави */
+  --text-heading: var(--color-wine); /* H1/H2 — морская синь */
   --text-muted: color-mix(in srgb, var(--color-slate) 70%, var(--color-stone)); /* приглушённый */
   --text-on-cta: var(--color-slate); /* текст на солнечной кнопке (контраст ≥4.5) */
   --text-on-wine: var(--color-white); /* текст на вине */
 
-  /* Ссылки — вино. */
+  /* Ссылки — морская синь. */
   --link: var(--color-wine);
   --link-hover: color-mix(in srgb, var(--color-wine) 80%, black);
 

@@ -70,7 +70,7 @@ export const uk: UIDictionary = {
     heroTitle: 'Довідник по Хорватії: перевірені місця',
     heroSubtitle:
       'Сплануйте подорож Хорватією без туристичних пасток: місця відбираємо за рейтингом і звіряємо з гідами та місцевими. Оновлюємо регулярно.',
-    heroCredit: 'Фото: Braveheart / Wikimedia Commons · CC BY-SA 4.0',
+    heroCredit: 'Фото: Zysko Sergii / Wikimedia Commons · CC BY-SA 4.0',
     photoPrefix: 'Фото',
     search: {
       label: 'Пошук по сайту',

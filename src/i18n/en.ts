@@ -70,7 +70,7 @@ export const en: UIDictionary = {
     heroTitle: 'Croatia travel guide: vetted places',
     heroSubtitle:
       'Plan your Croatia trip without the tourist traps: we pick places by rating and cross-check them with guides and locals. Updated regularly.',
-    heroCredit: 'Photo: Braveheart / Wikimedia Commons · CC BY-SA 4.0',
+    heroCredit: 'Photo: Zysko Sergii / Wikimedia Commons · CC BY-SA 4.0',
     photoPrefix: 'Photo',
     search: {
       label: 'Search the site',

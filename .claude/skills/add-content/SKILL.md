@@ -20,7 +20,7 @@ description: Оркестратор контент-конвейера Croatia Gu
 
 4. **Фото (ОБЯЗАТЕЛЬНО).** Гибрид (память photo-pipeline-hybrid): `photo-researcher` (Agent) гонит `scripts/commons-candidates.mjs` → кандидаты CC в `public/images/_scratch/<тема>/`; **ты сам отбираешь глазами** (Read рендерит картинки) и собираешь `scripts/build-gallery.mjs` (манифест `[{url,out,cover?}]`) → webp ≤200КБ. Минимум: cover (CC → `coverCredit` автор+лицензия / своё фото). Своё фото владельца — проверь метаданные (память photo-provenance-check). Для маршрута cover обязателен; для статьи цель — cover + ≥3 инлайн ИЛИ ≥6 gallery.
 
-5. **Переводы.** `uk-translator` → uk (EKTA, сухопутный въезд через Сарпи), затем `en-translator` → en (визы/въезд в общем виде, USD/EUR-ориентир). Паритет: тот же slug, совпадение числовых полей, те же `gallery` src.
+5. **Переводы.** `uk-translator` → uk (для украинцев — въезд по правилам ЕС/Шенгена и временная защита ЕС; страховка SafetyWing/EKTA по аудитории), затем `en-translator` → en (визы/въезд в общем виде по ЕС). Валюта — евро €. Паритет: тот же slug, совпадение числовых полей, те же `gallery` src.
 
 6. **Фактчек → приёмка (именно в этом порядке).** `fact-checker` сверяет черновик с брифом (ловит выдуманные факты) → `content-editor` финальный gate (DoD, §15, SEO §14, /go/ + rel, доступность).
 

@@ -324,121 +324,94 @@ export const en: UIDictionary = {
     },
   },
   insurance: {
-    heading: 'Insurance for a trip to Georgia: rules and where to get it',
-    breadcrumb: 'Insurance',
-    intro: [
-      'As of 2026, medical insurance has become mandatory for all foreign tourists entering Georgia. It used to be optional — now without a policy you may be refused entry at the border. Below are the current rules, the minimum requirements for a policy, and the services through which you can get one.',
-      'The topic is regulatory: the wording of the law and the border-check procedures may be refined. So we’ve gathered the key requirements into one block and advise verifying them against official sources before your trip — links to the primary sources are at the bottom of the page.',
-    ],
-    updatedIso: '2026-06-14',
-    callout: {
-      heading: 'Current rules (from January 1, 2026)',
-      disclaimer:
-        'As of January 1, 2026, medical insurance is mandatory for all foreign tourists entering Georgia. This is a regulatory requirement, and the details (wording, amounts, check procedures) may change — be sure to verify they’re current before your trip.',
-      sourceNote:
-        'The primary source is official resources: embassies, the Ministry of Foreign Affairs, and the Government of Georgia (Resolution No. 602 of 26.12.2025). Links to the sources are at the bottom of the page.',
-    },
-    guideLink: 'In depth: how to choose and buy a policy',
-    requirements: {
-      heading: 'What you need to know',
-      items: [
-        'Insurance is mandatory for all foreign tourists — citizens of Russia, Ukraine, Kazakhstan, Belarus, and other countries. A policy is needed for children too.',
-        'The minimum coverage is 30,000 GEL.',
-        'The policy must cover the entire trip: from the entry date to the exit date.',
-        'The issuer can be either a Georgian or a foreign insurance company.',
-        'Coverage must include both medical expenses and accident insurance — by requirement it’s a “health and accident” policy. Medical evacuation and repatriation are additionally mentioned.',
-        'The policy language is English or Georgian. A policy only in Russian or Ukrainian without a translation may not be accepted at the border.',
-        'The policy is checked on entry: at airports — systematically, at land border crossings — selectively. Without it, entry may be refused. Airlines may check for a policy as early as check-in.',
-        'The legal basis is the Law of Georgia “On Tourism” (Art. 12) and Government of Georgia Resolution No. 602 of 26.12.2025.',
-      ],
-    },
-    penalty: {
-      heading: 'Fine for not having a policy',
-      paragraphs: [
-        'The base fine for not having mandatory insurance is 300 GEL. Besides the fine, entry may be refused, so it’s better to get a policy in advance rather than counting on “paying extra on site.”',
-        'For active travel — trekking, skiing, rafting, and other extreme activities — you need a separate coverage option: a basic tourist policy may not cover such cases. Verify the exact fine amounts and coverage terms for extreme activities with the insurer and in official sources before your trip.',
-      ],
-    },
-    services: {
-      heading: 'Where to get a policy',
-      lead: 'Below are the services through which travelers most often get insurance for Georgia. Whichever option you choose, check that the policy meets the requirement: coverage of at least 30,000 GEL for the entire trip, the language is English or Georgian, and accident insurance is included (basic plans often don’t have it — it’s added as a separate option). Prices depend on age, duration, and the coverage set, so we give only guidelines, without exact amounts.',
-      ctaPlaceholder: 'Sign up on the service’s website. Before buying, verify the current terms and rate.',
-      items: [
-        {
-          name: 'EKTA',
-          note: 'a working option for everyone, including citizens of Ukraine',
-          text: 'Online insurance paid by card from anywhere in the world; the policy arrives by email. Coverage is easy to adjust, and the limit can be raised to 30,000 USD — well above the 30,000 GEL requirement. The service’s legal entity is registered in an offshore jurisdiction — this doesn’t affect how the policy works, but keep it in mind.',
-        },
-        {
-          name: 'SafetyWing (Nomad Insurance)',
-          note: 'for digital nomads and long trips',
-          text: 'Subscription insurance billed monthly — convenient for those who live in Georgia or travel for a long time and don’t want to buy a policy for a fixed period. Suits a relocation and wintering scenario. The service has changed its terms and rates — verify the current ones before buying.',
-        },
-        {
-          name: 'Cherehapa, Polis812',
-          note: 'aggregators for citizens of Russia',
-          text: 'Comparison services: they show offers from several insurers at once and help you pick a policy for the limit and duration you need. Handy when you want to compare terms in one place; the set of insurers and the service’s availability change over time — go by the current list on the service itself.',
-        },
-        {
-          name: 'TBC Insurance, Aldagi, GPI',
-          note: 'local Georgian insurers',
-          text: 'Georgian companies: the policy is issued from the start in English or Georgian and for the local 30,000 GEL limit. This is the most “risk-free” option for meeting the requirement — the policy is guaranteed to fit the local rules and the language of the check.',
-        },
-      ],
-    },
-    affiliate: {
-      title: 'Get SafetyWing insurance',
-      note: 'Nomad Insurance billed monthly — convenient for long trips and living in Georgia. Before buying, verify the current terms and that they meet the entry requirements.',
-      label: 'Sign up online',
-    },
-    notes: {
-      heading: 'What’s important to keep in mind',
-      items: [
-        'Check that the policy includes accident insurance. Georgia’s requirement is a “health and accident” policy, and in basic medical plans an accident often comes as a separate option: medical coverage alone may not be enough.',
-        'Citizens of Ukraine find it more convenient to get a policy through EKTA or Ukrainian services (for example, Green Travel, Finance.ua). This is a practical recommendation based on service availability, not a ban: “Russian insurance is banned for Ukrainians” is an unconfirmed claim, and we don’t present it as a rule.',
-        'Buy the policy before entering Georgia: some services have a 5–7 day “waiting period” — the insurance doesn’t take effect immediately after payment.',
-        'Visa-free entry (for many countries — up to 1 year) does not cancel the insurance requirement: these are different things.',
-        'Car rental insurance is a separate matter. A medical policy doesn’t cover damage to the car: for the rental you need your own insurance (CDW / collision), which is arranged together with the rental.',
-      ],
-      rentalLink: 'More about car rental and its insurance',
-    },
-    claims: {
-      heading: 'What to do in case of a claim',
-      items: [
-        'Keep your insurer’s assistance service contact (usually a 24/7 phone line or app) — it’s listed in your policy. Save it to your phone before the trip.',
-        'If you fall ill or get injured, call the assistance service first whenever possible: many policies require treatment to be pre-authorised. If you go to a clinic without it, the costs may not be reimbursed.',
-        'Keep all documents: bills and payment receipts, discharge notes, diagnoses, referrals and prescriptions. Without supporting documents, reimbursement is difficult.',
-        'Check how your policy works: the insurer either pays the clinic directly (direct billing) or you pay yourself and are reimbursed later against your receipts.',
-        'Respect the deadline for filing a claim — it’s stated in your policy terms. Don’t delay: late claims are often rejected.',
-        'Georgia’s single emergency number is 112 (ambulance, police, rescue). In a serious situation, call for help first and sort things out with the insurer afterwards.',
-      ],
-    },
-    photos: [
-      {
-        src: '/images/strahovka/g1.webp',
-        alt: 'A mountain pass and green valley in the mountains of Svaneti',
-        caption:
-          'For active travel in remote mountains it’s well worth getting insurance with the right coverage: help can be a long way off here.',
-        credit: 'Photo: Andrew Dubok / Wikimedia Commons, CC BY-SA 3.0',
-      },
-      {
-        src: '/images/strahovka/g2.webp',
-        alt: 'A forest trail towards Mount Ushba in Svaneti',
-        caption:
-          'A basic policy may not cover trekking, skiing or rafting — for active travel you need a separate option.',
-        credit: 'Photo: FingerWiki / Wikimedia Commons, CC BY-SA 4.0',
-      },
-    ],
-    sources: {
-      heading: 'Sources',
-      items: [
-        'U.S. Embassy in Georgia — the requirement for mandatory medical insurance for entry.',
-        'Government of Georgia Resolution No. 602 of 26.12.2025 and the Law “On Tourism” (Art. 12) — text at matsne.gov.ge/ka/document/view/6728816.',
-        'Ministry of Foreign Affairs of Georgia, Consular Service (entry rules) — geoconsul.gov.ge.',
-        'Georgian insurance companies (TBC Insurance, Aldagi, GPI) — coverage limit and policy language.',
-      ],
-    },
+  "heading": "Travel insurance for Croatia: what you actually need",
+  "breadcrumb": "Insurance",
+  "intro": [
+    "Croatia has been a full member of the European Union since 2013 and joined the Schengen Area on 1 January 2023. That means the rules here follow common EU and Schengen standards rather than any country-specific tourist-insurance scheme. For most visitors, travel insurance is not a legal condition of entry, but it is strongly recommended: a single hospital stay or medical evacuation can cost far more than any policy.",
+    "What you need depends on how you enter. Visa-exempt travellers (for example US, UK, Canadian and Australian citizens, and EU nationals) do not have to show insurance at the border, though it is highly advisable. Travellers who need a Schengen visa to visit Croatia must hold travel medical insurance with a minimum of EUR 30,000 in coverage as part of their visa application."
+  ],
+  "guideLink": "How to choose travel insurance for Croatia",
+  "updatedIso": "2026-06-21",
+  "callout": {
+    "heading": "Is insurance mandatory?",
+    "disclaimer": "For visa-exempt tourists, travel insurance is not mandatory to enter Croatia, but it is strongly recommended. For travellers who require a Schengen visa, valid travel medical insurance is mandatory: the EU Visa Code requires a minimum of EUR 30,000 in coverage, valid across the whole Schengen Area for the entire stay, including emergency hospital treatment and repatriation. Rules can change, so always confirm the current requirements with an official source before you travel.",
+    "sourceNote": "Based on EU and Croatian government sources, including the EU Visa Code (Regulation 810/2009), the European Commission, and Croatia's Ministry of the Interior (mup.gov.hr)."
   },
+  "requirements": {
+    "heading": "What a good policy should cover",
+    "items": [
+      "Emergency medical treatment and hospitalisation, with a coverage limit of at least EUR 30,000 (this is the mandatory minimum for Schengen-visa applicants).",
+      "Emergency medical evacuation and repatriation, including repatriation of remains in case of death.",
+      "Cover that is valid throughout the entire Schengen Area, not just Croatia.",
+      "A policy duration that matches your full stay, so the dates on the certificate cover every day of the trip.",
+      "Cover for any activities you plan, such as hiking, diving, sailing or watersports, which are often excluded from basic plans.",
+      "Clear terms on the deductible (excess), so you know what you would pay out of pocket on a claim."
+    ]
+  },
+  "penalty": {
+    "heading": "Mandatory or just recommended?",
+    "paragraphs": [
+      "For visa-exempt travellers there is no fine and no automatic refusal of entry simply for arriving without insurance. The real risk is financial: without cover you would pay the full cost of any treatment, ambulance, hospital stay or medical flight home yourself. For this reason, insurance is recommended for everyone, even though it is not checked at the border for most tourists.",
+      "For travellers who need a Schengen visa, the situation is different: travel medical insurance meeting the EUR 30,000 minimum is a documented requirement of the visa application itself. Without a compliant policy, the visa can be refused, which in practice prevents the trip."
+    ]
+  },
+  "services": {
+    "heading": "Where to get a policy",
+    "lead": "The right option depends on your nationality, the length of your stay and whether you also need a Schengen-compliant certificate for a visa. Below are three common routes.",
+    "ctaPlaceholder": "Affiliate links are coming soon",
+    "items": [
+      {
+        "name": "SafetyWing",
+        "note": "For long-term travellers and digital nomads (EN-friendly)",
+        "text": "A subscription-style policy billed monthly, popular with remote workers and long-stay travellers. Convenient for open-ended trips, but check the terms carefully: SafetyWing's plans exclude travel to certain countries, including Russia and Belarus, so they are not suitable if your itinerary includes those destinations."
+      },
+      {
+        "name": "EKTA",
+        "note": "For travellers from CIS countries and Ukraine",
+        "text": "A useful alternative for travellers from Ukraine and CIS countries, including those whose routes pass through destinations that Western insurers exclude. EKTA issues Schengen-compliant certificates quickly online, which can be helpful when applying for a Croatia/Schengen visa."
+      },
+      {
+        "name": "Standard Schengen travel insurance",
+        "note": "For Schengen-visa applicants",
+        "text": "A conventional single-trip Schengen travel medical policy from a recognised insurer, written specifically to meet the EUR 30,000 minimum, full-area validity and repatriation requirements. This is the straightforward choice if you mainly need a compliant certificate for your visa file."
+      }
+    ]
+  },
+  "affiliate": {
+    "title": "Nomad & long-stay insurance",
+    "note": "SafetyWing offers monthly, subscription-style cover designed for long trips and digital nomads. Always review the policy wording, coverage limits and excluded countries before you buy to make sure it fits your itinerary and meets any visa requirements.",
+    "label": "Get SafetyWing insurance"
+  },
+  "notes": {
+    "heading": "Good to know",
+    "items": [
+      "EU and EEA citizens can use the European Health Insurance Card (EHIC), and UK residents the Global Health Insurance Card (GHIC), to access state healthcare in Croatia on the same basis as locals. Note that co-payments apply and neither card covers private treatment or repatriation, so private travel insurance is still recommended.",
+      "The single emergency number across Croatia and the whole EU is 112, which connects you to ambulance, police and fire services.",
+      "Many policies include a waiting period before certain benefits apply, so buy your insurance when you book rather than at the last minute.",
+      "Car hire usually needs its own cover: standard travel insurance does not include vehicle damage or third-party liability, so review the rental company's insurance and any excess separately."
+    ],
+    "rentalLink": "Car rental in Croatia"
+  },
+  "claims": {
+    "heading": "If something happens",
+    "items": [
+      "In a medical emergency, call 112 first to reach an ambulance and emergency services anywhere in Croatia.",
+      "Contact your insurer's assistance line as soon as you can, ideally before treatment, so they can authorise care and arrange direct billing where possible.",
+      "Keep every receipt, invoice, prescription and medical report, as you will need them to support a claim or to seek reimbursement.",
+      "If you used an EHIC or GHIC and still paid out of pocket, contact your home health authority after returning to request any reimbursement available."
+    ]
+  },
+  "photos": [],
+  "sources": {
+    "heading": "Sources",
+    "items": [
+      "EU Visa Code, Regulation (EC) No 810/2009 - travel medical insurance requirement for Schengen visas (eur-lex.europa.eu, home-affairs.ec.europa.eu)",
+      "European Commission - European Health Insurance Card (EHIC) use in Croatia (employment-social-affairs.ec.europa.eu)",
+      "NHS / NHSBSA - UK Global Health Insurance Card (GHIC) coverage abroad (nhs.uk, nhsbsa.nhs.uk)",
+      "Croatia Ministry of the Interior and Ministry of Foreign and European Affairs - entry requirements (mup.gov.hr, mvep.gov.hr)"
+    ]
+  }
+},
   contacts: {
     heading: 'Contact',
     breadcrumb: 'Contact',
@@ -462,135 +435,136 @@ export const en: UIDictionary = {
     },
   },
   relocation: {
-    heading: 'Relocating to Georgia: how to settle in',
-    breadcrumb: 'Relocation',
-    uslugi: {
-      heading: 'Services for living in Georgia',
-      text: 'Real estate agents, cleaning, moving, repairs, documents, translators — a directory of vetted services so you don’t have to dig through chats.',
-      cta: 'Open services',
-    },
-    intro: [
-      'Georgia is one of the easiest destinations for a long winter stay and relocation: visa-free entry for citizens of many countries for a long period, inexpensive living, fast internet, and large Russian- and Ukrainian-speaking communities. This section is a practical guide to settling in on the ground.',
-      'We start with the non-regulatory things everyone needs: housing, connectivity, banking, transport, insurance. Documents, visas, and taxes are regulated by the state, and they change periodically — for those we give direct links to official sources and are preparing separate breakdowns.',
-    ],
-    updatedIso: '2026-06-15',
-    callout: {
-      heading: 'Documents and taxes change — verify with the primary source',
-      disclaimer:
-        'The rules for entry, residence permits, business registration, and taxes in Georgia are revised periodically. Don’t rely on retellings in chats and outdated articles — verify the terms as of the time of your move directly with the government bodies (links below).',
-      sourceNote:
-        'That’s why we don’t fix specific deadlines, amounts, and requirements here as unchanging, but point you to the official sites — they always have the current version.',
-    },
-    guides: {
-      heading: 'Detailed guides',
-      lead: 'In-depth, non-regulatory how-tos for settling in — updated as things change.',
-    },
-    steps: {
-      heading: 'Where to start on the ground',
-      items: [
-        {
-          title: 'Housing for your first weeks',
-          text: 'For the first weeks it’s convenient to stay in a hotel, guesthouse, or apart-hotel, and look for a long-term rental on the ground, having seen the neighborhood in person. The largest local listing boards are myhome.ge and ss.ge; there are also many options through local chats and agencies.',
-        },
-        {
-          title: 'SIM card and internet',
-          text: 'A local SIM is sold with a passport at the airport and at operators’ offices — the main ones are Magti and Silknet. Mobile internet is fast and inexpensive, Wi-Fi is everywhere in the cities; this is one of Georgia’s strengths for remote work.',
-        },
-        {
-          title: 'Bank account',
-          text: 'An account and a card are opened for foreigners by the major banks — Bank of Georgia and TBC. Requirements and check times are periodically tightened, so verify the document set and terms at a branch in advance.',
-        },
-        {
-          title: 'Long-term rental',
-          text: 'The lease is usually for 6–12 months, with a deposit most often equal to one month. Prices depend on the city and season: in summer Batumi is more expensive, while in Tbilisi demand is steadier. Check the meters, the internet, and who pays for utilities.',
-        },
-        {
-          title: 'Transport and getting around',
-          text: 'In the cities — cheap public transport (in Tbilisi, the metro and buses with a Metromoney card); between cities — trains, buses, and marshrutkas. For freedom of movement many rent a car — how that works is in our rental section.',
-        },
-        {
-          title: 'Health and insurance',
-          text: 'There are public and private clinics; the level of private medicine in the big cities is good. For the move and for trips, medical insurance with coverage abroad is convenient — options are in our insurance section.',
-        },
-        {
-          title: 'Daily life and community',
-          text: 'Lari (₾) — cash is needed in the regions, while in the cities cards are accepted almost everywhere. Tbilisi and Batumi have large Russian- and Ukrainian-speaking communities, and cafes and services often speak English — it’s easy to adapt even without Georgian.',
-        },
-      ],
-    },
-    affiliate: {
-      title: 'Where to stay the first weeks',
-      note: 'Hotels and apartments for your first weeks in Georgia — compare prices on Trip.com.',
-      label: 'Find a place for your first weeks',
-    },
-    esim: {
-      title: 'eSIM with internet for your first days',
-      note: 'Mobile internet from arrival, until you get a local SIM — the eSIM activates online.',
-      label: 'Buy an eSIM for Georgia',
-    },
-    links: {
-      heading: 'What’s already on the site',
-      lead: 'Practical sections that come in handy when relocating:',
-      items: [
-        { section: 'strahovka', text: 'medical insurance with coverage abroad' },
-        { section: 'arenda-avto', text: 'car rental: how, where, and without overpaying' },
-        { section: 'transport', text: 'how to get there and travel between cities' },
-        { section: 'goroda', text: 'Georgia’s cities — where to live and what’s nearby' },
-        { section: 'eda', text: 'where to eat: vetted places by city' },
-      ],
-    },
-    regulatory: {
-      heading: 'Documents, visas, and taxes: official sources',
-      lead: 'For these topics we point you straight to government sites — they have the current rules, deadlines, and amounts. We prepare separate breakdowns relying on these same sources.',
-      items: [
-        {
-          topic: 'Visa, visa-free entry, and length of stay',
-          org: 'MFA of Georgia · Consular Service',
-          url: 'https://geoconsul.gov.ge/en',
-        },
-        {
-          topic: 'Residence permit',
-          org: 'Public Service Development Agency',
-          url: 'https://sda.gov.ge/en/',
-        },
-        {
-          topic: 'Sole proprietor and the “small business” tax (1%)',
-          org: 'Revenue Service of Georgia',
-          url: 'https://rs.ge/',
-        },
-        {
-          topic: 'Registering a company or sole proprietorship',
-          org: 'National Agency of Public Registry',
-          url: 'https://napr.gov.ge/en',
-        },
-        {
-          topic: 'Driver’s license and vehicle registration',
-          org: 'Service Agency of the Ministry of Internal Affairs',
-          url: 'https://sa.gov.ge/',
-        },
-      ],
-      linkLabel: 'official site',
-    },
-    notes: {
-      heading: 'Nuances people ask about',
-      items: [
-        'The language is Georgian, but in the cities you can easily get by with English and Russian: signs and menus are often duplicated.',
-        'The money is the lari (₾). We show the current rate against the dollar, euro, ruble, and hryvnia on the home page in the “Right now in Georgia” block.',
-        'Internet and connectivity are cheap and fast, which is why remote workers love Georgia.',
-        'Housing in Batumi gets noticeably more expensive in the summer season — worth keeping in mind for a long-term rental.',
-      ],
-    },
-    sources: {
-      heading: 'Official sources',
-      items: [
-        'MFA of Georgia, Consular Service (visa, entry) — geoconsul.gov.ge',
-        'Public Service Development Agency (residence permit, civil registry) — sda.gov.ge',
-        'Revenue Service of Georgia (taxes, small business status) — rs.ge',
-        'National Agency of Public Registry (business registration) — napr.gov.ge',
-        'Service Agency of the Ministry of Internal Affairs of Georgia (license, vehicle registration) — sa.gov.ge',
-      ],
-    },
+  "heading": "Moving to Croatia: a practical guide",
+  "breadcrumb": "Relocation",
+  "intro": [
+    "Croatia has become one of the most attractive EU bases for digital nomads and relocators, and its trump card over neighbouring Balkan countries is hard to overstate: it is a full member of the European Union, it uses the euro, and since 1 January 2023 it is also part of the Schengen Area. That means a single currency, no internal border checks across most of Europe, EU-standard infrastructure and a dedicated residence track for remote workers — the temporary stay for digital nomads. Add a long Adriatic coast, fast internet and a low cost of living by Western-European standards, and the appeal is clear.",
+    "This section is a practical guide to settling in on the ground. We start with the non-regulatory things everyone needs first — a SIM and internet, a bank account, housing, getting around, money and community. Documents, visas, residence permits and taxes are regulated by the state and change periodically, so for those we point you straight to the official sources (MUP, the Tax Administration and the Ministry of Foreign and European Affairs) rather than repeating rules that may be out of date by the time you move."
+  ],
+  "uslugi": {
+    "heading": "Services for living in Croatia",
+    "text": "Real-estate agents, relocation help, cleaning, moving, repairs, paperwork and translators — a directory of vetted services so you do not have to dig through expat chats to find a reliable contact.",
+    "cta": "Open the services directory"
   },
+  "updatedIso": "2026-06-21",
+  "callout": {
+    "heading": "Visas, residence and taxes change — verify with the primary source",
+    "disclaimer": "Rules for entry, the digital nomad temporary stay, residence permits, company registration and taxes in Croatia are revised periodically, and the digital-nomad income threshold is re-indexed every year. Do not rely on retellings in chats or older articles — check the terms, amounts and required documents as of the date of your move directly with the Croatian government bodies (links below).",
+    "sourceNote": "Primary sources: the Ministry of the Interior (mup.gov.hr) for the digital nomad stay and residence, and the Tax Administration (porezna-uprava.gov.hr) for tax matters — they always carry the current version."
+  },
+  "guides": {
+    "heading": "In-depth guides",
+    "lead": "Detailed, non-regulatory how-tos for settling into life in Croatia — updated as things change."
+  },
+  "steps": {
+    "heading": "Settling in",
+    "items": [
+      {
+        "title": "SIM card & internet",
+        "text": "Croatia has three mobile operators — A1 Croatia, Hrvatski Telekom (HT) and Telemach — all with 5G and good coverage. Prepaid and tourist SIMs are sold at operators' shops, Tisak kiosks and the major airports; as an EU country, Croatia also gives you EU roaming on the right plans. Fixed and mobile internet are fast and affordable, which makes the country a comfortable base for remote work."
+      },
+      {
+        "title": "Bank account",
+        "text": "A local account is opened in person by the major banks — Zagrebačka banka, Privredna banka Zagreb (PBZ), Erste Bank and OTP banka. As a foreigner you will generally need an OIB (the Croatian personal identification number, issued by the Tax Administration), your passport and proof of address; non-residents are usually asked to show an economic link to Croatia. Accounts are held in euros. Confirm the exact document set with the branch in advance, as requirements are tightened from time to time."
+      },
+      {
+        "title": "Housing & rental",
+        "text": "For the first weeks it is convenient to stay in a hotel or apartment and look for a long-term rental on the ground, after seeing the neighbourhood in person. Leases typically run 6–12 months with a deposit, often one month's rent. Prices depend heavily on city and season — the coast and Zagreb are pricier, and Adriatic towns get more expensive in summer. Check the meters, the internet speed and who pays the utilities before signing."
+      },
+      {
+        "title": "Getting around",
+        "text": "Cities have cheap public transport — in Zagreb the ZET network of trams and buses covers the centre well, and trams make a car unnecessary day to day. Between cities there are frequent buses, some trains, and ferries along the coast and to the islands. For more freedom many rent a car; how that works is covered in our car-rental section."
+      },
+      {
+        "title": "Money (euro)",
+        "text": "Croatia adopted the euro on 1 January 2023, so there is no separate local currency to convert — prices, salaries and rents are all in euros. Cards are accepted almost everywhere in cities and tourist areas, though it is worth keeping some cash for small shops, markets and rural areas. Being inside the eurozone also means no currency conversion when moving money from other euro accounts."
+      },
+      {
+        "title": "Language & community",
+        "text": "The language is Croatian, but English is widely spoken in cities, tourist areas and among younger people, so it is easy to get by while you learn the basics. Zagreb, Split and the coastal towns have sizeable expat and digital-nomad communities, with active meetups and online groups — Croatia even runs nomad-focused events, which makes settling in and finding contacts straightforward."
+      }
+    ]
+  },
+  "affiliate": {
+    "title": "Where to stay at first",
+    "note": "Hotels and apartments for your first weeks in Croatia, before you sign a long-term lease — compare prices on Trip.com.",
+    "label": "Find a place on Trip.com"
+  },
+  "esim": {
+    "title": "Mobile internet from day one",
+    "note": "Stay online from the moment you land, before you buy a local A1, HT or Telemach SIM — an Airalo eSIM activates online in minutes.",
+    "label": "Buy an eSIM for Croatia"
+  },
+  "links": {
+    "heading": "Related sections",
+    "lead": "Practical sections of the site that come in handy when relocating to Croatia:",
+    "items": [
+      {
+        "section": "goroda",
+        "text": "Croatia's cities — where to live and what each is like"
+      },
+      {
+        "section": "strahovka",
+        "text": "long-stay and travel medical insurance with coverage abroad"
+      },
+      {
+        "section": "arenda-avto",
+        "text": "car rental: how, where and without overpaying"
+      },
+      {
+        "section": "transport",
+        "text": "how to get to Croatia and travel between cities"
+      }
+    ]
+  },
+  "regulatory": {
+    "heading": "Official sources",
+    "lead": "For documents, the digital nomad stay and taxes we point you straight to the Croatian government sites — they hold the current rules, deadlines and amounts. The income threshold and conditions are re-indexed periodically, so always confirm the figures there as of the date you apply.",
+    "items": [
+      {
+        "topic": "Digital nomad temporary stay and residence",
+        "org": "Ministry of the Interior (MUP)",
+        "url": "https://mup.gov.hr"
+      },
+      {
+        "topic": "Taxes and income-tax treatment of nomads",
+        "org": "Tax Administration (Porezna uprava)",
+        "url": "https://porezna-uprava.gov.hr"
+      },
+      {
+        "topic": "Entry, visas and visa-free travel",
+        "org": "Ministry of Foreign and European Affairs (MVEP)",
+        "url": "https://mvep.gov.hr"
+      },
+      {
+        "topic": "Company registration and government services",
+        "org": "Government of Croatia (gov.hr / START)",
+        "url": "https://gov.hr"
+      }
+    ],
+    "linkLabel": "Open official source"
+  },
+  "notes": {
+    "heading": "Good to know",
+    "items": [
+      "Croatia is in the EU, uses the euro (since 1 January 2023) and is in the Schengen Area — its key advantage over non-Schengen Balkan neighbours.",
+      "For tourist or scouting trips, citizens of the US, UK, Canada and Australia get 90 days of visa-free stay in any 180-day period under the Schengen rule; Ukrainians with a biometric passport also use the 90/180 visa-free regime, while Russian citizens need a Schengen visa.",
+      "The digital nomad temporary stay is granted for up to 18 months, requires remote work for a foreign employer or clients, and a new application can be submitted only 6 months after the previous stay expires; time spent as a nomad does not count toward permanent residence.",
+      "Croatia confirms a minimum income of about €3,622.50 per month (set at 2.5× the prior-year average net salary and re-indexed annually) plus health insurance — verify the exact current figure on mup.gov.hr before you apply.",
+      "Income earned as a registered digital nomad from a non-Croatian employer or clients is exempt from Croatian personal income tax (Personal Income Tax Act); watch the 183-day tax-residence line and confirm details with the Tax Administration."
+    ]
+  },
+  "sources": {
+    "heading": "Sources",
+    "items": [
+      "Ministry of the Interior of Croatia (MUP) — temporary stay of digital nomads, residence: mup.gov.hr",
+      "Tax Administration of Croatia (Porezna uprava) — income tax, treatment of nomad income: porezna-uprava.gov.hr",
+      "Ministry of Foreign and European Affairs (MVEP) — entry, visa requirements: mvep.gov.hr",
+      "Government of Croatia (gov.hr / START) — company registration and public services: gov.hr",
+      "European Commission, Migration and Home Affairs — Schengen Area and short-stay rules: home-affairs.ec.europa.eu"
+    ]
+  }
+},
   eda: {
     heading: 'Where to eat in Georgia',
     lead: 'Restaurants, cafes, wine bars, bakeries and markets — by city. Each place has its address, hours, our honest write-up and a link to the map.',

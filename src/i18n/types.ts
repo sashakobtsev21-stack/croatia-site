@@ -67,7 +67,7 @@ export type AttractionTypeSlug = (typeof ATTRACTION_TYPE_SLUGS)[number];
  * городов (/goroda/) задаются в EDA_CITY_PAGES (i18n/index.ts); локализованные
  * названия и тексты — в словарях (`eda.cityPages.items`).
  */
-export const EDA_CITY_KEYS = ['tbilisi', 'batumi', 'kutaisi'] as const;
+export const EDA_CITY_KEYS = ['zagreb', 'split', 'dubrovnik'] as const;
 export type EdaCityKey = (typeof EDA_CITY_KEYS)[number];
 
 /**

@@ -631,8 +631,8 @@ export const en: UIDictionary = {
     dishesLabel: 'Prices for main dishes',
     dishesHint: 'a guideline, check on site',
     hoursLabel: 'Opening hours',
-    cuisineGuide: 'What to try in Georgia: a guide to the cuisine',
-    lodgingHeading: 'Where to stay in Georgia',
+    cuisineGuide: 'What to try in Croatia: a guide to the cuisine',
+    lodgingHeading: 'Where to stay in Croatia',
     lodgingInCity: 'Where to stay in {city}',
     lodgingNote: 'Hotels and apartments near the best places — compare on Trip.com.',
     onMap: 'On the map',
@@ -650,31 +650,31 @@ export const en: UIDictionary = {
       backToAll: 'The whole “Where to eat” directory',
       cityGuideLink: 'City guide',
       items: {
-        tbilisi: {
-          cityName: 'Tbilisi',
-          heading: 'Tbilisi restaurants & cafes',
-          lead: 'Tbilisi is Georgia’s culinary capital: from old khinkali houses and family marani to signature restaurants and wine bars. We’ve gathered vetted places by district and occasion.',
+        zagreb: {
+          cityName: 'Zagreb',
+          heading: 'Zagreb restaurants & cafes',
+          lead: 'Zagreb is the capital of Croatia and its biggest dining scene: continental Croatian cooking, the Dolac market and a strong coffee-house culture.',
           intro: [
-            'In Tbilisi people eat everywhere and in all sorts of ways. In the Old Town and Sololaki — atmospheric Georgian restaurants and wine bars; in Vera and on Rustaveli — coffee shops and breakfasts; at the Dezerter Bazaar — grocery color and street food. Prices rise toward the center and the tourist streets, and they’re noticeably cheaper in simple canteens.',
-            'Below are our vetted places: Georgian classics, signature cuisine, wine, vegan, and coffee. What exactly to order — khinkali, khachapuri, mtsvadi, qvevri wine — is in the guide to the cuisine. We verify each venue and note the check date.',
+            'In Zagreb the food leans continental — hearty Croatian dishes like štrukli, grilled meats and seasonal produce from the Dolac and Britanski trg markets, alongside modern bistros and a famous café scene in the Upper Town and along Tkalčićeva.',
+            'Below are our vetted places. What to try across the country is in the guide to the cuisine; each venue lists the check date.',
           ],
         },
-        batumi: {
-          cityName: 'Batumi',
-          heading: 'Batumi restaurants & cafes',
-          lead: 'Batumi is the sea and Adjarian cuisine: the famous boat-shaped khachapuri, fresh fish, and seaside terraces. Vetted places by the boulevard and in the old town.',
+        split: {
+          cityName: 'Split',
+          heading: 'Split restaurants & cafes',
+          lead: 'Split is Dalmatia on a plate: fresh Adriatic seafood, slow-cooked peka and family konoba taverns around the Diocletian Palace.',
           intro: [
-            'In Batumi the gastronomy revolves around the sea and Adjara: fish restaurants, Adjarian khachapuri with egg and butter, seaside verandas. In the old town and by the boulevard there are more tourist spots and nightlife; a little off to the side it’s calmer and cheaper.',
-            'Below are our vetted places in Batumi. For the basic dishes of Georgian cuisine and what the region is famous for, take a look at the guide to the cuisine; each venue shows the check date.',
+            'The cooking in Split is coastal Dalmatian — grilled fish and shellfish, black risotto, peka (meat or octopus baked under a bell), and olive oil and wine from the islands. The old town and Varoš are dense with konobas; prices climb on the busiest tourist streets.',
+            'Below are our vetted places. For the dishes worth ordering, see the guide to the cuisine; each venue shows the check date.',
           ],
         },
-        kutaisi: {
-          cityName: 'Kutaisi',
-          heading: 'Kutaisi restaurants & cafes',
-          lead: 'Kutaisi is the gateway to Imereti with its greenery, spices, and cheese. Simple, vivid local cuisine and vetted places not far from the center.',
+        dubrovnik: {
+          cityName: 'Dubrovnik',
+          heading: 'Dubrovnik restaurants & cafes',
+          lead: 'Dubrovnik is upmarket Dalmatian dining: Adriatic seafood, oysters from nearby Ston and terraces with Old Town and sea views — at tourist-city prices.',
           intro: [
-            'Imeretian cuisine is one of the most expressive in Georgia: Imeretian khachapuri, pkhali, spicy sauces, and cheese. Kutaisi has many family-run places with home-style serving, and at the central market — cheese, spices, and churchkhela.',
-            'Below are our vetted places in Kutaisi. What to try first is in the guide to the cuisine; each venue lists the check date.',
+            'The gastronomy of Dubrovnik is southern Dalmatian and noticeably pricier than the rest of the country: fresh fish and shellfish, Ston oysters from the Pelješac peninsula, and seafood terraces inside and just outside the city walls. A little away from the Stradun it gets calmer and cheaper.',
+            'Below are our vetted places. What to try is in the guide to the cuisine; each venue lists the check date.',
           ],
         },
       },

@@ -74,22 +74,22 @@ export const en: UIDictionary = {
     photoPrefix: 'Photo',
     search: {
       label: 'Search the site',
-      placeholder: 'Where are you headed? Kazbegi, Tbilisi, car rental…',
+      placeholder: 'Where are you headed? Dubrovnik, Plitvice, car rental…',
       emptyNoContent: 'Nothing found yet. Try another word — search runs over the articles already published.',
       emptyNoMatch: 'Nothing found. Try a different query.',
       hint: 'Search runs over already published articles, right in your browser.',
     },
     entriesHeading: 'Where to start',
     tiles: {
-      dostoprimechatelnosti: 'Nature, churches, fortresses, waterfalls, and canyons of Georgia',
+      dostoprimechatelnosti: 'Nature, churches, fortresses, waterfalls, and canyons of Croatia',
       goroda: 'City guides: what to see, where to eat, how to get around',
       eda: 'What to try and where to eat honestly — without tourist markups',
       razvlecheniya: 'Where to go out: clubs and bars, quizzes, beaches, casinos, and parks',
       marshruty: 'Ready-made road trips: a day-by-day plan, budget, and map',
     },
     showcase: {
-      heading: 'Georgia showcase',
-      lead: 'The best places, routes and vetted venues — Georgia at a glance.',
+      heading: 'Croatia showcase',
+      lead: 'The best places, routes and vetted venues — Croatia at a glance.',
       partnerNote: 'Includes partner placements.',
       aria: 'Showcase: featured places, routes and venues',
       adKicker: 'Advertising',
@@ -121,7 +121,7 @@ export const en: UIDictionary = {
     freshEmpty: 'Nothing to show here right now — please check back soon. We keep adding vetted, up-to-date guides.',
     about: {
       heading: 'About the project',
-      text: 'Georgia Guidebook is a travel guide to Georgia: attractions, cities, food, routes, and car rental. We pick places by rating, cross-check the facts, and date-stamp every article — here’s how we work.',
+      text: 'Croatia Guidebook is a travel guide to Croatia: attractions, cities, food, routes, and car rental. We pick places by rating, cross-check the facts, and date-stamp every article — here’s how we work.',
       link: 'More about the project',
     },
   },
@@ -225,7 +225,7 @@ export const en: UIDictionary = {
     heading: 'Search and book hotels',
     cta: 'Show hotel search',
     note: 'Trip.com partner widget. Loads on click. Prices and availability are on the service’s side.',
-    frameTitle: 'Hotel search in Georgia — Trip.com',
+    frameTitle: 'Hotel search in Croatia — Trip.com',
   },
   article: {
     tocHeading: 'Contents',
@@ -284,7 +284,7 @@ export const en: UIDictionary = {
     heading: 'About the project',
     breadcrumb: 'About',
     intro: [
-      'Georgia Guidebook is a guide to all of Georgia, available in English, Russian and Ukrainian. We bring together in one place everything you need for a trip: attractions, cities, food, ready-made routes, car rental, insurance, and news. The goal is simple — to help you plan a trip without outdated advice and tourist traps.',
+      'Croatia Guidebook is a guide to all of Croatia, available in English, Russian and Ukrainian. We bring together in one place everything you need for a trip: attractions, cities, food, ready-made routes, car rental, insurance, and news. The goal is simple — to help you plan a trip without outdated advice and tourist traps.',
       'We don’t write “from memory” and we don’t retell other people’s articles. The guide has a clear principle: how we select places, how we verify facts, and why each article shows the date it was checked. More on that below.',
     ],
     sections: [
@@ -306,7 +306,7 @@ export const en: UIDictionary = {
         heading: 'Honest about figures and prices',
         paragraphs: [
           'We don’t reprint others’ ratings and review counts verbatim — that’s platform data, and their rules forbid such copying. For us a rating is a selection criterion, not content: to see the current rating and reviews, follow the link to the source or the map.',
-          'Prices, opening hours, and terms in our articles are guidelines as of the check date, not a guarantee. Georgia changes fast, so always verify the details that matter for your trip (the rental price, the deposit, the admission cost) on the other side before you pay.',
+          'Prices, opening hours, and terms in our articles are guidelines as of the check date, not a guarantee. Croatia changes fast, so always verify the details that matter for your trip (the rental price, the deposit, the admission cost) on the other side before you pay.',
         ],
       },
       {
@@ -566,7 +566,7 @@ export const en: UIDictionary = {
   }
 },
   eda: {
-    heading: 'Where to eat in Georgia',
+    heading: 'Where to eat in Croatia',
     lead: 'Restaurants, cafes, wine bars, bakeries and markets — by city. Each place has its address, hours, our honest write-up and a link to the map.',
     breadcrumbHome: 'Home',
     filtersLegend: 'Place filters',
@@ -688,14 +688,14 @@ export const en: UIDictionary = {
     emptyFiltered: 'Nothing yet for the selected type. Reset the filter.',
   },
   catalog: {
-    heading: 'What to see in Georgia',
+    heading: 'What to see in Croatia',
     intro: [
-      'A catalog of Georgia’s attractions: nature and mountains, waterfalls and canyons, cave towns, ancient churches and monasteries, fortresses, and thermal resorts. Filter them by type and region below and open a card with the details.',
+      'A catalog of Croatia’s attractions: nature and mountains, waterfalls and canyons, cave towns, ancient churches and monasteries, fortresses, and thermal resorts. Filter them by type and region below and open a card with the details.',
       'Places make it into the catalog not “from an old blog from memory.” We select them by high ratings across several independent sources and check the details with experienced travelers, guides, and locals. Every article shows the date of its last check.',
     ],
     breadcrumbHome: 'Home',
     mapHeading: 'All places on the map',
-    mapAria: 'Interactive map of Georgia’s attractions',
+    mapAria: 'Interactive map of Croatia’s attractions',
     mapHint: 'The map with all the markers loads on click — to keep the page lightweight.',
     filtersLegend: 'Attraction filters',
     typeLabel: 'Type',
@@ -708,10 +708,10 @@ export const en: UIDictionary = {
     emptyNoData: 'This section is being filled in: vetted places with honest descriptions and a check date will appear here soon.',
   },
   uslugi: {
-    heading: 'Services in Georgia: for living and relocating',
+    heading: 'Services in Croatia: for living and relocating',
     breadcrumb: 'Services',
     intro: [
-      'Services that those living in Georgia and those relocating need: real estate agents and help with housing, cleaning, freight, repairs, paperwork, translators. Conveniently gathered in one place — by category and city.',
+      'Services that those living in Croatia and those relocating need: real estate agents and help with housing, cleaning, freight, repairs, paperwork, translators. Conveniently gathered in one place — by category and city.',
       'We add to this section as requests come in. Paid placements are marked with a gold border; everything else we add once we’ve verified the service.',
     ],
     rubricLabel: 'Category',
@@ -724,9 +724,9 @@ export const en: UIDictionary = {
     siteLabel: 'Website',
     demoLabel: 'Sample',
     emptyFiltered: 'Nothing yet for the selected category. Reset the filter.',
-    emptyNoData: 'This section is being filled in: vetted services for living in Georgia will appear here soon.',
+    emptyNoData: 'This section is being filled in: vetted services for living in Croatia will appear here soon.',
     ctaHeading: 'Is your service here?',
-    ctaText: 'Real estate agents, cleaning, tradespeople, and other services for those living in Georgia — write to us and we’ll tell you about placement.',
+    ctaText: 'Real estate agents, cleaning, tradespeople, and other services for those living in Croatia — write to us and we’ll tell you about placement.',
     ctaLabel: 'Ask about placement',
   },
   coordCopy: {
@@ -737,20 +737,20 @@ export const en: UIDictionary = {
   },
   hubAffiliate: {
     'arenda-avto': {
-      title: 'Car rental in Georgia',
+      title: 'Car rental in Croatia',
       note: 'Compare rental prices on Trip.com.',
     },
     transport: {
-      title: 'Flights to Georgia',
+      title: 'Flights to Croatia',
       note: 'Search flights and fares on Trip.com.',
     },
     goroda: {
       title: 'Where to stay',
-      note: 'Hotels and apartments across Georgia on Trip.com.',
+      note: 'Hotels and apartments across Croatia on Trip.com.',
     },
     razvlecheniya: {
       title: 'Tours & activities',
-      note: 'Find tours and activities across Georgia on Trip.com.',
+      note: 'Find tours and activities across Croatia on Trip.com.',
     },
   },
 };

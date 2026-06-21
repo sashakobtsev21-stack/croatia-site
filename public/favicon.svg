@@ -1,10 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Croatia Guidebook — флаг Хорватии">
-  <rect width="32" height="32" rx="6" fill="#ffffff"/>
-  <path d="M14 0h4v32h-4z M0 14h32v4H0z" fill="#ff0000"/>
-  <g fill="#ff0000">
-    <path d="M6 4h2v6H6z M4 6h6v2H4z"/>
-    <path d="M24 4h2v6h-2z M22 6h6v2h-6z"/>
-    <path d="M6 22h2v6H6z M4 24h6v2H4z"/>
-    <path d="M24 22h2v6h-2z M22 24h6v2h-6z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Croatia Guidebook">
+  <title>Croatia Guidebook</title>
+  <!-- Хорватская «шаховница» (šahovnica) — национальная клетка, узнаваема в 16px (вкладка + выдача Google).
+       5×5, верх-лево красное, 13 красных + 12 белых. Красный #d52b1e — как у флага в шапке (hr-flag.svg). -->
+  <rect width="32" height="32" fill="#ffffff"/>
+  <g fill="#d52b1e">
+    <rect x="0" y="0" width="6.4" height="6.4"/>
+    <rect x="12.8" y="0" width="6.4" height="6.4"/>
+    <rect x="25.6" y="0" width="6.4" height="6.4"/>
+    <rect x="6.4" y="6.4" width="6.4" height="6.4"/>
+    <rect x="19.2" y="6.4" width="6.4" height="6.4"/>
+    <rect x="0" y="12.8" width="6.4" height="6.4"/>
+    <rect x="12.8" y="12.8" width="6.4" height="6.4"/>
+    <rect x="25.6" y="12.8" width="6.4" height="6.4"/>
+    <rect x="6.4" y="19.2" width="6.4" height="6.4"/>
+    <rect x="19.2" y="19.2" width="6.4" height="6.4"/>
+    <rect x="0" y="25.6" width="6.4" height="6.4"/>
+    <rect x="12.8" y="25.6" width="6.4" height="6.4"/>
+    <rect x="25.6" y="25.6" width="6.4" height="6.4"/>
   </g>
 </svg>

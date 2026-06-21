@@ -24,7 +24,7 @@ async function osrmGeometry(stops) {
   const url = `https://router.project-osrm.org/route/v1/driving/${coords}?overview=simplified&geometries=geojson`;
   for (let attempt = 0; attempt < 4; attempt++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'GeorgiaGuidebook/1.0 (info@croatiaguidebook.com)' } });
+      const res = await fetch(url, { headers: { 'User-Agent': 'CroatiaGuidebook/1.0 (info@croatiaguidebook.com)' } });
       if (res.ok) {
         const json = await res.json();
         const line = json?.routes?.[0]?.geometry?.coordinates;

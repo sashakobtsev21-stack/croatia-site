@@ -183,6 +183,6 @@ Split's food is **Dalmatian** — grilled fish, olive oil, Pelješac and island 
 
 ## Plan the rest of your trip
 
-Split is the natural hinge of a Dalmatian trip — pair it with the islands offshore and the south coast around [Dubrovnik](/cities/dubrovnik-travel-guide/), or the capital [Zagreb](/cities/zagreb-travel-guide/) inland. For timing and routes, see [the best time to visit Croatia](/planning/) and our [Croatia routes](/routes/). The [cities hub](/cities/) collects our other Croatian city guides.
+Split is the natural hinge of a Dalmatian trip — pair it with the islands offshore and the south coast around [Dubrovnik](/cities/dubrovnik-travel-guide/), or the capital [Zagreb](/cities/zagreb-travel-guide/) inland. The classic way to link them is our [Dalmatia coast route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/), which adds Trogir, Hvar, Korčula and Ston with the ferry legs along the way. For timing and routes, see [the best time to visit Croatia](/planning/) and our [Croatia routes](/routes/). The [cities hub](/cities/) collects our other Croatian city guides.
 
 _Opening hours, ticket prices and ferry timetables change with the season — confirm current details with the official sources above before you go._

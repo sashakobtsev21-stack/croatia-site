@@ -4,7 +4,7 @@
 
 ## Неделя 1 (24–30.06) — Стартовое ядро: столица + город + маршрут (фундамент хаба)
 - [x] Ср 24.06 — [Статья] Zagreb Travel Guide: Things to Do in Croatia's Capital · `things to do in zagreb` · /zagreb-travel-guide/ · категория cities · фото ≥15 · 💰 отели + туры · перелинк: 7-day itinerary, best-time-to-visit — ✅ опубликовано 2026-06-24 (en/ru/uk, 15 фото CC, qa=GO; перелинк пока на хабы /routes/ /planning/, заменить на статьи по выходе)
-- Пт 26.06 — [Статья] Dubrovnik Travel Guide: Old Town, City Walls & Beyond · `dubrovnik travel guide` · /dubrovnik-travel-guide/ · категория cities · фото ≥10 · 💰 туры + отели · перелинк: GoT locations, day trips from Dubrovnik
+- [x] Пт 26.06 — [Статья] Dubrovnik Travel Guide: Old Town, City Walls & Beyond · `dubrovnik travel guide` · /dubrovnik-travel-guide/ · категория cities · фото ≥10 · 💰 туры + отели · перелинк: GoT locations, day trips from Dubrovnik — ✅ опубликовано 2026-06-22 (en/ru/uk, en ~1928 слов, 11 фото CC с Wikimedia webp ≤200КБ, qa=GO; AffiliateBox trip-hotels+trip-tours; перелинк на Загреб + хабы /attractions/ /routes/ /planning/ /food/ /car-rental/, заменить на статьи GoT/one-day/city-walls/day-trips по выходе)
 - Вс 28.06 — [Маршрут] 10 Days in Croatia: Split, Hvar & Dubrovnik Route · `10 day croatia itinerary` · /10-day-croatia-itinerary/ · категория routes · фото каждой остановки (Split, Hvar, Korčula, Dubrovnik) · 💰 туры + отели + паромы · перелинк: split-travel-guide, dubrovnik-travel-guide, split-to-hvar-ferry
 - Пн 29.06 — 📊 Замер GA/GSC (baseline стартового пакета: индексация, первые показы)
 

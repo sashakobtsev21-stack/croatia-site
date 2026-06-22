@@ -714,6 +714,14 @@ for (const pick of showcasePicks) {
   .services-band__cta:hover :global(svg) {
     transform: translateX(3px);
   }
+  /* Узкие экраны: CTA с `flex:none` + крупным паддингом перерастал контейнер на 320px
+     (перелив 6px, аудит 2026-06-22 M1) → делаем кнопку полноширинной по центру. */
+  @media (max-width: 480px) {
+    .services-band__cta {
+      width: 100%;
+      justify-content: center;
+    }
+  }
 
   /* Компактная строка доверия под витриной (заменила большую плашку «проверено»). */
   .trust-line {

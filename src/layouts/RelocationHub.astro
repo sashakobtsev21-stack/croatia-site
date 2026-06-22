@@ -440,6 +440,17 @@ const guides = (
   .reg__icon {
     color: var(--color-wine);
   }
+  /* Узкие экраны: строки регуляторики (грид `1fr auto` + `nowrap`-ссылка с длинным
+     названием органа) перерастали контейнер на 320–414px (аудит 2026-06-22 M1) →
+     раскладываем в столбик, ссылке разрешаем перенос. */
+  @media (max-width: 560px) {
+    .reg__item {
+      grid-template-columns: 1fr;
+    }
+    .reg__link {
+      white-space: normal;
+    }
+  }
 
   /* Списки нюансов — иконка-маркер вином. */
   .checks {

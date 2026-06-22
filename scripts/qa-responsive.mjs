@@ -15,7 +15,7 @@ import { join, extname } from 'node:path';
 import { chromium } from 'playwright-core';
 
 const DIST = 'dist';
-const PAGES = ['/', '/goroda/zagreb/', '/arenda-avto/kak-arendovat-avto/', '/eda/', '/razvlecheniya/', '/strahovka/', '/marshruty/', '/novosti/'];
+const PAGES = ['/', '/relokatsiya/croatia-digital-nomad-visa/', '/relokatsiya/', '/eda/', '/razvlecheniya/', '/strahovka/', '/marshruty/', '/novosti/'];
 const WIDTHS = [320, 360, 414, 768, 1280];
 const TOLERANCE = 1; // субпиксели/округления
 const MIME = {

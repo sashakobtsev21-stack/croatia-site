@@ -3,7 +3,7 @@
 > Приоритезированный список фиксов из аудита (`AUDIT-2026-06-22.md`) и сессий. Закрытые отмечать `- [x]` + дата. Не путать с `ROADMAP.md` (фазы продукта) — здесь технический долг.
 
 ## P1 — до запуска / при первой возможности
-- [ ] **M1. Перелив `/ @320px +6px`** — горизонтальный скролл на узком мобайле. Найти элемент (`scrollWidth>clientWidth`) в `src/layouts/HomePage.astro` / `src/styles/global.css` (вероятно reveal-`translate` / box-shadow / `100vw` под скроллбар); ограничить `overflow-x`/`max-width:100%`. _Источник: `qa:browser` responsive NO-GO._
+- [x] **M1. Горизонтальный перелив (320–414px)** — **ИСПРАВЛЕНО 2026-06-22.** Главная `services-band__cta` → full-width на ≤480px (`HomePage.astro`); хаб релокации `reg__item` (грид `1fr auto` + `nowrap`-ссылка) → стопкой на ≤560px (`RelocationHub.astro`). `qa-responsive.mjs` PAGES обновлён на реальные страницы (вскрыл второй перелив). `qa:browser` responsive = **GO** (8 шаблонов × 5 ширин).
 - [ ] **www-редирект** — `www.croatiaguidebook.com` не резолвится. Настроить в Cloudflare (CNAME `www` + redirect-rule на apex). _Задача владельца (дашборд)._
 
 ## P2 — качество / соответствие

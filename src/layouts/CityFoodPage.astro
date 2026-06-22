@@ -6,11 +6,11 @@
  * кухне, путеводитель города). Данные реальные (§11), фильтр lang + !draft +
  * city === локализованное название города.
  *
- * Один компонент для ru/uk; язык и ключ города — пропсами. Тексты из словарей
+ * Один компонент для en/ru; язык и ключ города — пропсами. Тексты из словарей
  * (§12, `eda.cityPages`). Цены/часы не выдумываем — наследуются из карточек (§11).
  *
  * Schema.org (§14): ItemList(Restaurant) этого города + BreadcrumbList
- * (Главная → Еда → Город). canonical + взаимные hreflang ru↔uk — в BaseLayout.
+ * (Главная → Еда → Город). canonical + взаимные hreflang en↔ru — в BaseLayout.
  */
 import { getCollectionSafe } from '../loaders/getCollectionSafe';
 import { clampDesc } from '../lib/text';

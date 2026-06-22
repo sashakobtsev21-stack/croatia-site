@@ -1,8 +1,9 @@
 /*
- * check-parity.mjs — проверка пар ru/uk и SEO-инвариантов контента (SPEC §11/§14).
+ * check-parity.mjs — проверка пар en/ru и SEO-инвариантов контента (SPEC §11/§14).
  * Без зависимостей: лёгкий парс frontmatter. Ловит регрессии, которые astro check
- * не видит: непарные ru/uk, рассинхрон lang↔папка, title > 60 зн., расхождение
+ * не видит: непарные en/ru, рассинхрон lang↔папка, title > 60 зн., расхождение
  * числовых полей маршрутов (days/distanceKm/budget) между языками.
+ * Языки сайта: en (по умолчанию, корень) + ru (/ru/); uk не используется.
  *
  * Запуск: node scripts/check-parity.mjs  (exit 1 при нарушениях).
  */
@@ -60,12 +61,12 @@ for (const col of COLLECTIONS) {
   } catch {
     continue; // коллекции может не быть
   }
-  /** key = имя файла (пара ru/uk = одинаковое имя в ru/ и uk/). */
+  /** key = имя файла (пара en/ru = одинаковое имя в en/ и ru/). */
   const pairs = new Map();
   for (const file of files) {
     fileCount++;
     const rel = file.replace(/\\/g, '/');
-    const langDir = /\/uk\//.test(rel) ? 'uk' : /\/en\//.test(rel) ? 'en' : 'ru';
+    const langDir = /\/en\//.test(rel) ? 'en' : 'ru';
     const fname = rel.split('/').pop();
     const data = parseFront(readFileSync(file, 'utf8'));
     if (!data) {
@@ -84,26 +85,24 @@ for (const col of COLLECTIONS) {
     if (!pairs.has(key)) pairs.set(key, {});
     pairs.get(key)[langDir] = data;
   }
-  // ru+uk обязательны; en — опционален (3-й язык, раскатывается батчами).
-  // Любой присутствующий перевод сверяется с ru: slug, razvlType, числа маршрутов.
+  // en+ru обязательны (en — язык по умолчанию на корне, ru — зеркало на /ru/).
+  // ru-версия сверяется с en (источник правды): slug, razvlType, числа маршрутов.
   for (const [key, byLang] of pairs) {
+    if (!byLang.en) errors.push(`${key}: нет en-версии`);
     if (!byLang.ru) errors.push(`${key}: нет ru-версии`);
-    if (!byLang.uk) errors.push(`${key}: нет uk-версии`);
-    if (!byLang.ru) continue;
-    for (const lng of ['uk', 'en']) {
-      const v = byLang[lng];
-      if (!v) continue; // en необязателен — пропускаем, если перевода ещё нет
-      if (v.slug !== byLang.ru.slug) {
-        errors.push(`${key}: slug ru='${byLang.ru.slug}' ≠ ${lng}='${v.slug}'`);
-      }
-      if (v.razvlType !== byLang.ru.razvlType) {
-        errors.push(`${key}: razvlType ru='${byLang.ru.razvlType}' ≠ ${lng}='${v.razvlType}'`);
-      }
-      if (col === 'routes') {
-        for (const f of ['days', 'distanceKm', 'budgetAmount', 'budgetCurrency']) {
-          if (v[f] !== byLang.ru[f]) {
-            errors.push(`${key}: ${f} ru='${byLang.ru[f]}' ≠ ${lng}='${v[f]}'`);
-          }
+    if (!byLang.en) continue;
+    const v = byLang.ru;
+    if (!v) continue; // нет ru — уже зафиксировано ошибкой выше
+    if (v.slug !== byLang.en.slug) {
+      errors.push(`${key}: slug en='${byLang.en.slug}' ≠ ru='${v.slug}'`);
+    }
+    if (v.razvlType !== byLang.en.razvlType) {
+      errors.push(`${key}: razvlType en='${byLang.en.razvlType}' ≠ ru='${v.razvlType}'`);
+    }
+    if (col === 'routes') {
+      for (const f of ['days', 'distanceKm', 'budgetAmount', 'budgetCurrency']) {
+        if (v[f] !== byLang.en[f]) {
+          errors.push(`${key}: ${f} en='${byLang.en[f]}' ≠ ru='${v[f]}'`);
         }
       }
     }
@@ -115,4 +114,4 @@ if (errors.length) {
   for (const e of errors) console.error('  - ' + e);
   process.exit(1);
 }
-console.log(`[check-parity] OK — ${fileCount} файлов; ru/uk обязательны, en опционален; slug/lang/razvlType, title ≤${TITLE_MAX}, числа маршрутов в норме.`);
+console.log(`[check-parity] OK — ${fileCount} файлов; en/ru обязательны; slug/lang/razvlType, title ≤${TITLE_MAX}, числа маршрутов в норме.`);

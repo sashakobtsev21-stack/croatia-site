@@ -3,65 +3,58 @@
 # Формат:  /старый-путь/   /новый-путь/   301
 
 # English стал языком по умолчанию (корень, 2026-06-16): прежние /en/-URL переехали
-# на корень → 301 на тот же путь без префикса. (ru теперь на /ru/, uk на /uk/.)
+# на корень → 301 на тот же путь без префикса. (ru теперь на /ru/.)
 /en/* /:splat 301
 
 # Миграция русско-транслитных слагов разделов на английские (2026-06-22): приводим
 # Хорватию к единой EN-схеме сети (эталон — Македония). Старые URL уже индексированы
-# (живой деплой) → каждый старый раздел редиректит на новый английский, по всем трём
-# языкам (корень = en, /ru/, /uk/). Правила сверху вниз, первое совпадение выигрывает,
+# (живой деплой) → каждый старый раздел редиректит на новый английский, по обоим
+# языкам (корень = en, /ru/). Правила сверху вниз, первое совпадение выигрывает,
 # поэтому вложенное relocation/services идёт ПЕРЕД родительским relocation.
 
 # --- relokatsiya/uslugi → relocation/services (вложенное — строго до родителя) ---
 /relokatsiya/uslugi/* /relocation/services/:splat 301
 /ru/relokatsiya/uslugi/* /ru/relocation/services/:splat 301
-/uk/relokatsiya/uslugi/* /uk/relocation/services/:splat 301
 
-# --- разделы: старый слаг → английский (корень = en, /ru/, /uk/) ---
+# --- разделы: старый слаг → английский (корень = en, /ru/) ---
 /arenda-avto/* /car-rental/:splat 301
 /ru/arenda-avto/* /ru/car-rental/:splat 301
-/uk/arenda-avto/* /uk/car-rental/:splat 301
 
 /dostoprimechatelnosti/* /attractions/:splat 301
 /ru/dostoprimechatelnosti/* /ru/attractions/:splat 301
-/uk/dostoprimechatelnosti/* /uk/attractions/:splat 301
 
 /eda/* /food/:splat 301
 /ru/eda/* /ru/food/:splat 301
-/uk/eda/* /uk/food/:splat 301
 
 /goroda/* /cities/:splat 301
 /ru/goroda/* /ru/cities/:splat 301
-/uk/goroda/* /uk/cities/:splat 301
 
 /kontakty/* /contact/:splat 301
 /ru/kontakty/* /ru/contact/:splat 301
-/uk/kontakty/* /uk/contact/:splat 301
 
 /marshruty/* /routes/:splat 301
 /ru/marshruty/* /ru/routes/:splat 301
-/uk/marshruty/* /uk/routes/:splat 301
 
 /novosti/* /news/:splat 301
 /ru/novosti/* /ru/news/:splat 301
-/uk/novosti/* /uk/news/:splat 301
 
 /o-sajte/* /about/:splat 301
 /ru/o-sajte/* /ru/about/:splat 301
-/uk/o-sajte/* /uk/about/:splat 301
 
 /planirovanie/* /planning/:splat 301
 /ru/planirovanie/* /ru/planning/:splat 301
-/uk/planirovanie/* /uk/planning/:splat 301
 
 /razvlecheniya/* /entertainment/:splat 301
 /ru/razvlecheniya/* /ru/entertainment/:splat 301
-/uk/razvlecheniya/* /uk/entertainment/:splat 301
 
 /relokatsiya/* /relocation/:splat 301
 /ru/relokatsiya/* /ru/relocation/:splat 301
-/uk/relokatsiya/* /uk/relocation/:splat 301
 
 /strahovka/* /insurance/:splat 301
 /ru/strahovka/* /ru/insurance/:splat 301
-/uk/strahovka/* /uk/insurance/:splat 301
+
+# Украинский язык (uk) убран (2026-06-22): остаются en (корень) + ru (/ru/).
+# Прежние /uk/-URL (вкл. старые транслитные слаги) уже проиндексированы → единым
+# правилом 301 на тот же путь на языке по умолчанию (en, корень). Стоит ПОСЛЕДНИМ,
+# чтобы не перехватывать корневые/ru-слаг-редиректы выше; ловит всё под /uk/.
+/uk/* /:splat 301

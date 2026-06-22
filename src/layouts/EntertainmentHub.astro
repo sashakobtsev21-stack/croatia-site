@@ -84,10 +84,10 @@ interface HubCard {
 
 /** Город места — по суффиксу slug (-zagreb/-split/-dubrovnik), иначе «другое». */
 const CITY_NAMES: Record<string, string> = {
-  zagreb: lang === 'uk' ? 'Загреб' : lang === 'en' ? 'Zagreb' : 'Загреб',
-  split: lang === 'uk' ? 'Спліт' : lang === 'en' ? 'Split' : 'Сплит',
-  dubrovnik: lang === 'uk' ? 'Дубровник' : lang === 'en' ? 'Dubrovnik' : 'Дубровник',
-  other: lang === 'uk' ? 'Інше' : lang === 'en' ? 'Elsewhere' : 'Другое',
+  zagreb: lang === 'en' ? 'Zagreb' : 'Загреб',
+  split: lang === 'en' ? 'Split' : 'Сплит',
+  dubrovnik: lang === 'en' ? 'Dubrovnik' : 'Дубровник',
+  other: lang === 'en' ? 'Elsewhere' : 'Другое',
 };
 const CITY_ORDER = ['zagreb', 'split', 'dubrovnik', 'other'];
 const cityKeyOf = (slug: string): string =>

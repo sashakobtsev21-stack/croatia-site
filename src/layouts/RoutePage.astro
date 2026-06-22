@@ -15,7 +15,7 @@
  *
  * Schema.org (§14): Article + BreadcrumbList (Breadcrumbs)
  * + TouristTrip с itinerary из stops (валидный список TouristAttraction).
- * canonical и взаимные hreflang ru↔uk — в BaseLayout (зеркальная структура §7).
+ * canonical и взаимные hreflang en↔ru — в BaseLayout (зеркальная структура §7).
  */
 import type { CollectionEntry } from 'astro:content';
 import { render } from 'astro:content';
@@ -36,7 +36,7 @@ interface Props {
   /** Языки, на которых есть этот маршрут (slug) — для hreflang (§12), из getStaticPaths. */
   availableLangs?: Lang[];
 }
-const { lang, entry, availableLangs = ['ru', 'uk'] } = Astro.props;
+const { lang, entry, availableLangs = ['ru', 'en'] } = Astro.props;
 const dict = t(lang);
 const data = entry.data;
 /** Реальная дорожная геометрия маршрута (запечена на сборке, §8.2); нет — фолбэк на прямые. */

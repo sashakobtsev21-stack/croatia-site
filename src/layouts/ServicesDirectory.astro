@@ -2,7 +2,7 @@
 /**
  * ServicesDirectory (§7, /relocation/services/) — директория «Услуги» для
  * живущих в Хорватии (риелторы, клининг, переезд, ремонт, документы, переводчики).
- * Один компонент для ru/uk (язык пропсом, текст из словарей §12). Данные —
+ * Один компонент для en/ru (язык пропсом, текст из словарей §12). Данные —
  * коллекция `services`, нужный язык, не draft (§11). Фильтр по рубрике —
  * переиспользуем catalog-filter.js (data-catalog*, как в §8.3/§8.6), без своего
  * JS. Платное размещение `sponsored` → ЗОЛОТАЯ РАМКА как единственный маркёр
@@ -58,7 +58,7 @@ const items = [...all].sort((a, b) => {
   const sa = isSponsored(a.data) ? 0 : 1;
   const sb = isSponsored(b.data) ? 0 : 1;
   if (sa !== sb) return sa - sb;
-  return a.data.name.localeCompare(b.data.name, lang === 'uk' ? 'uk' : lang === 'en' ? 'en' : 'ru');
+  return a.data.name.localeCompare(b.data.name, lang === 'en' ? 'en' : 'ru');
 });
 
 const hasItems = items.length > 0;

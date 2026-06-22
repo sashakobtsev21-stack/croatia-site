@@ -7,7 +7,7 @@
  *     600 уже читается весомо и «спокойно, не кричит» (направление §10).
  *   - Manrope 400 / 500 / 600 (body/UI): текст, навигация, strong/кнопки.
  *
- * unicode-range разделяет cyrillic / latin: на ru/uk-страницах грузится
+ * unicode-range разделяет cyrillic / latin: на ru-страницах грузится
  * только cyrillic-файл; latin-файл подтянется лишь для латиницы в бренде
  * «Croatia Guidebook». font-display: swap — текст виден сразу (фолбэк),
  * без FOIT и без сдвига при LCP. Диапазоны — стандартные google-fonts сабсеты.

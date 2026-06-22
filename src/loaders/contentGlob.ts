@@ -16,7 +16,7 @@ import type { Loader, LoaderContext } from 'astro/loaders';
  * возникать; обёртка остаётся безвредной.
  */
 export function contentGlob(options: Parameters<typeof glob>[0]): Loader {
-  // Пары ru/uk имеют ОДИНАКОВЫЙ frontmatter-slug (§11). Дефолтный generateId
+  // Пары en/ru имеют ОДИНАКОВЫЙ frontmatter-slug (§11). Дефолтный generateId
   // глоб-лоадера берёт id = data.slug → ru- и uk-файлы коллидируют по id, и
   // одна версия молча перетирает другую (warn «Duplicate id»). Поэтому строим
   // id из пути относительно base (entry) — он включает префикс языка

@@ -3,7 +3,7 @@
 Фон ежедневно: /news (сбор → превью владельцу → «ок» → публикация). Замеры GA/GSC — по понедельникам. План корректируется по GA. Темп: Ср / Пт / Вс. Слаги — английские, из SEO-отчёта. Очередь: P0 → P1 → P2, сезонные темы в свои окна.
 
 ## Неделя 1 (24–30.06) — Стартовое ядро: столица + город + маршрут (фундамент хаба)
-- Ср 24.06 — [Статья] Zagreb Travel Guide: Things to Do in Croatia's Capital · `things to do in zagreb` · /zagreb-travel-guide/ · категория cities · фото ≥15 · 💰 отели + туры · перелинк: 7-day itinerary, best-time-to-visit
+- [x] Ср 24.06 — [Статья] Zagreb Travel Guide: Things to Do in Croatia's Capital · `things to do in zagreb` · /zagreb-travel-guide/ · категория cities · фото ≥15 · 💰 отели + туры · перелинк: 7-day itinerary, best-time-to-visit — ✅ опубликовано 2026-06-24 (en/ru/uk, 15 фото CC, qa=GO; перелинк пока на хабы /routes/ /planning/, заменить на статьи по выходе)
 - Пт 26.06 — [Статья] Dubrovnik Travel Guide: Old Town, City Walls & Beyond · `dubrovnik travel guide` · /dubrovnik-travel-guide/ · категория cities · фото ≥10 · 💰 туры + отели · перелинк: GoT locations, day trips from Dubrovnik
 - Вс 28.06 — [Маршрут] 10 Days in Croatia: Split, Hvar & Dubrovnik Route · `10 day croatia itinerary` · /10-day-croatia-itinerary/ · категория routes · фото каждой остановки (Split, Hvar, Korčula, Dubrovnik) · 💰 туры + отели + паромы · перелинк: split-travel-guide, dubrovnik-travel-guide, split-to-hvar-ferry
 - Пн 29.06 — 📊 Замер GA/GSC (baseline стартового пакета: индексация, первые показы)

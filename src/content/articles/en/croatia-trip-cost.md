@@ -99,7 +99,7 @@ Getting around Croatia is **mid-priced** rather than cheap. Intercity **buses** 
 
 ## Tickets and tours: the big-ticket sights
 
-Croatia's headline attractions are where casual spending adds up, because the two most famous ones are genuinely pricey. **Plitvice Lakes National Park** uses **seasonal pricing** — the summer adult ticket is the costliest of the national parks and markedly cheaper in the low season — so going in spring or autumn saves money as well as crowds. **Krka** is a bit gentler and combines well with [Split](/cities/split-travel-guide/).
+Croatia's headline attractions are where casual spending adds up, because the two most famous ones are genuinely pricey. **[Plitvice Lakes National Park](/attractions/plitvice-lakes-national-park/)** uses **seasonal pricing** — the summer adult ticket is the costliest of the national parks and markedly cheaper in the low season — so going in spring or autumn saves money as well as crowds. **Krka** is a bit gentler and combines well with [Split](/cities/split-travel-guide/).
 
 In **Dubrovnik**, walking the **City Walls** is the signature experience and carries the single steepest standard admission of any Croatian sight; it is included if you buy the **Dubrovnik Pass**, which also covers city buses and several museums and can pay for itself over a couple of days. Confirm the live prices for both on their official sites — they are revised each season.
 

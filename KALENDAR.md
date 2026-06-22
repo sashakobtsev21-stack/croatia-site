@@ -16,7 +16,7 @@
 
 ## Неделя 3 (08–14.07) — P0 закрытие старта: сезон, бюджет, Дубровник/GoT (старт Dubrovnik Summer Festival ~10.07)
 - Ср 08.07 — [Статья] Best Time to Visit Croatia: Month-by-Month Weather & Sea Temperature · `best time to visit croatia` · /best-time-to-visit-croatia/ · категория planning · фото ≥5 · 💰 отели · перелинк: 7-day itinerary, croatia-sea-temperature
-- Пт 10.07 — [Статья] Is Croatia Expensive? Real 2026 Trip Cost Breakdown · `is croatia expensive` · /is-croatia-expensive/ · категория planning · фото ≥5 · 💰 отели + eSIM · перелинк: croatia-trip-cost, croatia-hidden-costs
+- Пт 10.07 — [Статья] Is Croatia Expensive? Real 2026 Trip Cost Breakdown · `is croatia expensive` · /is-croatia-expensive/ · категория planning · фото ≥5 · 💰 отели + eSIM · перелинк: croatia-trip-cost, croatia-hidden-costs — ⚠️ основной бюджет-лонгрид уже опубликован 2026-06-22 под slug `croatia-trip-cost` (H1 «Is Croatia Expensive? Trip Cost & Budget (2026)», см. неделю 6). Этот слот переориентировать на отдельный угол (напр. короткий «expensive?»-ответ под точный запрос или объединить), чтобы не плодить near-duplicate (§15).
 - Вс 12.07 — [Статья] Game of Thrones Filming Locations in Dubrovnik: Self-Guided Map · `game of thrones locations dubrovnik` · /dubrovnik-game-of-thrones-locations/ · категория attractions · фото ≥5 · 💰 туры · перелинк: dubrovnik-travel-guide, dubrovnik-city-walls
 - Пн 13.07 — 📊 Замер GA/GSC (старт. пакет завершён — сверка позиций ядра, новые запросы)
 
@@ -35,7 +35,7 @@
 ## Неделя 6 (29.07–04.08) — P0 завершение island/parks + бюджет-добивка
 - Ср 29.07 — [Статья] Croatia Island Hopping: Best Islands & How to Plan the Route · `croatia island hopping` · /croatia-island-hopping/ · категория routes · фото ≥5 · 💰 паромы + туры · перелинк: split-to-hvar-ferry, hvar-island-guide, vis-island-guide
 - Пт 31.07 — [Статья] Krka National Park from Split: Day Trip, Tickets & Can You Swim? · `krka national park from split` · /krka-national-park/ · категория attractions · фото ≥5 · 💰 туры · перелинк: plitvice-vs-krka, day-trips-from-split
-- Вс 02.08 — [Статья] How Much Does a Week in Croatia Cost? Daily Budget Guide · `croatia trip cost per week` · /croatia-trip-cost/ · категория planning · фото ≥5 · 💰 отели + туры · перелинк: is-croatia-expensive, 7-day-croatia-itinerary
+- [x] Вс 02.08 — [Статья] Is Croatia Expensive? Trip Cost & Budget (2026) · `is croatia expensive / croatia trip cost` · /croatia-trip-cost/ · категория planning · фото ≥5 · 💰 отели + аренда авто · перелинк: is-croatia-expensive, 7-day-croatia-itinerary — ✅ опубликовано 2026-06-22 (en/ru, en ~1517 слов, slug `croatia-trip-cost`, первая статья `category=planning`; 7 фото CC/CC0 Wikimedia webp ≤200КБ — cover аэро-Дубровник + монета €2 + паром Jadrolinija + рынок + терраса + стены Дубровника + Плитвице; лид=прямой ответ, бюджеты €55–75/€110–160/€200+; цены только ориентиры+«уточняйте»+дисклеймер 22.06.2026; AffiliateBox trip-hotels+trip-carhire; двусторонний перелинк со Сплит/Дубровник/Загреб + маршрут dalmatia-split-to-dubrovnik + хаб /planning/ + /car-rental/ /transport/; добавлена 5-м пиком showcasePicks kicker guide; qa=GO). _(Реализован объединённый бюджет-лонгрид под slug `croatia-trip-cost` — закрывает и заголовок «Is Croatia Expensive?», см. неделю 3 Пт 10.07.)_
 - Пн 03.08 — 📊 Замер GA/GSC (середина плана — ревизия: какие P0-хабы достраивать supporting-контентом)
 
 ## Неделя 7 (05–11.08) — P0 завершение + старт P1 road trip

@@ -181,7 +181,7 @@ Dubrovnik's food is **Dalmatian** — seafood, olive oil and Pelješac wine rath
 ## Practical tips
 
 - **When to go.** July and August are hot, crowded and dearest; **late May–June and September** give warm sea, long days and thinner crowds. Aim to walk the walls and the Old Town early or late, around the cruise-ship schedule.
-- **Money.** Croatia uses the **euro (€)**. Cards are widely accepted, but carry some cash for small cafés, markets and boat tickets.
+- **Money.** Croatia uses the **euro (€)**. Cards are widely accepted, but carry some cash for small cafés, markets and boat tickets. For what a trip costs, see [is Croatia expensive?](/planning/croatia-trip-cost/).
 - **Getting around.** The Old Town is pedestrian-only and steep in places; wear proper shoes for the marble streets and the walls.
 - **Tickets.** A combined ticket covers the **city walls and Fort Lovrijenac**; buy online or at Pile/Ploče. The **Dubrovnik Card** can bundle the walls, museums and bus rides — check whether the maths works for your stay.
 

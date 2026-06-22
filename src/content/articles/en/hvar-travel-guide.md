@@ -180,13 +180,13 @@ Beyond the Pakleni Islands, Hvar is a springboard for the wider central Dalmatia
 
 ## Practical tips
 
-- **When to go.** July and August are hot, lively and dearest; **late May–June and September** give warm sea, long days and thinner crowds. The [best time to visit Croatia](/planning/) has the month-by-month picture.
+- **When to go.** July and August are hot, lively and dearest; **late May–June and September** give warm sea, long days and thinner crowds. The [best time to visit Croatia](/planning/best-time-to-visit-croatia/) has the month-by-month picture.
 - **Money.** Croatia uses the **euro (€)**. Cards are widely accepted, but carry cash for water taxis, beach *konobas* and small cafés.
 - **Boats first.** Plan around the **catamaran and ferry timetables** — they shape your whole day. Book car ferries ahead in summer and arrive early.
 - **Sun and shoes.** Hvar is genuinely the sunniest spot in the country; bring a hat, water and water shoes for the rocky coves.
 
 ## Plan the rest of your trip
 
-Hvar is best enjoyed as part of a wider Dalmatian loop. Pair it with [Split](/cities/split-travel-guide/) just across the channel, the southern showpiece of [Dubrovnik](/cities/dubrovnik-travel-guide/), and the islands and coast in between on our [Dalmatia route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/). For timing and budgets, see [the best time to visit Croatia](/planning/) and [is Croatia expensive?](/planning/croatia-trip-cost/). The [cities hub](/cities/) collects our other Croatian city and island guides.
+Hvar is best enjoyed as part of a wider Dalmatian loop. Pair it with [Split](/cities/split-travel-guide/) just across the channel, the southern showpiece of [Dubrovnik](/cities/dubrovnik-travel-guide/), and the islands and coast in between on our [Dalmatia route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/). For timing and budgets, see [the best time to visit Croatia](/planning/best-time-to-visit-croatia/) and [is Croatia expensive?](/planning/croatia-trip-cost/). The [cities hub](/cities/) collects our other Croatian city and island guides.
 
 _Ferry timetables, opening hours and ticket prices change with the season — confirm current details with the official sources above before you go._

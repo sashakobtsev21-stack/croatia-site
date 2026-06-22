@@ -176,7 +176,7 @@ Split's food is **Dalmatian** — grilled fish, olive oil, Pelješac and island 
 
 ## Practical tips
 
-- **When to go.** July and August are hot, busy and dearest; **late May–June and September** give warm sea, long days and thinner crowds. See [the best time to visit Croatia](/planning/) for the month-by-month picture.
+- **When to go.** July and August are hot, busy and dearest; **late May–June and September** give warm sea, long days and thinner crowds. See [the best time to visit Croatia](/planning/best-time-to-visit-croatia/) for the month-by-month picture.
 - **Money.** Croatia uses the **euro (€)**. Cards are widely accepted, but carry some cash for markets, small cafés and boat tickets. For daily budgets, see [is Croatia expensive?](/planning/croatia-trip-cost/).
 - **Ferries.** Book popular island crossings ahead in summer and arrive early for **car ferries**; foot passengers usually board faster. Confirm times with Jadrolinija.
 - **Getting around.** The old town is pedestrian and the palace lanes are slippery stone — wear proper shoes. The airport, ferry, bus and train are all close together, so plan onward connections in advance.

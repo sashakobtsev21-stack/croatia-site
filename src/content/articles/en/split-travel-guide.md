@@ -131,7 +131,7 @@ Split is the busiest **ferry hub** on the Croatian coast, which makes it the bes
 <figcaption>Hvar Town, about an hour from Split by catamaran — the glamorous heart of the island, with a 16th-century harbour and the Pakleni islets offshore. <span class="figure__credit">Photo: Alex Proimos / Wikimedia Commons, CC BY 2.0</span></figcaption>
 </figure>
 
-**Brač** is the closest and easiest island: the Supetar crossing is short and frequent, and from there it is a short hop to **Bol** and its celebrated **Zlatni Rat** ("Golden Horn") beach, a tongue of shingle that visibly changes shape with the wind and current. **Hvar** is the glamour island — a catamaran takes you straight to the marble harbour of Hvar Town, with its hilltop fortress, lavender fields and the **Pakleni Islands** for swimming. Further out, **Vis** rewards the longer crossing with the quietest beaches and the famous **Blue Cave** on neighbouring Biševo.
+**Brač** is the closest and easiest island: the Supetar crossing is short and frequent, and from there it is a short hop to **Bol** and its celebrated **Zlatni Rat** ("Golden Horn") beach, a tongue of shingle that visibly changes shape with the wind and current. [**Hvar**](/cities/hvar-travel-guide/) is the glamour island — a catamaran takes you straight to the marble harbour of Hvar Town, with its hilltop fortress, lavender fields and the **Pakleni Islands** for swimming. Further out, **Vis** rewards the longer crossing with the quietest beaches and the famous **Blue Cave** on neighbouring Biševo.
 
 <figure class="figure">
 <img src="/images/split-travel-guide/zlatni-rat.webp" alt="The Zlatni Rat beach near Bol on Brač island, a golden spit reaching into turquoise sea" width="1280" height="719" loading="lazy" decoding="async" />

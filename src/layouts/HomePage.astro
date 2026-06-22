@@ -195,27 +195,38 @@ const showcaseRestaurants = await getCollectionSafe(
   'restaurants',
   (entry) => entry.data.lang === lang && entry.data.draft !== true,
 );
-// Заведения перемешаны со статьями/маршрутами (не подряд) — решение владельца.
-const showcasePicks = [
-  { kind: 'article', category: 'cities', slug: 'zagreb', kicker: 'city' },
-  { kind: 'restaurant', slug: 'demo-restaurant-split', edaSlug: 'gde-poest-split', kicker: 'food' },
-  { kind: 'route', slug: 'split-dubrovnik', kicker: 'route' },
-  // Place-карточка витрины (поповер: адрес/часы/сайт) со знаком качества — по запросу владельца.
-  {
-    kind: 'article',
-    category: 'entertainment',
-    slug: 'nightlife-split',
-    kicker: 'nightlife',
-    quality: true,
-    place: true,
-    cardTitle: 'Split nightlife',
-  },
-  { kind: 'article', category: 'attractions', slug: 'plitvice', kicker: 'sight' },
-  { kind: 'restaurant', slug: 'demo-restaurant-dubrovnik', edaSlug: 'gde-poest-dubrovnik', kicker: 'food' },
-  { kind: 'article', category: 'food', slug: 'chto-poprobovat', kicker: 'food' },
-  { kind: 'route', slug: 'istria-road-trip', kicker: 'route' },
-  { kind: 'article', category: 'cities', slug: 'dubrovnik', kicker: 'city' },
-] as const;
+// Витрина наполняется только ОПУБЛИКОВАННЫМ контентом (CLAUDE правило 4): сейчас
+// это две статьи-города (category=cities). Заведения/маршруты/прочие статьи появятся
+// здесь по мере публикации — пики с отсутствующим контентом тихо пропускаются ниже.
+// Тип — общий union (article/restaurant/route), чтобы ветки рендера ниже оставались
+// валидными и принимали будущие пики (рестораны/маршруты/place) без правок цикла.
+type ShowcasePick =
+  | {
+      kind: 'article';
+      category: SectionKey;
+      slug: string;
+      kicker: keyof typeof dict.home.showcase.kickers;
+      city?: string;
+      quality?: boolean;
+      place?: boolean;
+      cardTitle?: string;
+      mapUrl?: string;
+    }
+  | {
+      kind: 'restaurant';
+      slug: string;
+      edaSlug: string;
+      kicker: keyof typeof dict.home.showcase.kickers;
+    }
+  | {
+      kind: 'route';
+      slug: string;
+      kicker: keyof typeof dict.home.showcase.kickers;
+    };
+const showcasePicks: ShowcasePick[] = [
+  { kind: 'article', category: 'cities', slug: 'zagreb-travel-guide', kicker: 'city', city: 'Zagreb' },
+  { kind: 'article', category: 'cities', slug: 'dubrovnik-travel-guide', kicker: 'city', city: 'Dubrovnik' },
+];
 const showcaseItems: ShowcaseItem[] = [];
 for (const pick of showcasePicks) {
   if (pick.kind === 'restaurant') {
@@ -285,6 +296,10 @@ for (const pick of showcasePicks) {
     });
     continue;
   }
+  // Пин-чип города. Латинские названия городов локализуем для ru-витрины
+  // (карта CITY_RU), чтобы чип не выпадал из языка страницы; нет в карте → как есть.
+  const CITY_RU: Record<string, string> = { Zagreb: 'Загреб', Dubrovnik: 'Дубровник' };
+  const cityLabel = p.city && lang === 'ru' ? (CITY_RU[p.city] ?? p.city) : p.city;
   showcaseItems.push({
     href: articleHref(lang, category, entry.data.slug),
     title: entry.data.title,
@@ -292,10 +307,9 @@ for (const pick of showcasePicks) {
     kicker: dict.home.showcase.kickers[pick.kicker],
     // Знак качества на карточке-статье — только по запросу владельца (Teatro).
     quality: p.quality === true,
-    // Опознавательный пин-чип города (для заведений). Задаётся явно у pick:
-    // напр. { kind:'article', category:'food', slug:'…', kicker:'food', city:'Загреб' }.
-    // У текущих контентных карточек (города/маршруты) не задан → чип не рисуется.
-    city: p.city,
+    // Опознавательный пин-чип города. Задаётся явно у pick:
+    // напр. { kind:'article', category:'cities', slug:'…', kicker:'city', city:'Zagreb' }.
+    city: cityLabel,
   });
 }
 // Открытое рекламное место («Разместите своё заведение») убрано с витрины по

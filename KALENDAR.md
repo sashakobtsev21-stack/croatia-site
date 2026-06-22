@@ -9,7 +9,7 @@
 - Пн 29.06 — 📊 Замер GA/GSC (baseline стартового пакета: индексация, первые показы)
 
 ## Неделя 2 (01–07.07) — Стартовое ядро: ещё 2 города + ядро воронки itinerary
-- Ср 01.07 — [Статья] Things to Do in Split, Croatia: Diocletian's Palace & Beyond · `things to do in split croatia` · /split-travel-guide/ · категория cities · фото ≥10 · 💰 туры + отели · перелинк: day-trips-from-split, 10-day itinerary
+- [x] Ср 01.07 — [Статья] Things to Do in Split, Croatia: Diocletian's Palace & Beyond · `things to do in split croatia` · /split-travel-guide/ · категория cities · фото ≥10 · 💰 туры + отели · перелинк: day-trips-from-split, 10-day itinerary — ✅ опубликовано 2026-06-22 (en/ru, en ~1707 слов, 12 фото CC с Wikimedia webp ≤200КБ, qa=GO; AffiliateBox trip-hotels+trip-tours; добавлен 3-м пиком в showcasePicks главной; перелинк на Загреб + Дубровник + свежую новость о паромах Сплита + хабы /transport/ /car-rental/ /planning/ /routes/ /food/, заменить на статьи day-trips/ferry/itinerary по выходе)
 - Пт 03.07 — [Статья] Rovinj, Croatia: Top Things to Do in Istria's Prettiest Town · `things to do in rovinj` · /rovinj-travel-guide/ · категория cities · фото ≥10 · 💰 отели + туры · перелинк: istria-travel-guide (будущая), pula-travel-guide (будущая)
 - Вс 05.07 — [Маршрут] The Perfect 7-Day Croatia Itinerary for First-Timers (2026) · `7 day croatia itinerary` · /7-day-croatia-itinerary/ · категория routes · фото каждой остановки · 💰 аренда авто + отели · перелинк: zagreb/dubrovnik/split guides, best-time-to-visit
 - Пн 06.07 — 📊 Замер GA/GSC (что растёт в GSC по itinerary-кластеру → решаем, какой хаб достраивать)

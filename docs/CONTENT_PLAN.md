@@ -25,36 +25,36 @@
 
 | # | Slug (EN) | Целевой EN-запрос | Тип | Кат. | Деньги | Факты | P |
 |---|---|---|---|---|---|---|---|
-| 1 | `croatia-digital-nomad-visa` | croatia digital nomad visa | YMYL/MONEY | relokatsiya | SafetyWing (рекуррент), лид-ген юрфирмы | CA §2 (18 мес, €3 622,50/мес, 0% НДФЛ; сверить mup.gov.hr) | **P0** |
-| 2 | `cost-of-living-croatia` | cost of living in croatia | MONEY | relokatsiya | Wise, eSIM, страховка | CA §3 (Numbeo: Split €1700–1950 и т.п. — пометить [ОЦЕНКА]) | **P0** |
-| 3 | `croatia-taxes-for-foreigners` | croatia taxes for foreigners | YMYL/MONEY | relokatsiya | лид-ген, Wise | CA §2 (CIT 10/18%, НДФЛ-коридоры, НДС 25%; сверить PwC) | **P0** |
-| 4 | `register-company-croatia` | register company in croatia / open d.o.o. | YMYL/MONEY | relokatsiya | лид-ген (€500–2000 чек), Wise | CA §2 + сверить (капитал d.o.o./j.d.o.o. — data_gap) | **P0** |
-| 5 | `car-rental-croatia` | car rental in croatia | MONEY | arenda-avto | **DiscoverCars** (cookie 365 дн) + Localrent (СНГ) | CA §6 (покрытие ZAG/SPU/DBV) | **P0** |
-| 6 | `croatia-travel-insurance` | croatia travel insurance | MONEY | strahovka | SafetyWing (EN) / EKTA (СНГ/UA) | CA §2 (EU/Шенген: €30k для визы; не обяз. безвизовым) | **P0** |
-| 7 | `living-in-split` | living in split (croatia) | MONEY | relokatsiya/goroda | Wise, недвижимость | CA §3 + личный опыт/бриф (моат!) | **P0** |
-| 8 | `esim-croatia` | best esim for croatia | MONEY | arenda-avto/relokatsiya | **Airalo** / Saily | CA §6 | P0/P1 |
+| 1 | `croatia-digital-nomad-visa` | croatia digital nomad visa | YMYL/MONEY | relocation | SafetyWing (рекуррент), лид-ген юрфирмы | CA §2 (18 мес, €3 622,50/мес, 0% НДФЛ; сверить mup.gov.hr) | **P0** |
+| 2 | `cost-of-living-croatia` | cost of living in croatia | MONEY | relocation | Wise, eSIM, страховка | CA §3 (Numbeo: Split €1700–1950 и т.п. — пометить [ОЦЕНКА]) | **P0** |
+| 3 | `croatia-taxes-for-foreigners` | croatia taxes for foreigners | YMYL/MONEY | relocation | лид-ген, Wise | CA §2 (CIT 10/18%, НДФЛ-коридоры, НДС 25%; сверить PwC) | **P0** |
+| 4 | `register-company-croatia` | register company in croatia / open d.o.o. | YMYL/MONEY | relocation | лид-ген (€500–2000 чек), Wise | CA §2 + сверить (капитал d.o.o./j.d.o.o. — data_gap) | **P0** |
+| 5 | `car-rental-croatia` | car rental in croatia | MONEY | car-rental | **DiscoverCars** (cookie 365 дн) + Localrent (СНГ) | CA §6 (покрытие ZAG/SPU/DBV) | **P0** |
+| 6 | `croatia-travel-insurance` | croatia travel insurance | MONEY | insurance | SafetyWing (EN) / EKTA (СНГ/UA) | CA §2 (EU/Шенген: €30k для визы; не обяз. безвизовым) | **P0** |
+| 7 | `living-in-split` | living in split (croatia) | MONEY | relocation/cities | Wise, недвижимость | CA §3 + личный опыт/бриф (моат!) | **P0** |
+| 8 | `esim-croatia` | best esim for croatia | MONEY | car-rental/relocation | **Airalo** / Saily | CA §6 | P0/P1 |
 
 ## Волна P1 — планирование (верх воронки, ведёт вниз) + опора городов
 
 | # | Slug | Запрос | Тип | Кат. | Деньги | Факты | P |
 |---|---|---|---|---|---|---|---|
-| 9 | `croatia-travel-guide` | croatia travel guide / is croatia worth visiting | TRAFFIC | planirovanie | ведёт на MONEY | CA §4 | P1 |
-| 10 | `etias-ees-croatia` | croatia etias / entry requirements | YMYL/TRAFFIC | planirovanie | — | CA §2 (ETIAS Q4 2026 €20; EES 10.04.2026 — сверить EC) | P1 |
-| 11 | `best-time-to-visit-croatia` | best time to visit croatia | TRAFFIC | planirovanie | — | CA §4 (сезонность Q3) | P1 |
-| 12 | `living-in-zagreb` | living in zagreb | MONEY | relokatsiya/goroda | Wise | CA §3 + бриф | P1 |
-| 13 | `croatia-residence-permit` | croatia residence permit / boravak | YMYL/MONEY | relokatsiya | лид-ген | CA §2 (сверить mup.gov.hr) | P1 |
+| 9 | `croatia-travel-guide` | croatia travel guide / is croatia worth visiting | TRAFFIC | planning | ведёт на MONEY | CA §4 | P1 |
+| 10 | `etias-ees-croatia` | croatia etias / entry requirements | YMYL/TRAFFIC | planning | — | CA §2 (ETIAS Q4 2026 €20; EES 10.04.2026 — сверить EC) | P1 |
+| 11 | `best-time-to-visit-croatia` | best time to visit croatia | TRAFFIC | planning | — | CA §4 (сезонность Q3) | P1 |
+| 12 | `living-in-zagreb` | living in zagreb | MONEY | relocation/cities | Wise | CA §3 + бриф | P1 |
+| 13 | `croatia-residence-permit` | croatia residence permit / boravak | YMYL/MONEY | relocation | лид-ген | CA §2 (сверить mup.gov.hr) | P1 |
 | 14 | `getting-around-croatia` | getting around croatia (ferries/transport) | TRAFFIC→MONEY | transport | аренда авто, Aviasales | CA §1/§4 (паромы, аэропорты) | P1 |
 
 ## Волна P2 — глубокий travel-хвост (НЕ голова выдачи; ниша/глубина/личный опыт)
 
 | # | Slug | Запрос | Тип | Кат. | Деньги | Факты | P |
 |---|---|---|---|---|---|---|---|
-| 15 | `plitvice-lakes-guide` | plitvice lakes practical guide | TRAFFIC | dostoprimechatelnosti | GetYourGuide/Viator, авто | CA §1 + бриф/визит | P2 |
-| 16 | `split-dubrovnik-road-trip` | croatia road trip itinerary | TRAFFIC→MONEY | marshruty | **DiscoverCars** + отели | CA §1/§5 | P2 |
-| 17 | `dubrovnik-guide` | dubrovnik travel guide | TRAFFIC | goroda | Booking, туры | CA §1 + бриф | P2 |
-| 18 | `istria-road-trip` | istria itinerary | TRAFFIC→MONEY | marshruty | DiscoverCars | CA §1 | P2 |
-| 19 | `what-to-eat-in-croatia` | croatian food / what to eat | TRAFFIC | eda | директория ресторанов | CA §5 + бриф | P2 |
-| 20 | `yacht-charter-croatia` | croatia yacht charter | MONEY | razvlecheniya/marshruty | чартер яхт (крупная HR-ниша) | CA §6 (сверить программы) | P2 |
+| 15 | `plitvice-lakes-guide` | plitvice lakes practical guide | TRAFFIC | attractions | GetYourGuide/Viator, авто | CA §1 + бриф/визит | P2 |
+| 16 | `split-dubrovnik-road-trip` | croatia road trip itinerary | TRAFFIC→MONEY | routes | **DiscoverCars** + отели | CA §1/§5 | P2 |
+| 17 | `dubrovnik-guide` | dubrovnik travel guide | TRAFFIC | cities | Booking, туры | CA §1 + бриф | P2 |
+| 18 | `istria-road-trip` | istria itinerary | TRAFFIC→MONEY | routes | DiscoverCars | CA §1 | P2 |
+| 19 | `what-to-eat-in-croatia` | croatian food / what to eat | TRAFFIC | food | директория ресторанов | CA §5 + бриф | P2 |
+| 20 | `yacht-charter-croatia` | croatia yacht charter | MONEY | entertainment/routes | чартер яхт (крупная HR-ниша) | CA §6 (сверить программы) | P2 |
 
 ---
 

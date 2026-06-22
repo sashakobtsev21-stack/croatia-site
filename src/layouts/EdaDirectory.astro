@@ -1,7 +1,7 @@
 ---
 /**
  * EdaDirectory (§8.6) — директория «Где поесть».
- * Один компонент для ru (`/eda/`) и uk (`/uk/eda/`) — язык приходит пропсом,
+ * Один компонент для ru (`/food/`) и uk (`/uk/food/`) — язык приходит пропсом,
  * весь текст из словарей (§12). Данные — из коллекции `restaurants` (§11),
  * фильтр по lang + не draft.
  *
@@ -62,14 +62,14 @@ const places = await getCollectionSafe(
 const articlesAll = await getCollectionSafe('articles', (entry) => entry.data.draft !== true);
 const hasCuisineIn = (lg: Lang): boolean =>
   articlesAll.some(
-    (e) => e.data.lang === lg && e.data.category === 'eda' && e.data.slug === 'chto-poprobovat',
+    (e) => e.data.lang === lg && e.data.category === 'food' && e.data.slug === 'chto-poprobovat',
   );
 // Ссылку «Что попробовать» показываем ТОЛЬКО если статья существует (в текущем или дефолтном
 // языке, фолбэк §12) — иначе была бы битая ссылка на ещё ненаписанную статью (гейт links).
 const cuisineHref: string | null = hasCuisineIn(lang)
-  ? articleHref(lang, 'eda', 'chto-poprobovat')
+  ? articleHref(lang, 'food', 'chto-poprobovat')
   : hasCuisineIn(DEFAULT_LANG)
-    ? articleHref(DEFAULT_LANG, 'eda', 'chto-poprobovat')
+    ? articleHref(DEFAULT_LANG, 'food', 'chto-poprobovat')
     : null;
 
 /**
@@ -222,7 +222,7 @@ const breadcrumbLd = {
     {
       '@type': 'ListItem',
       position: 2,
-      name: dict.nav.eda,
+      name: dict.nav.food,
       item: pageUrl,
     },
   ],
@@ -244,7 +244,7 @@ const breadcrumbLd = {
       <nav class="crumbs" aria-label={dict.breadcrumbs.aria}>
         <a href={sectionHref(lang, 'home')}>{dict.eda.breadcrumbHome}</a>
         <span class="crumbs__sep" aria-hidden="true">/</span>
-        <span aria-current="page">{dict.nav.eda}</span>
+        <span aria-current="page">{dict.nav.food}</span>
       </nav>
 
       <header class="head" data-reveal>
@@ -266,7 +266,7 @@ const breadcrumbLd = {
           {
             EDA_CITY_PAGES.map((c) => (
               <li>
-                <a class="cities__link" href={articleHref(lang, 'eda', c.slug)}>
+                <a class="cities__link" href={articleHref(lang, 'food', c.slug)}>
                   {dict.eda.cityPages.items[c.key].cityName}
                   <Icon name="arrow-right" size={14} />
                 </a>

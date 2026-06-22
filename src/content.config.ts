@@ -17,24 +17,24 @@ import { contentGlob } from './loaders/contentGlob';
 const LANGS = ['ru', 'uk', 'en'] as const;
 
 const CATEGORIES = [
-  'dostoprimechatelnosti',
-  'goroda',
-  'eda',
-  'razvlecheniya',
-  'marshruty',
+  'attractions',
+  'cities',
+  'food',
+  'entertainment',
+  'routes',
   'transport',
-  'arenda-avto',
-  'relokatsiya',
-  'strahovka',
-  'novosti',
-  'planirovanie',
+  'car-rental',
+  'relocation',
+  'insurance',
+  'news',
+  'planning',
 ] as const;
 
 /** Уровни цен для директории «Где поесть» (§8.6, §11). */
 const PRICE_LEVELS = ['€', '€€', '€€€'] as const;
 
 /**
- * Язык-нейтральные ключи кухни для фильтра /eda/ (аудит 2026-06-20). Чип
+ * Язык-нейтральные ключи кухни для фильтра /food/ (аудит 2026-06-20). Чип
  * локализуется (i18n eda.cuisineKeys ↔ CUISINE_KEY_SLUGS, см. check-enums);
  * карточка по-прежнему показывает полную строку `cuisine`.
  */
@@ -52,7 +52,7 @@ const CUISINE_KEYS = [
 
 /**
  * Тип достопримечательности (§8.3 «что посмотреть»). Используется ТОЛЬКО
- * статьями категории `dostoprimechatelnosti` — для фильтра/чипов каталога.
+ * статьями категории `attractions` — для фильтра/чипов каталога.
  * Опционально, на контракт прочих категорий не влияет (§23). Слаги ↔ ru/uk
  * лейблы в i18n (`attractionTypes`); набор финализирован: 7 типов.
  */
@@ -87,7 +87,7 @@ const REGIONS = [
 
 /**
  * Подкатегория раздела «Развлечения» (§7, решение владельца 2026-06-16).
- * Используется только статьями категории `razvlecheniya` — фильтр/чипы хаба.
+ * Используется только статьями категории `entertainment` — фильтр/чипы хаба.
  * Опционально. Слаги ↔ ru/uk лейблы в i18n (`razvlTypes`). 5 подкатегорий.
  */
 const RAZVL_TYPES = [
@@ -99,7 +99,7 @@ const RAZVL_TYPES = [
 ] as const;
 
 /**
- * Рубрика директории «Услуги» (§7, под-раздел /relokatsiya/uslugi/) — сервисы
+ * Рубрика директории «Услуги» (§7, под-раздел /relocation/services/) — сервисы
  * для живущих в Хорватии (риелторы, клининг и т.п.). Слаги ↔ ru/uk лейблы в i18n
  * (`serviceRubrics`).
  */
@@ -181,7 +181,7 @@ const articleBase = z.object({
   instagram: z.string().optional(),
   /**
    * Тип достопримечательности (§8.3) — фильтр/чип каталога «что посмотреть».
-   * Опционально: задаётся только статьями категории `dostoprimechatelnosti`,
+   * Опционально: задаётся только статьями категории `attractions`,
    * у прочих категорий не используется и контракт API (§23) не меняет.
    */
   attractionType: z.enum(ATTRACTION_TYPES).optional(),
@@ -191,8 +191,8 @@ const articleBase = z.object({
    */
   region: z.enum(REGIONS).optional(),
   /**
-   * Подкатегория «Развлечений» (§7) — фильтр/чип хаба /razvlecheniya/.
-   * Опционально: задаётся только статьями категории `razvlecheniya`. Мирроринг
+   * Подкатегория «Развлечений» (§7) — фильтр/чип хаба /entertainment/.
+   * Опционально: задаётся только статьями категории `entertainment`. Мирроринг
    * attractionType; контракт прочих категорий и API (§23) не меняет.
    */
   razvlType: z.enum(RAZVL_TYPES).optional(),
@@ -304,7 +304,7 @@ const articles = defineCollection({
 const routes = defineCollection({
   loader: contentGlob({ pattern: '**/*.{md,mdx}', base: './src/content/routes' }),
   schema: articleBase.extend({
-    category: z.literal('marshruty'),
+    category: z.literal('routes'),
     /**
      * Маршрут всегда с обложкой: переопределяем опциональный cover базы (§11) на
      * обязательный — карточка маршрута и OG-картинка без фото не имеют смысла, а
@@ -476,7 +476,7 @@ const restaurants = defineCollection({
 });
 
 /**
- * Директория «Услуги» (§7, под-раздел /relokatsiya/uslugi/) — сервисы для
+ * Директория «Услуги» (§7, под-раздел /relocation/services/) — сервисы для
  * живущих в Хорватии (риелторы, клининг, переезд и т.п.). Платное размещение —
  * `sponsored` (золотая рамка как единственный маркёр, решение владельца
  * 2026-06-16). Контакты/цены не выдумывать (правило 4); пустая коллекция

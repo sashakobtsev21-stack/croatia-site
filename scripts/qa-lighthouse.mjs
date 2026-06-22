@@ -25,10 +25,10 @@ const DIST = 'dist';
 // Репрезентативный срез шаблонов (не все 294 страницы — это долго):
 const PAGES = [
   ['/', 'главная (hero, витрина)'],
-  ['/relokatsiya/croatia-digital-nomad-visa/', 'статья (фигуры, фото, интерлинки)'],
-  ['/relokatsiya/', 'хаб релокации'],
-  ['/eda/', 'директория «Где поесть» (фильтры)'],
-  ['/marshruty/', 'хаб маршрутов'],
+  ['/relocation/croatia-digital-nomad-visa/', 'статья (фигуры, фото, интерлинки)'],
+  ['/relocation/', 'хаб релокации'],
+  ['/food/', 'директория «Где поесть» (фильтры)'],
+  ['/routes/', 'хаб маршрутов'],
 ];
 const HARD = ['accessibility', 'seo', 'best-practices'];
 const THRESHOLD = 90;

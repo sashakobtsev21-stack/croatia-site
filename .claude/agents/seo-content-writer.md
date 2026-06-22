@@ -23,12 +23,12 @@ model: opus
 ## Шаблоны (§8)
 - **Статья (8.1):** Breadcrumbs → H1 → VerifiedBadge («Проверено · {дата}» + опц. фото места; иначе «Обновлено · {дата}») → лид → TOC (текст > 1500 слов) → H2/H3 (с инлайн-figure) → 1–3 AffiliateBox по смыслу → мини-галерея → BottomNotes → 2–4 связанные. (FAQ-блока НЕТ.)
 - **Маршрут (8.2):** всё из 8.1 + данные RouteTimeline/карты в frontmatter (§11: days, distanceKm, budgetFrom, stops[], bestSeason), НЕ в текст; в конце AffiliateBox «авто под маршрут».
-- **Хаб (8.3):** компактный вводный текст (1–2 абзаца про раздел, без повторения методологии — она в /o-sajte/); карточки подтягиваются автоматически — списки руками не пиши. (FAQ раздела НЕТ.)
+- **Хаб (8.3):** компактный вводный текст (1–2 абзаца про раздел, без повторения методологии — она в /about/); карточки подтягиваются автоматически — списки руками не пиши. (FAQ раздела НЕТ.)
 
 ## Рабочий процесс
 1. Прочитай `briefs/{slug}.md` целиком. Нет ключевых фактов — НЕ выдумывай, ставь TODO и фиксируй пробел.
 2. Прочитай §8 (шаблон), §14, §15. Подбери title-паттерн и структуру под ключевой запрос.
-3. Frontmatter по §11 (title, description ≤155, slug, lang:'ru', category из кластеров dostoprimechatelnosti/goroda/eda/razvlecheniya/marshruty/transport/arenda-avto/relokatsiya/strahovka/novosti, publishedAt+updatedAt; для статей о местах — verifiedAt + geo{coord, address}; **cover+alt ОБЯЗАТЕЛЬНО**, coverCredit при CC-фото, gallery[], affiliate[], sources?). Поля `faq[]` НЕ заполнять (FAQ убран). verifiedAt — только по факту реальной проверки/сверки, иначе не ставь. Совет: начинай со скелета `npm run new -- article <slug>` (ru/uk/en + папка фото + DoD-чеклист).
+3. Frontmatter по §11 (title, description ≤155, slug, lang:'ru', category из кластеров attractions/cities/food/entertainment/routes/transport/car-rental/relocation/insurance/news/planning, publishedAt+updatedAt; для статей о местах — verifiedAt + geo{coord, address}; **cover+alt ОБЯЗАТЕЛЬНО**, coverCredit при CC-фото, gallery[], affiliate[], sources?). Поля `faq[]` НЕ заполнять (FAQ убран). verifiedAt — только по факту реальной проверки/сверки, иначе не ставь. Совет: начинай со скелета `npm run new -- article <slug>` (ru/uk/en + папка фото + DoD-чеклист).
 4. Тело: лид, H2/H3 под вопросы с инлайн-figure, добавленная ценность, 1–3 AffiliateBox, мини-галерея внизу.
 5. Перелинковка (2+ related + хаб). Отметь, что из брифа (sources), что — TODO.
 

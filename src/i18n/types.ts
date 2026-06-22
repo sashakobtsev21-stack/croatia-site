@@ -10,19 +10,19 @@ export const DEFAULT_LANG: Lang = 'en';
 /** Разделы IA (§7). `home` — это `/`, остальные совпадают с категориями коллекций. */
 export type SectionKey =
   | 'home'
-  | 'dostoprimechatelnosti'
-  | 'goroda'
-  | 'eda'
-  | 'razvlecheniya'
-  | 'marshruty'
+  | 'attractions'
+  | 'cities'
+  | 'food'
+  | 'entertainment'
+  | 'routes'
   | 'transport'
-  | 'arenda-avto'
-  | 'strahovka'
-  | 'novosti'
-  | 'relokatsiya'
-  | 'planirovanie'
-  | 'o-sajte'
-  | 'kontakty';
+  | 'car-rental'
+  | 'insurance'
+  | 'news'
+  | 'relocation'
+  | 'planning'
+  | 'about'
+  | 'contact';
 
 /**
  * Контентные разделы, которые получают шаблон Хаба (§8.3). Совпадают с
@@ -30,15 +30,15 @@ export type SectionKey =
  * шаблон-директория (§8.6, EdaDirectory).
  */
 export type HubSectionKey =
-  | 'dostoprimechatelnosti'
-  | 'goroda'
-  | 'razvlecheniya'
-  | 'marshruty'
+  | 'attractions'
+  | 'cities'
+  | 'entertainment'
+  | 'routes'
   | 'transport'
-  | 'arenda-avto'
-  | 'strahovka'
-  | 'novosti'
-  | 'planirovanie';
+  | 'car-rental'
+  | 'insurance'
+  | 'news'
+  | 'planning';
 
 /** Вводный текст конкретного хаба (§8.3). */
 export interface HubSectionContent {
@@ -64,7 +64,7 @@ export type AttractionTypeSlug = (typeof ATTRACTION_TYPE_SLUGS)[number];
 
 /**
  * Ключи per-city страниц «Где поесть в {городе}» (§8.6). Слаги URL и слаги
- * городов (/goroda/) задаются в EDA_CITY_PAGES (i18n/index.ts); локализованные
+ * городов (/cities/) задаются в EDA_CITY_PAGES (i18n/index.ts); локализованные
  * названия и тексты — в словарях (`eda.cityPages.items`).
  */
 export const EDA_CITY_KEYS = ['zagreb', 'split', 'dubrovnik'] as const;
@@ -108,7 +108,7 @@ export const SERVICE_RUBRIC_SLUGS = [
 ] as const;
 export type ServiceRubricSlug = (typeof SERVICE_RUBRIC_SLUGS)[number];
 
-/** Язык-нейтральные ключи кухни /eda/ ↔ enum CUISINE_KEYS в content.config (check-enums). */
+/** Язык-нейтральные ключи кухни /food/ ↔ enum CUISINE_KEYS в content.config (check-enums). */
 export const CUISINE_KEY_SLUGS = [
   'croatian',
   'seafood',
@@ -206,11 +206,11 @@ export interface UIDictionary {
     /** Блок «5 главных плиток входа». */
     entriesHeading: string;
     tiles: {
-      dostoprimechatelnosti: string;
-      goroda: string;
-      eda: string;
-      razvlecheniya: string;
-      marshruty: string;
+      attractions: string;
+      cities: string;
+      food: string;
+      entertainment: string;
+      routes: string;
     };
     /** Витрина партнёров (золотая лента-карусель, §8.4/§16). */
     showcase: {
@@ -254,7 +254,7 @@ export interface UIDictionary {
     sectionsHeading: string;
     freshHeading: string;
     freshEmpty: string;
-    /** Блок «О проекте» (нейтральный, со ссылкой на /o-sajte/). */
+    /** Блок «О проекте» (нейтральный, со ссылкой на /about/). */
     about: {
       heading: string;
       text: string;
@@ -262,7 +262,7 @@ export interface UIDictionary {
     };
   };
   /** Кнопки (общие подписи). */
-  /** Блок «Новости»: лента на главной (NewsStrip) + раздел /novosti/ (§8.4/§8). */
+  /** Блок «Новости»: лента на главной (NewsStrip) + раздел /news/ (§8.4/§8). */
   newsFeed: {
     recentHeading: string;
     all: string;
@@ -438,7 +438,7 @@ export interface UIDictionary {
   };
   /**
    * Копирайт AffiliateBox для хабов с партнёрами (§8.3, §16).
-   * Partial: только для трёх хабов с партнёрками (arenda-avto, transport, goroda);
+   * Partial: только для трёх хабов с партнёрками (car-rental, transport, cities);
    * остальные хабы не имеют этого поля — render guard проверяет наличие.
    */
   hubAffiliate: Partial<Record<HubSectionKey, { title: string; note: string }>>;
@@ -456,7 +456,7 @@ export interface UIDictionary {
     feedback: {
       heading: string;
       text: string;
-      /** Подпись ссылки на /kontakty/. */
+      /** Подпись ссылки на /contact/. */
       link: string;
     };
   };
@@ -563,7 +563,7 @@ export interface UIDictionary {
     heading: string;
     breadcrumb: string;
     intro: string[];
-    /** CTA-карточка на под-директорию услуг (/relokatsiya/uslugi/). */
+    /** CTA-карточка на под-директорию услуг (/relocation/services/). */
     uslugi: { heading: string; text: string; cta: string };
     /** ISO-дата «момента проверки» для бейджа «Обновлено · {date}». */
     updatedIso: string;
@@ -612,7 +612,7 @@ export interface UIDictionary {
       /** Сброс фильтров. */
       reset: string;
     };
-    /** Локализованные лейблы ключей кухни (фильтр /eda/) по CUISINE_KEY_SLUGS. */
+    /** Локализованные лейблы ключей кухни (фильтр /food/) по CUISINE_KEY_SLUGS. */
     cuisineKeys: Record<CuisineKeySlug, string>;
     /** Подпись-ориентир ценника (для скринридеров/легенды). */
     priceHint: string;
@@ -654,13 +654,13 @@ export interface UIDictionary {
      * перелинковка (вся директория, гид по кухне, путеводитель города).
      */
     cityPages: {
-      /** Заголовок блока ссылок «по городам» на хабе /eda/. */
+      /** Заголовок блока ссылок «по городам» на хабе /food/. */
       navHeading: string;
       /** Заголовок сетки карточек на city-странице. */
       picksHeading: string;
-      /** Ссылка назад на всю директорию /eda/. */
+      /** Ссылка назад на всю директорию /food/. */
       backToAll: string;
-      /** Подпись ссылки на путеводитель города /goroda/{slug}/. */
+      /** Подпись ссылки на путеводитель города /cities/{slug}/. */
       cityGuideLink: string;
       /** Контент по каждому городу (название города = поле `city` коллекции). */
       items: Record<
@@ -682,7 +682,7 @@ export interface UIDictionary {
   serviceRubrics: Record<ServiceRubricSlug, string>;
   /**
    * Хаб «Развлечения» (§7, EntertainmentHub) — фильтр по подкатегории.
-   * Заголовок/интро берутся из nav + hub.sections.razvlecheniya; здесь —
+   * Заголовок/интро берутся из nav + hub.sections.entertainment; здесь —
    * строки фильтра и сетки. Фильтр показывается только при >1 подкатегории.
    */
   entertainment: {
@@ -731,7 +731,7 @@ export interface UIDictionary {
     emptyNoData: string;
   };
   /**
-   * Директория «Услуги» (§7, /relokatsiya/uslugi/) — сервисы для живущих в
+   * Директория «Услуги» (§7, /relocation/services/) — сервисы для живущих в
    * Хорватии. Шаблон-директория (ServicesDirectory) с фильтром по рубрике;
    * платное размещение — золотая рамка (решение владельца 2026-06-16).
    */

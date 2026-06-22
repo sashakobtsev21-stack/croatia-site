@@ -32,19 +32,19 @@ export const en: UIDictionary = {
   },
   nav: {
     home: 'Home',
-    dostoprimechatelnosti: 'What to see',
-    goroda: 'Cities',
-    eda: 'Food',
-    razvlecheniya: 'Entertainment',
-    marshruty: 'Routes',
-    planirovanie: 'Before you go',
+    attractions: 'What to see',
+    cities: 'Cities',
+    food: 'Food',
+    entertainment: 'Entertainment',
+    routes: 'Routes',
+    planning: 'Before you go',
     transport: 'Transport',
-    'arenda-avto': 'Car rental',
-    strahovka: 'Insurance',
-    novosti: 'News',
-    relokatsiya: 'Relocation',
-    'o-sajte': 'About',
-    kontakty: 'Contact',
+    'car-rental': 'Car rental',
+    insurance: 'Insurance',
+    news: 'News',
+    relocation: 'Relocation',
+    about: 'About',
+    contact: 'Contact',
   },
   header: {
     openMenu: 'Open menu',
@@ -87,11 +87,11 @@ export const en: UIDictionary = {
     },
     entriesHeading: 'Where to start',
     tiles: {
-      dostoprimechatelnosti: 'Nature, churches, fortresses, waterfalls, and canyons of Croatia',
-      goroda: 'City guides: what to see, where to eat, how to get around',
-      eda: 'What to try and where to eat honestly — without tourist markups',
-      razvlecheniya: 'Where to go out: clubs and bars, quizzes, beaches, casinos, and parks',
-      marshruty: 'Ready-made road trips: a day-by-day plan, budget, and map',
+      attractions: 'Nature, churches, fortresses, waterfalls, and canyons of Croatia',
+      cities: 'City guides: what to see, where to eat, how to get around',
+      food: 'What to try and where to eat honestly — without tourist markups',
+      entertainment: 'Where to go out: clubs and bars, quizzes, beaches, casinos, and parks',
+      routes: 'Ready-made road trips: a day-by-day plan, budget, and map',
     },
     showcase: {
       heading: 'Croatia showcase',
@@ -149,22 +149,22 @@ export const en: UIDictionary = {
     empty:
       'The first articles in this section are coming soon. We’re preparing vetted guides with up-to-date information.',
     sections: {
-      dostoprimechatelnosti: {
+      attractions: {
         intro: [
           'What to see in Croatia — the Adriatic coast and islands, the waterfalls of Plitvice and Krka, the old towns of Dubrovnik and Split, Istrian hill towns and the national parks. Browse the catalog by type and region and open a card for the details: what to see, how to get there, and when to go.',
         ],
       },
-      goroda: {
+      cities: {
         intro: [
           'City guides across Croatia — Zagreb, Split, Dubrovnik, Rijeka, Zadar and the coastal towns: what to see, where to eat, how to get there and where to stay, with links to nearby routes, food and car rental so your whole trip is in one place.',
         ],
       },
-      razvlecheniya: {
+      entertainment: {
         intro: [
           'Things to do in Croatia beyond the sights — beaches and islands, nightlife, festivals, parks and museums. Each place lists where it is, the price and the opening hours, so a night out or a day trip is easy to plan ahead.',
         ],
       },
-      marshruty: {
+      routes: {
         intro: [
           'Ready-made road trips around Croatia: a day-by-day plan, a budget guideline, key stops and a map. A car opens up the coast, the islands and the national parks; the best season runs from late spring to autumn. The mileage, days and budget in the cards are guidelines, not exact measurements.',
         ],
@@ -174,22 +174,22 @@ export const en: UIDictionary = {
           'Getting around Croatia — airports (Zagreb, Split, Dubrovnik, Zadar, Pula, Rijeka), ferries to the islands, trains, buses and transfers. Practical guides on how to get from point to point and roughly how long it takes; handy to plan together with the Car rental and Routes sections.',
         ],
       },
-      'arenda-avto': {
+      'car-rental': {
         intro: [
           'Car rental in Croatia — where to pick up a car, what it costs, deposits and the catches in the contracts. We break rental down by city and airport and compare international aggregators with local companies; prices are marked with a check date, not passed off as evergreen.',
         ],
       },
-      strahovka: {
+      insurance: {
         intro: [
           'Travel and long-stay insurance for Croatia — which policies actually work for tourists, nomads and relocators, how they differ and what to check when choosing. As an EU and Schengen country, the relevant cover is Schengen travel insurance and nomad or long-stay plans.',
         ],
       },
-      planirovanie: {
+      planning: {
         intro: [
           'Planning a trip to Croatia — entry and Schengen rules, when to go, budget, money (the euro) and insurance. Short, practical answers with links to the sections that cover each topic in depth; regulatory details are dated and link to the official source.',
         ],
       },
-      novosti: {
+      news: {
         intro: [
           'Updates to the guide: newly vetted places, seasonal tips and changes worth knowing before a trip. We keep only what actually affects trip planning, and every entry shows a date so you know how current it is.',
         ],
@@ -506,15 +506,15 @@ export const en: UIDictionary = {
     "lead": "Practical sections of the site that come in handy when relocating to Croatia:",
     "items": [
       {
-        "section": "goroda",
+        "section": "cities",
         "text": "Croatia's cities — where to live and what each is like"
       },
       {
-        "section": "strahovka",
+        "section": "insurance",
         "text": "long-stay and travel medical insurance with coverage abroad"
       },
       {
-        "section": "arenda-avto",
+        "section": "car-rental",
         "text": "car rental: how, where and without overpaying"
       },
       {
@@ -742,7 +742,7 @@ export const en: UIDictionary = {
     copyAria: 'Copy coordinates {coords}',
   },
   hubAffiliate: {
-    'arenda-avto': {
+    'car-rental': {
       title: 'Car rental in Croatia',
       note: 'Compare rental prices on Trip.com.',
     },
@@ -750,11 +750,11 @@ export const en: UIDictionary = {
       title: 'Flights to Croatia',
       note: 'Search flights and fares on Trip.com.',
     },
-    goroda: {
+    cities: {
       title: 'Where to stay',
       note: 'Hotels and apartments across Croatia on Trip.com.',
     },
-    razvlecheniya: {
+    entertainment: {
       title: 'Tours & activities',
       note: 'Find tours and activities across Croatia on Trip.com.',
     },

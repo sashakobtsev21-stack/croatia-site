@@ -5,7 +5,7 @@
 > (mup.gov.hr / porezna-uprava.gov.hr) и проставить видимую дату + дисклеймер.** Где [СВЕРИТЬ] — обязательная
 > проверка; где нет факта — `<!-- TODO: факт от владельца -->`, не выдумывать (CLAUDE правило 4).
 
-- **Тип:** YMYL / MONEY · **Категория:** `relokatsiya` · **Язык-ведущий:** EN (ключи от EN-интента).
+- **Тип:** YMYL / MONEY · **Категория:** `relocation` · **Язык-ведущий:** EN (ключи от EN-интента).
 - **Целевой EN-запрос:** `croatia digital nomad visa` (+ «croatia nomad visa requirements», «croatia nomad visa income»).
 - **Title (≤60):** Croatia Digital Nomad Visa {year}: requirements & how to apply
 - **Description (≤155):** EU + euro + Schengen, up to 18 months and 0% Croatian tax on foreign income — who qualifies, the income threshold, and how to apply.
@@ -34,7 +34,7 @@
 - Лид-ген юрфирм (сопровождение подачи) — если подключим.
 
 ## Внутренние ссылки (≥2, цель ≥4)
-- Хаб `/relokatsiya/` (Релокация) · `cost-of-living-croatia` · `croatia-taxes-for-foreigners` · `croatia-travel-insurance` · `register-company-croatia`.
+- Хаб `/relocation/` (Релокация) · `cost-of-living-croatia` · `croatia-taxes-for-foreigners` · `croatia-travel-insurance` · `register-company-croatia`.
 
 ## Фото (cover + инлайн; ≤200КБ, легально с атрибуцией)
 - Cover: набережная/город (Сплит или Загреб) — можно переиспользовать профиль из hero (с кредитом) ИЛИ новый CC.

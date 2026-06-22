@@ -49,10 +49,10 @@ export {
 };
 
 /**
- * Per-city страницы «Где поесть» (§8.6): ключ → URL-слаг страницы (`/eda/{slug}/`)
- * + слаг города для ссылки на путеводитель `/goroda/{citySlug}/`. Локализованный
+ * Per-city страницы «Где поесть» (§8.6): ключ → URL-слаг страницы (`/food/{slug}/`)
+ * + слаг города для ссылки на путеводитель `/cities/{citySlug}/`. Локализованный
  * контент — в словарях (`eda.cityPages.items[key]`). Порядок = порядок ссылок
- * на хабе /eda/ и в getStaticPaths шаблона CityFoodPage.
+ * на хабе /food/ и в getStaticPaths шаблона CityFoodPage.
  */
 export const EDA_CITY_PAGES = [
   { key: 'zagreb', slug: 'gde-poest-zagreb', citySlug: 'zagreb' },
@@ -73,32 +73,32 @@ export function t(lang: Lang): UIDictionary {
  * Используется в HubPage для условного рендера AffiliateBox.
  */
 export const HUB_AFFILIATE_PARTNER: Partial<Record<HubSectionKey, string>> = {
-  'arenda-avto': 'trip-carhire',
+  'car-rental': 'trip-carhire',
   transport: 'aviasales',
-  goroda: 'trip-hotels',
-  razvlecheniya: 'trip-tours',
+  cities: 'trip-hotels',
+  entertainment: 'trip-tours',
 };
 
-/** Список разделов IA в порядке навигации (§7), кроме `home` и `o-sajte`. */
+/** Список разделов IA в порядке навигации (§7), кроме `home` и `about`. */
 export const SECTION_KEYS: SectionKey[] = [
-  'dostoprimechatelnosti',
-  'goroda',
-  'eda',
-  'razvlecheniya',
-  'marshruty',
-  'planirovanie',
+  'attractions',
+  'cities',
+  'food',
+  'entertainment',
+  'routes',
+  'planning',
   'transport',
-  'arenda-avto',
-  'strahovka',
-  'novosti',
-  'relokatsiya',
+  'car-rental',
+  'insurance',
+  'news',
+  'relocation',
 ];
 
 /** 5 главных плиток входа на главной (§8.4): + «Развлечения» (решение владельца 2026-06-16). */
-export const PRIMARY_TILE_KEYS = ['dostoprimechatelnosti', 'goroda', 'eda', 'razvlecheniya', 'marshruty'] as const;
+export const PRIMARY_TILE_KEYS = ['attractions', 'cities', 'food', 'entertainment', 'routes'] as const;
 
 /** Все разделы для футера и блока «Все разделы» на главной (§8.4): хабы + «О проекте» + «Обратная связь». */
-export const ALL_SECTION_KEYS: SectionKey[] = [...SECTION_KEYS, 'o-sajte', 'kontakty'];
+export const ALL_SECTION_KEYS: SectionKey[] = [...SECTION_KEYS, 'about', 'contact'];
 
 /**
  * Простая подстановка плейсхолдеров вида `{name}` в строку словаря.

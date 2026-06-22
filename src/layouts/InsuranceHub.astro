@@ -1,7 +1,7 @@
 ---
 /**
  * InsuranceHub (§8.3 — выделенный контент-хаб раздела «Страховки»).
- * Главная /strahovka/: действующие правила страховки для въезда в Хорватию +
+ * Главная /insurance/: действующие правила страховки для въезда в Хорватию +
  * описание сервисов покупки. Тема регуляторная, поэтому:
  *  - заметный Callout «Действующие правила» с бейджем «Обновлено · {date}»
  *    (VerifiedBadge variant='updated') и явной оговоркой про актуальность;
@@ -45,7 +45,7 @@ const description = clampDesc(ins.intro[0]);
  */
 const updatedDate = formatDate(new Date(`${ins.updatedIso}T00:00:00Z`), lang);
 
-const rentalHref = sectionHref(lang, 'arenda-avto');
+const rentalHref = sectionHref(lang, 'car-rental');
 /**
  * Мост хаб→подробный гайд-статья (перелинковка §14). Ссылку отдаём ТОЛЬКО если гайд
  * `kak-vybrat-strahovku` реально существует (в текущем или дефолтном языке) — иначе была бы
@@ -55,7 +55,7 @@ const guideArticles = await getCollectionSafe(
   'articles',
   (entry) =>
     entry.data.draft !== true &&
-    entry.data.category === 'strahovka' &&
+    entry.data.category === 'insurance' &&
     entry.data.slug === 'kak-vybrat-strahovku',
 );
 const guideLang = guideArticles.some((e) => e.data.lang === lang)
@@ -64,7 +64,7 @@ const guideLang = guideArticles.some((e) => e.data.lang === lang)
     ? DEFAULT_LANG
     : null;
 const guideHref =
-  guideLang === null ? null : `${sectionHref(guideLang, 'strahovka')}kak-vybrat-strahovku/`;
+  guideLang === null ? null : `${sectionHref(guideLang, 'insurance')}kak-vybrat-strahovku/`;
 ---
 
 <BaseLayout title={pageTitle} description={description} lang={lang}>
@@ -182,7 +182,7 @@ const guideHref =
         <AffiliateBox
           lang={lang}
           partner="safetywing"
-          slug="strahovka"
+          slug="insurance"
           title={ins.affiliate.title}
           label={ins.affiliate.label}
           note={ins.affiliate.note}
@@ -224,7 +224,7 @@ const guideHref =
         </ul>
       </section>
 
-      {/* Как мы отбираем/проверяем + ссылка на /o-sajte/ (E-E-A-T, §9). */}
+      {/* Как мы отбираем/проверяем + ссылка на /about/ (E-E-A-T, §9). */}
       <AboutNote lang={lang} />
 
       {/* Источники (§14): регуляторная тема — первоисточники в подвале страницы. */}

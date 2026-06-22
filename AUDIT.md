@@ -5,6 +5,9 @@
 ## Прогоны
 - **`AUDIT-2026-06-22.md`** — Этап 1, полный тех-аудит. `qa`=GO; `qa:browser`=GO после фикса перелива (M1). Critical/High — нет.
 
+## Миграция URL-слагов (2026-06-22)
+- ✅ Все 13 разделов переведены с русско-транслитных слагов на английские (единая EN-схема сети, эталон — North Macedonia): `/attractions/ /cities/ /food/ /entertainment/ /routes/ /planning/ /transport/ /car-rental/ /insurance/ /relocation/ (+ /relocation/services/) /news/ /about/ /contact/`. Переименованы директории `src/pages` (+ru/uk), enum `CATEGORIES`, i18n (ru/uk/en+types), все внутренние ссылки, frontmatter статьи, `new-content.mjs`/`qa-*`, sitemap-фильтр. 301-редиректы старых путей (root/ru/uk, вложенное `relokatsiya/uslugi → relocation/services` первым) в `public/_redirects`. Контракт-доки (CLAUDE.md, SPEC.md §7/§11/§16) обновлены. Гейты зелёные: `build` 58 стр., `check` 0 ошибок, `test:links` 2765/0 битых, `test`, `lint`.
+
 ## Закрыто (Этап 1, 2026-06-22)
 - ✅ Грузинские следы в доках/инструкциях (SPEC §2/§4/§7/§16, CONTENT_GUIDE, `add-content` SKILL, `en-translator`) — перемоделированы под Хорватию.
 - ✅ Дубль `src/content/services/.gitkeep` (коллекционный) — удалён.

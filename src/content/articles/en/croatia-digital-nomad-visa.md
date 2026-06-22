@@ -4,7 +4,7 @@ yearInTitle: true
 description: 'EU, euro and Schengen, up to 18 months and 0% Croatian tax on foreign income — who qualifies, the income threshold and how to apply.'
 slug: croatia-digital-nomad-visa
 lang: en
-category: relokatsiya
+category: relocation
 publishedAt: 2026-06-21
 updatedAt: 2026-06-21
 verifiedAt: 2026-06-21
@@ -68,8 +68,8 @@ You can apply at a **Croatian embassy/consulate** before you travel, or **in Cro
 
 ## Before you go
 
-- **Health insurance** is required for the permit, and a private policy is worth having anyway — see our guide to [travel and long-stay insurance for Croatia](/strahovka/). For long stays, monthly nomad cover such as SafetyWing is convenient (<a href="/go/safetywing?c=croatia-digital-nomad-visa" rel="sponsored nofollow noopener">compare SafetyWing</a>); travellers from CIS countries and Ukraine should look at EKTA, which some Western insurers exclude.
-- Budgeting the move? See [the cost of living in Croatia](/relokatsiya/) and, if you'll invoice clients, [taxes for foreigners](/relokatsiya/) and whether to [register a company](/relokatsiya/).
-- More practical settling-in steps — SIM, bank account, housing — are in the [relocation section](/relokatsiya/).
+- **Health insurance** is required for the permit, and a private policy is worth having anyway — see our guide to [travel and long-stay insurance for Croatia](/insurance/). For long stays, monthly nomad cover such as SafetyWing is convenient (<a href="/go/safetywing?c=croatia-digital-nomad-visa" rel="sponsored nofollow noopener">compare SafetyWing</a>); travellers from CIS countries and Ukraine should look at EKTA, which some Western insurers exclude.
+- Budgeting the move? See [the cost of living in Croatia](/relocation/) and, if you'll invoice clients, [taxes for foreigners](/relocation/) and whether to [register a company](/relocation/).
+- More practical settling-in steps — SIM, bank account, housing — are in the [relocation section](/relocation/).
 
 _This guide is informational, not legal or tax advice. Visa, residence and tax rules change; always confirm the current details with the official Croatian sources linked above before you act._

@@ -19,4 +19,4 @@
 ## R4 — контент (узкий релокейшн/MONEY-клин, EN-first)
 P0 (`docs/CONTENT_PLAN.md`): `croatia-digital-nomad-visa` ✅ → `cost-of-living-croatia`, `croatia-taxes-for-foreigners`, `register-company-croatia`, `car-rental-croatia`, `croatia-travel-insurance`, `living-in-split`, `esim-croatia`.
 
-**Границы:** контент — Этап 4; SEO-стратегия/ключи, контент-календарь, редизайн, массовая генерация — **не сейчас**. Модель «город = статья `category=goroda`» и URL не менять без необходимости; правка slug = 301 в `public/_redirects`.
+**Границы:** контент — Этап 4; SEO-стратегия/ключи, контент-календарь, редизайн, массовая генерация — **не сейчас**. Модель «город = статья `category=cities`» (английский слаг, миграция 2026-06-22) и URL не менять без необходимости; правка slug = 301 в `public/_redirects`.

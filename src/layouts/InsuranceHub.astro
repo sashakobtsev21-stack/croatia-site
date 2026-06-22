@@ -48,7 +48,7 @@ const updatedDate = formatDate(new Date(`${ins.updatedIso}T00:00:00Z`), lang);
 const rentalHref = sectionHref(lang, 'car-rental');
 /**
  * Мост хаб→подробный гайд-статья (перелинковка §14). Ссылку отдаём ТОЛЬКО если гайд
- * `kak-vybrat-strahovku` реально существует (в текущем или дефолтном языке) — иначе была бы
+ * `croatia-travel-insurance` реально существует (в текущем или дефолтном языке) — иначе была бы
  * битая ссылка на ещё ненаписанную статью (гейт links падал на пустых коллекциях).
  */
 const guideArticles = await getCollectionSafe(
@@ -56,7 +56,7 @@ const guideArticles = await getCollectionSafe(
   (entry) =>
     entry.data.draft !== true &&
     entry.data.category === 'insurance' &&
-    entry.data.slug === 'kak-vybrat-strahovku',
+    entry.data.slug === 'croatia-travel-insurance',
 );
 const guideLang = guideArticles.some((e) => e.data.lang === lang)
   ? lang
@@ -64,7 +64,7 @@ const guideLang = guideArticles.some((e) => e.data.lang === lang)
     ? DEFAULT_LANG
     : null;
 const guideHref =
-  guideLang === null ? null : `${sectionHref(guideLang, 'insurance')}kak-vybrat-strahovku/`;
+  guideLang === null ? null : `${sectionHref(guideLang, 'insurance')}croatia-travel-insurance/`;
 ---
 
 <BaseLayout title={pageTitle} description={description} lang={lang}>

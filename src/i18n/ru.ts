@@ -106,6 +106,7 @@ export const ru: UIDictionary = {
         sight: 'Что посмотреть',
         food: 'Еда',
         nightlife: 'Ночная жизнь',
+        guide: 'Гид',
       },
     },
     allSectionsHeading: 'Все разделы',

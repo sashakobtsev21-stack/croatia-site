@@ -223,11 +223,23 @@ type ShowcasePick =
       slug: string;
       kicker: keyof typeof dict.home.showcase.kickers;
     };
-const showcasePicks: ShowcasePick[] = [
+// Подборка витрины — только РЕАЛЬНО опубликованные статьи (en+ru, с cover, не draft).
+// Контента у Хорватии пока мало: 3 города + практический гид по визе цифрового
+// кочевника. Дедуп по slug ниже на случай дублей. Пики без контента в коллекции
+// тихо пропускаются циклом. Непрерывность ленты обеспечивает JS-крутилка
+// (клонирует уникальный набор), поэтому витрина бесшовна даже при немногих карточках.
+const showcasePicksRaw: ShowcasePick[] = [
   { kind: 'article', category: 'cities', slug: 'zagreb-travel-guide', kicker: 'city', city: 'Zagreb' },
   { kind: 'article', category: 'cities', slug: 'dubrovnik-travel-guide', kicker: 'city', city: 'Dubrovnik' },
   { kind: 'article', category: 'cities', slug: 'split-travel-guide', kicker: 'city', city: 'Split' },
+  { kind: 'article', category: 'relocation', slug: 'croatia-digital-nomad-visa', kicker: 'guide' },
 ];
+const seenSlugs = new Set<string>();
+const showcasePicks: ShowcasePick[] = showcasePicksRaw.filter((p) => {
+  if (seenSlugs.has(p.slug)) return false;
+  seenSlugs.add(p.slug);
+  return true;
+});
 const showcaseItems: ShowcaseItem[] = [];
 for (const pick of showcasePicks) {
   if (pick.kind === 'restaurant') {

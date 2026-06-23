@@ -5,6 +5,8 @@
 
 Замеры GA/GSC — по понедельникам. План корректируется по GA. Темп статей: Ср / Пт / Вс. Слаги — английские, из SEO-отчёта. Очередь: P0 → P1 → P2, сезонные темы в свои окна.
 
+**SEO-головы (высокочастотные — приоритет, подтягивать в пик раньше по GA):** ETIAS/въезд (Нед.3, 🔝#1), best-beaches (Нед.4, в пик), where-to-stay (Нед.11), Korčula (Нед.11), **croatia-itinerary head «how many days» (Нед.13, ➕ добавлен — обзорный itinerary-хаб, т.к. 10-дневный слот занял конкретный маршрут dalmatia-split-to-dubrovnik).** Дедуп/депри: croatia-vs-greece-vs-italy, truffle-hunting-istria, is-croatia-expensive, croatia-car-rental-guide-дубль.
+
 ### News schedule (НЕ daily)
 - **Хорватия — Пн + Чт** (2 дайджеста/нед), **+ Сб в пик середины июля** (Dubrovnik Summer Festival + Ultra Europe — ~10–20.07).
 - Механика: **collect → filter → owner preview → OK → publish**. Если из фильтра ничего не проходит — слот пропускаем (skip), пустышки не публикуем. Даты — только из источника текущего года.
@@ -68,7 +70,7 @@
 - Пн 17.08 — 📊 Замер GA/GSC (car-rental affiliate intent + nat-park кластер) + 📰 /news
 
 ## Неделя 9 (19–25.08) — P1 Istria-хаб (окно роста, меньше конкуренции)
-- Ср 19.08 — [Статья] Istria Travel Guide: Best Towns, Beaches & Food (2026) · `istria croatia travel guide` · /istria-travel-guide/ · категория routes · фото ≥5 · 💰 отели + туры · перелинк: rovinj-travel-guide, pula-travel-guide
+- Ср 19.08 — [Статья] Istria Travel Guide: Best Towns, Beaches & Food (2026) · `istria croatia travel guide` · /istria-travel-guide/ · категория cities · фото ≥5 · 💰 отели + туры · перелинк: rovinj-travel-guide, pula-travel-guide — **категория исправлена routes → cities (это destination/region-гайд, не itinerary-коллекция).**
 - Пт 21.08 — [Статья] Pula, Croatia: Roman Arena & Best Things to Do · `things to do in pula` · /pula-travel-guide/ · категория cities · фото ≥10 · 💰 туры + отели · перелинк: istria-travel-guide, rovinj-travel-guide
 - Вс 23.08 — [Статья] Do You Need a Car in Croatia? When to Rent vs Use Ferries · `do you need a car in croatia` · /do-you-need-car-croatia/ · категория planning · фото ≥5 · 💰 аренда авто + паромы · перелинк: renting-a-car-in-croatia, croatia-ferries-guide
 - Чт 20.08 — 📰 /news (дайджест на согласование, НЕ daily)
@@ -82,7 +84,7 @@
 - Пн 31.08 — 📊 Замер GA/GSC (long-stay/nomad сегмент + «without car» спрос) + 📰 /news
 
 ## Неделя 11 (02–08.09) — P1 nomad-хаб + старт shoulder-сезона (сентябрь)
-- Ср 02.09 — [Статья] **➕ ДОБАВЛЕНО** Where to Stay in Croatia: Best Base Towns for Your Trip · `where to stay in croatia / croatia base towns` · /where-to-stay-in-croatia/ · категория planning · фото ≥5 · 💰 отели · перелинк: split-or-dubrovnik, dalmatia-split-to-dubrovnik, dubrovnik-travel-guide, split-travel-guide — **ДОБАВЛЕНО (аудит): обзорный гайд по выбору базы (Сплит/Дубровник/Хвар/Ровинь/Загреб — для кого что), отдельно от бинарного `split-or-dubrovnik` (Неделя 10). Высокий accommodation-booking-интент.** _(Слот освобождён: `croatia-cost-of-living-nomads` деприоритизирован на осень — nomad-трио тяжело для летнего пика, см. «Отложено».)_
+- Ср 02.09 — [Статья] **➕ ДОБАВЛЕНО** Where to Stay in Croatia: Best Base Towns for Your Trip · `where to stay in croatia / croatia base towns` · /where-to-stay-in-croatia/ · категория planning · фото ≥5 · 💰 отели · перелинк: split-or-dubrovnik, dalmatia-split-to-dubrovnik, dubrovnik-travel-guide, split-travel-guide — **ДОБАВЛЕНО (аудит): обзорный гайд по выбору базы (Сплит/Дубровник/Хвар/Ровинь/Загреб — для кого что), отдельно от бинарного `split-or-dubrovnik` (Неделя 10). Высокий accommodation-booking-интент — высокочастотный head, при росте показов по GA подтянуть в пик раньше Недели 11.** _(Слот освобождён: `croatia-cost-of-living-nomads` деприоритизирован на осень — nomad-трио тяжело для летнего пика, см. «Отложено».)_
 - Пт 04.09 — [Статья] Croatia in May vs September: Which Shoulder Month Wins? · `croatia in may vs september` · /croatia-may-vs-september/ · категория planning · фото ≥5 · 💰 отели + туры · перелинк: best-time-to-visit-croatia, croatia-sea-temperature
 - Вс 06.09 — [Статья] **➕ ДОБАВЛЕНО** Korčula Island Guide: Old Town, Beaches & Wine · `korcula island guide` · /korcula-travel-guide/ · категория cities · фото ≥10 · 💰 отели + туры · перелинк: dalmatia-split-to-dubrovnik, croatia-island-hopping, hvar-travel-guide — **ДОБАВЛЕНО (аудит): Hvar и Vis (Неделя 7) есть, а Korčula гайда НЕТ — хотя она остановка маршрута dalmatia-split-to-dubrovnik. Закрывает пробел кластера островов. Можно подтянуть в пик раньше, если GA покажет спрос.** _(Слот освобождён: `croatia-cities-digital-nomads` деприоритизирован на осень — nomad-трио тяжело для летнего пика, см. «Отложено».)_
 - Чт 03.09 — 📰 /news (дайджест на согласование, НЕ daily)
@@ -95,8 +97,9 @@
 - Чт 10.09 — 📰 /news (дайджест на согласование, НЕ daily)
 - Пн 14.09 — 📊 Замер GA/GSC (планировочный + «without car» кластеры — закрытие пробелов) + 📰 /news
 
-## Неделя 13 (16–22.09) — Завершение: бюджет-сравнение, hidden costs, мостик в осенний трюфельный сезон
-- Ср 16.09 — [Статья] Croatia vs Greece vs Italy: Which Is Cheaper for a Beach Holiday? · `croatia vs greece cost` · /croatia-vs-greece-vs-italy/ · категория planning · фото ≥5 · 💰 отели + авиа · перелинк: croatia-trip-cost
+## Неделя 13 (16–22.09) — Завершение: itinerary-head, hidden costs, мостик в осенний трюфельный сезон
+- Ср 16.09 — [Статья] **🔝 ITINERARY-HEAD (приоритет — подтянуть в пик раньше по GA)** How Many Days in Croatia? 7–10 Day Itinerary Guide · `how many days in croatia / croatia itinerary` · /croatia-itinerary/ · категория planning · фото ≥5 · 💰 аренда авто + отели · перелинк: 7-day-croatia-itinerary, dalmatia-split-to-dubrovnik, croatia-road-trip-itinerary, croatia-itinerary-without-car, best-time-to-visit-croatia — **➕ ДОБАВЛЕНО (SEO-аудит): 10-дневный слот был «съеден» маршрутом dalmatia-split-to-dubrovnik (конкретный island-hopping route), поэтому НЕТ живой обзорной страницы под высокочастотный «how many days in Croatia / 7–10 day Croatia itinerary». Этот head ранжируется по обобщённому itinerary-запросу и распределяет на конкретные маршруты (7-day / 10-day Dalmatia / road-trip / without-car). Высокочастотный — при росте показов по GA подтянуть в слот раньше.** _(Поставлен на слот депрятизированного `croatia-vs-greece-vs-italy`.)_
+- ~~Croatia vs Greece vs Italy~~ — **ДЕПРИОРИТИЗИРОВАНО (SEO-дедуп):** сравнение-статья, низкий объём/высокая конкуренция; cost-интент уже обслуживается `croatia-trip-cost` + `croatia-hidden-costs`. Переуглить под нишу при необходимости позже, не плодить тонкий контент.
 - Пт 18.09 — [Статья] Hidden Travel Costs in Croatia Nobody Warns You About · `hidden costs croatia travel` · /croatia-hidden-costs/ · категория planning · фото ≥5 · 💰 аренда авто + страховка · перелинк: croatia-trip-cost, one-way-car-rental-croatia
 - Вс 20.09 — [Статья] _(ниша — деприоритизировано)_ Truffle Hunting in Istria: Tours, Season & What to Expect · `truffle hunting istria` · /truffle-hunting-istria/ · категория food · фото ≥5 · 💰 туры · перелинк: istria-travel-guide, rovinj-travel-guide — **ДЕПРИОРИТИЗИРОВАНО (аудит): нишевый запрос. Остаётся мостиком в осенний трюфельный сезон (сен–ноя), но при нехватке слотов уступает место более широким темам; добивка фестивалей Livade/Buzet — октябрь.**
 - Чт 17.09 — 📰 /news (дайджест на согласование, НЕ daily)

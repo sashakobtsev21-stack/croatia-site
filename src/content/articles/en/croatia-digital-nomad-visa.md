@@ -31,6 +31,8 @@ Croatia is one of the few European bases that pairs a relaxed Mediterranean life
 
 The nomad temporary stay (in Croatian, a *boravak*) is for people who **work remotely for an employer or clients based outside Croatia**, or run their own business registered abroad. You cannot use it to work for a Croatian company. You'll also need valid **health insurance** for the stay and **proof of accommodation** in Croatia.
 
+The scheme is a **third-country-national route**: it **does not apply to EU/EEA or Swiss citizens**, who already have freedom of movement and don't need it. MUP defines a digital nomad as a non-EU/EEA/Swiss national; EU/EEA/Swiss citizens simply **register their stay** at a police administration instead.
+
 ## How long it lasts
 
 A single permit is granted for **up to 18 months**. It is **not renewable in place** the way some permits are: once it expires you must **wait six months** before applying again. (A short extension of up to six more months is possible if you apply at least ~60 days before expiry — confirm the current rule with MUP.)
@@ -42,7 +44,9 @@ You may have seen headlines say "up to 3 years." That figure is the *cumulative*
 You must show a stable income of at least:
 
 - **€3,622.50 per month** (set at 2.5× the average net Croatian salary), and
-- the equivalent over your whole stay: about **€43,470 for 12 months** or **€65,205 for 18 months**, plus **+10% for each accompanying family member**.
+- the equivalent over your whole stay: about **€43,470 for 12 months** or **€65,205 for 18 months**.
+
+For each accompanying family member the required income rises by **10% of the average monthly net salary** — about **€145 per person per month** at current figures (10% of the ~€1,449 average net salary), **not** 10% of the threshold itself.
 
 <figure class="figure">
   <img src="/images/croatia-digital-nomad-visa/rovinj.webp" alt="The colourful harbour town of Rovinj in Istria" width="1200" height="675" loading="lazy" />
@@ -59,7 +63,7 @@ Two caveats worth checking with the **Tax Administration** before you rely on th
 
 ## How to apply
 
-You can apply at a **Croatian embassy/consulate** before you travel, or **in Croatia** at a police administration office, and part of the process is handled online. You'll submit proof of remote work, the income evidence above, health insurance and accommodation, plus a background check. There is an application fee and a biometric residence-card fee <!-- TODO: подтвердить точные суммы сбора/карты у владельца или на mup.gov.hr -->. Importantly, **time spent on the nomad stay does not count** toward the five years needed for permanent residence.
+You can apply at a **Croatian embassy/consulate** before you travel, or **in Croatia** at a police administration office, and part of the process is handled online. You'll submit proof of remote work, the income evidence above, health insurance and accommodation, plus a background check. There are **state fees**: applying **in Croatia** runs roughly **€46 for granting the stay plus about €32–42 for the biometric residence card** (a small administrative fee applies on top); applying **at a consulate** is a little higher, and a separate **visa D (~€93)** may be needed just to enter. Amounts are re-set periodically — confirm the current figures on [mup.gov.hr](https://mup.gov.hr) before you pay. Importantly, **time spent on the nomad stay does not count** toward the five years needed for permanent residence.
 
 <figure class="figure">
   <img src="/images/croatia-digital-nomad-visa/plitvice.webp" alt="Turquoise lakes and waterfalls of Plitvice Lakes National Park" width="1200" height="918" loading="lazy" />

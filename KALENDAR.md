@@ -12,7 +12,7 @@
 ## Неделя 1 (22.06–28.06)
 - Пн 22.06 — [Статья] Best Beaches in Croatia: Top Sandy & Pebble Beaches (2026) · `best beaches in croatia` · /best-beaches-croatia/ · категория attractions · фото ≥5 · 💰 отели + туры · перелинк: hvar-travel-guide, dalmatia-split-to-dubrovnik, best-time-to-visit-croatia + 📊 Замер GA/GSC
 - Вт 23.06 — [Статья] Split Airport Transfers: Bus, Ferry & Taxi to City Centre · `split airport to city centre` · /split-airport-to-city/ · категория transport · фото≥5 · 💰трансферы+аренда авто · перелинк: split-travel-guide, getting-around-croatia
-- Ср 24.06 — [Статья] Game of Thrones Filming Locations in Dubrovnik: Self-Guided Map · `game of thrones locations dubrovnik` · /dubrovnik-game-of-thrones-locations/ · категория attractions · фото ≥5 · 💰 туры · перелинк: dubrovnik-travel-guide, dubrovnik-city-walls
+- [x] Ср 24.06 — [Статья] Game of Thrones Filming Locations in Dubrovnik: Self-Guided Map · `game of thrones locations dubrovnik` · /dubrovnik-game-of-thrones-locations/ · категория attractions · фото ≥5 · 💰 туры · перелинк: dubrovnik-travel-guide, dubrovnik-city-walls — ОПУБЛИКОВАНО 2026-06-24 (e5b52d9)
 - Чт 25.06 — [Статья] Split or Dubrovnik: Which Should You Base Yourself In? · `split or dubrovnik` · /split-or-dubrovnik/ · категория planning · фото ≥5 · 💰 отели · перелинк: split-travel-guide, dubrovnik-travel-guide
 - Пт 26.06 — [Статья] Plitvice Lakes vs Krka: Which National Park Should You Visit? · `plitvice vs krka` · /plitvice-vs-krka/ · категория attractions · фото ≥5 · 💰 туры · перелинк: plitvice-lakes-guide, krka-national-park
 - Чт 25.06 — 📰 /news (дайджест на согласование, НЕ daily)

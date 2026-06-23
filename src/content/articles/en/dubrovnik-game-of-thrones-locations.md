@@ -34,12 +34,12 @@ sources:
   - 'Dubrovnik Tourist Board (tzdubrovnik.hr)'
   - 'Walls of Dubrovnik / Society of Friends of Dubrovnik Antiquities (citywallsdubrovnik.hr)'
   - 'Arboretum Trsteno (Croatian Academy of Sciences and Arts, hazu.hr)'
-draft: true
+draft: false
 ---
 
 Dubrovnik played **King's Landing** in *Game of Thrones*, and almost every famous spot sits inside or just outside the Old Town walls, so you can see most of them on foot in a single morning. The essential stops are the **city walls** and **Fort Lovrijenac** (the Red Keep), the **Jesuit Staircase** where Cersei began her Walk of Shame, **Minčeta Tower** as the House of the Undying, and the leafy **Gradac Park** of the Purple Wedding — with **Trsteno Arboretum**, the royal gardens, a short drive up the coast.
 
-This guide maps the locations, suggests an efficient walking order, and flags which ones need a paid ticket. It pairs naturally with our full [Dubrovnik travel guide](/dubrovnik-travel-guide), so you can fold the *Thrones* sites into a normal day in the city.
+This guide maps the locations, suggests an efficient walking order, and flags which ones need a paid ticket. It pairs naturally with our full [Dubrovnik travel guide](/cities/dubrovnik-travel-guide/), so you can fold the *Thrones* sites into a normal day in the city.
 
 <figure class="figure">
 <img src="/images/dubrovnik-game-of-thrones-locations/lovrijenac-red-keep.webp" alt="Fort Lovrijenac on its rock west of the Dubrovnik walls, the Red Keep of Game of Thrones" width="1120" height="698" loading="lazy" decoding="async" />
@@ -114,4 +114,4 @@ For the **King's Landing palace gardens** — the formal terraces where Olenna, 
 
 Most of the *Thrones* spots are free public spaces; the two that aren't are the **City Walls** (a single combined ticket also covers **Fort Lovrijenac**) and **Trsteno Arboretum** (separate fee). Buy the walls ticket at the **Pile** or **Ploče** entrance or online, and confirm current prices and hours on the official sites — both change by season, so we don't quote a fixed figure here.
 
-If you'd rather have the on-set detail pointed out — which step, which scene, where the camera stood — a guided **Game of Thrones walking tour** is the easy way to do it, and most include the walls or Lovrijenac context. For everything else around town, our [Dubrovnik travel guide](/dubrovnik-travel-guide) covers the Stradun, the Srđ cable car, day trips to Lokrum and the Elaphiti Islands, and where to stay and eat. You'll find more ideas on our [attractions hub](/attractions/).
+If you'd rather have the on-set detail pointed out — which step, which scene, where the camera stood — a guided **Game of Thrones walking tour** is the easy way to do it, and most include the walls or Lovrijenac context. For everything else around town, our [Dubrovnik travel guide](/cities/dubrovnik-travel-guide/) covers the Stradun, the Srđ cable car, day trips to Lokrum and the Elaphiti Islands, and where to stay and eat. You'll find more ideas on our [attractions hub](/attractions/).

@@ -133,3 +133,83 @@
 **Новости (News schedule):** Хорватия — **Пн + Чт** (2 дайджеста/нед), **+ Сб в пик середины июля** (Dubrovnik Summer Festival + Ultra Europe). НЕ daily. Механика: collect → filter → owner preview → OK → publish; если фильтр ничего не пропустил — слот skip (пустышки не публикуем). Даты — только из источника текущего года.
 
 **Сезонность:** В 13-недельное окно (24.06–23.09) попадает летний пик и начало shoulder-сентября, поэтому в правильные окна поставлены: Dubrovnik Summer Festival (~10.07–25.08) — GoT/Дубровник/City Walls/day trips публикуем в неделях 3–6 (до и в пик фестиваля); Ultra Europe + Hvar party-сезон (середина июля) — Hvar Island Guide и Split day trips в неделях 4–5; **Best Beaches in Croatia перенесён в пик (Неделя 4, 17.07) — топ-визуальный интент;** ETIAS/въезд (Неделя 3, 10.07) — круглогодичный спрос, поставлен ДО старта ETIAS (конец 2026) и ДО октября; паромное расписание полнее всего mid-June–mid-September — все ferry/island-hopping гайды (split-to-hvar-ferry, croatia-ferries-guide, island-hopping, vis-island) ставим в неделях 1–7, пока расписание актуально; Croatia in May vs September и shoulder-темы — в конце окна (недели 11–13), на старте сентябрьского shoulder-спроса. ВЫХОДИТ ЗА 13 НЕДЕЛЬ (отметить на будущее, осень–зима): (1) Truffle Hunting in Istria + Istria food/wine — белый трюфель сентябрь–ноябрь, публиковать к концу сентября–октябрю (truffle-hunting-istria поставлен в неделю 13 как мостик, фестивали Livade/Buzet добивать в окт); (2) Advent в Zagreb / зимний рождественский рынок — публиковать к октябрю–ноябрю (отдельный зимний трафик-драйвер); (3) ОСНОВНОЙ сезонный пик ПЛАНИРОВАНИЯ — январь–март: cheapest-time-to-visit, croatia-may-vs-september, все itinerary/cost-темы должны быть готовы и проиндексированы к декабрю–январю — после этого окна планируется следующий 3-месячный цикл с front-load планировочного контента в ноябре–декабре.
+
+---
+
+## Расширение плана — long-tail backlog (Этап 2, под трафик/рекламную модель)
+
+**Итог:** 53 слота (все EN, Tier-1 Запад — приоритет EN-track), отдедуплено против опубликованного (`src/content`, 15 материалов) и 13-недельного плана. По кластерам: **Cities & towns 6**, **Islands 7**, **Attractions/POIs 9**, **Itineraries 3**, **Best time / by-month 3**, **Transport 7**, **Food & drink 5**, **Where to stay 3**, **Practical 6**, **Safety 2**, **Seasonal events 1**. Приоритет публикации: head → mid → long-tail внутри кластера; EN-track весь (вторичные ru/uk — по GA-спросу после EN-индексации). 💰-связки проставлены под рекламную/партнёрскую модель (отели/туры/eSIM/аренда авто/паромы/страховка). Дубль-проверка против `src/content` (2026-06-23): совпадений нет, все слоты новые.
+
+### Cities & towns
+- [Статья] Zadar Travel Guide: Sea Organ, Sunset & Things to Do · key `things to do in zadar` · /zadar-travel-guide/ · категория cities · фото≥10 (город) · 💰отели+туры · кластер cities-towns [head]
+- [Статья] Makarska Riviera Guide: Best Beaches & Towns Under Biokovo · key `makarska riviera croatia` · /makarska-riviera-guide/ · категория cities · фото≥5 · 💰отели+туры · кластер cities-towns [mid]
+- [Статья] Šibenik, Croatia: St James Cathedral, Fortresses & Old Town · key `things to do in sibenik` · /sibenik-travel-guide/ · категория cities · фото≥10 (город) · 💰отели+туры · кластер cities-towns [mid]
+- [Статья] Trogir, Croatia: UNESCO Old Town & Best Things to Do · key `things to do in trogir` · /trogir-travel-guide/ · категория cities · фото≥10 (город) · 💰отели+туры · кластер cities-towns [mid]
+- [Статья] Cavtat, Croatia: Dubrovnik's Quieter Coastal Neighbour · key `cavtat croatia` · /cavtat-travel-guide/ · категория cities · фото≥5 · 💰отели+туры · кластер cities-towns [long-tail]
+- [Статья] Ston, Croatia: Great Wall, Oysters & Salt Pans · key `ston croatia` · /ston-travel-guide/ · категория cities · фото≥5 · 💰туры · кластер cities-towns [long-tail]
+
+### Islands
+- [Статья] Brač Island Guide: Zlatni Rat, Bol & Best Beaches · key `brac island croatia` · /brac-island-guide/ · категория cities · фото≥10 (город) · 💰отели+туры · кластер islands [head]
+- [Статья] Mljet Island Guide: National Park Lakes & How to Visit · key `mljet island croatia` · /mljet-island-guide/ · категория cities · фото≥10 (город) · 💰туры+паромы · кластер islands [mid]
+- [Статья] Pag Island Guide: Beaches, Zrće Party & Pag Cheese · key `pag island croatia` · /pag-island-guide/ · категория cities · фото≥10 (город) · 💰отели+туры · кластер islands [mid]
+- [Статья] Krk Island Guide: Beaches, Towns & How to Get There · key `krk island croatia` · /krk-island-guide/ · категория cities · фото≥10 (город) · 💰отели+аренда авто · кластер islands [mid]
+- [Статья] Rab Island Guide: Old Town, Sandy Beaches & Beaches · key `rab island croatia` · /rab-island-guide/ · категория cities · фото≥10 (город) · 💰отели+паромы · кластер islands [long-tail]
+- [Статья] Cres & Lošinj Islands Guide: Nature, Dolphins & Towns · key `losinj croatia` · /cres-losinj-island-guide/ · категория cities · фото≥10 (город) · 💰отели+туры · кластер islands [long-tail]
+- [Статья] Šolta Island: Split's Quiet Escape & Day Trip Guide · key `solta island croatia` · /solta-island-guide/ · категория cities · фото≥10 (город) · 💰туры+паромы · кластер islands [long-tail]
+
+### Attractions / POIs
+- [Статья] Pula Arena: Roman Amphitheatre Tickets, History & Tips · key `pula arena` · /pula-arena/ · категория attractions · фото≥5 · 💰туры+билеты · кластер attractions-pois [head]
+- [Статья] Diocletian's Palace, Split: A Visitor's Guide to the Ruins · key `diocletian's palace split` · /diocletians-palace-split/ · категория attractions · фото≥5 · 💰туры · кластер attractions-pois [head]
+- [Статья] Blue Cave Croatia: Biševo Tour, Tickets & Is It Worth It? · key `blue cave croatia` · /blue-cave-croatia/ · категория attractions · фото≥5 · 💰туры+билеты · кластер attractions-pois [head]
+- [Статья] Zadar Sea Organ & Sun Salutation: What to Know Before You Go · key `zadar sea organ` · /zadar-sea-organ/ · категория attractions · фото≥5 · 💰туры · кластер attractions-pois [mid]
+- [Статья] Mljet National Park: Lakes, Tickets & Day-Trip Guide · key `mljet national park` · /mljet-national-park/ · категория attractions · фото≥5 · 💰туры+билеты · кластер attractions-pois [mid]
+- [Статья] Kornati National Park: Islands Boat Tour & Sailing Guide · key `kornati islands national park` · /kornati-national-park/ · категория attractions · фото≥5 · 💰туры · кластер attractions-pois [mid]
+- [Статья] Biokovo Skywalk & Nature Park: Glass Viewpoint Guide · key `biokovo skywalk` · /biokovo-skywalk/ · категория attractions · фото≥5 · 💰аренда авто+билеты · кластер attractions-pois [mid]
+- [Статья] Lokrum Island, Dubrovnik: Day-Trip Boat Guide · key `lokrum island dubrovnik` · /lokrum-island-dubrovnik/ · категория attractions · фото≥5 · 💰туры+паромы · кластер attractions-pois [mid]
+- [Статья] Brijuni National Park: Tito's Islands & How to Visit · key `brijuni national park` · /brijuni-national-park/ · категория attractions · фото≥5 · 💰туры+билеты · кластер attractions-pois [long-tail]
+
+### Itineraries
+- [Статья] The Perfect 5-Day Croatia Itinerary (Split, Islands & Dubrovnik) · key `5 day croatia itinerary` · /5-day-croatia-itinerary/ · категория routes · фото≥5 · 💰аренда авто+отели · кластер itineraries [head]
+- [Статья] 3 Days in Croatia: Short-Break Itinerary Options · key `3 days in croatia` · /3-day-croatia-itinerary/ · категория routes · фото≥5 · 💰отели+туры · кластер itineraries [mid]
+- [Статья] Croatia with Kids: Family Holiday Itinerary & Best Spots · key `croatia with kids` · /croatia-family-holiday/ · категория planning · фото≥5 · 💰отели+туры · кластер itineraries [mid]
+
+### Best time / by-month
+- [Статья] Croatia in July: Weather, Crowds, Prices & What to Expect · key `croatia in july` · /croatia-in-july/ · категория planning · фото≥5 · 💰отели+туры · кластер best-time-weather [mid]
+- [Статья] Croatia in August: Heat, Festivals & Booking Ahead · key `croatia in august` · /croatia-in-august/ · категория planning · фото≥5 · 💰отели+туры · кластер best-time-weather [mid]
+- [Статья] Croatia in October: Shoulder-Season Weather & What's Open · key `croatia in october` · /croatia-in-october/ · категория planning · фото≥5 · 💰отели+туры · кластер best-time-weather [mid]
+
+### Transport / getting around
+- [Статья] Split Airport Transfers: Bus, Ferry & Taxi to City Centre · key `split airport to city centre` · /split-airport-to-city/ · категория transport · фото≥5 · 💰трансферы+аренда авто · кластер transport-getting-around [head]
+- [Статья] Dubrovnik Airport to Old Town: Shuttle Bus, Taxi & Transfers · key `dubrovnik airport to old town` · /dubrovnik-airport-transfer/ · категория transport · фото≥5 · 💰трансферы+аренда авто · кластер transport-getting-around [head]
+- [Статья] Split to Dubrovnik: Bus, Ferry, Car or Transfer (2026) · key `split to dubrovnik` · /split-to-dubrovnik-transport/ · категория transport · фото≥5 · 💰паромы+аренда авто · кластер transport-getting-around [head]
+- [Статья] Zagreb to Plitvice Lakes: Bus, Tour & Day-Trip Guide · key `zagreb to plitvice` · /zagreb-to-plitvice/ · категория transport · фото≥5 · 💰туры+аренда авто · кластер transport-getting-around [head]
+- [Статья] Getting Around Croatia: Buses, Ferries, Trains & Driving · key `getting around croatia` · /getting-around-croatia/ · категория transport · фото≥5 · 💰аренда авто+паромы · кластер transport-getting-around [head]
+- [Статья] Dubrovnik to Kotor, Montenegro: Day Trip & Bus Guide · key `dubrovnik to kotor` · /dubrovnik-to-kotor/ · категория transport · фото≥5 · 💰туры+трансферы · кластер transport-getting-around [mid]
+- [Статья] Zadar to Split: Bus, Car & How Long It Takes · key `zadar to split` · /zadar-to-split-transport/ · категория transport · фото≥5 · 💰аренда авто+паромы · кластер transport-getting-around [mid]
+
+### Food & drink
+- [Статья] Croatian Food Guide: 20 Dishes You Have to Try · key `croatian food` · /croatian-food-guide/ · категория food · фото≥5 · 💰туры+рестораны · кластер food-drink [head]
+- [Статья] Peka: Croatia's Under-the-Bell Dish & Where to Try It · key `croatian peka` · /croatian-peka/ · категория food · фото≥5 · 💰туры+рестораны · кластер food-drink [mid]
+- [Статья] Croatian Wine Guide: Plavac Mali, Regions & Where to Taste · key `croatian wine` · /croatian-wine-guide/ · категория food · фото≥5 · 💰туры (винные) · кластер food-drink [mid]
+- [Статья] Where to Eat in Split: Best Konobas & Local Restaurants · key `where to eat in split` · /where-to-eat-in-split/ · категория food · фото≥5 · 💰рестораны+туры · кластер food-drink [mid]
+- [Статья] Coffee Culture in Croatia: How to Do Kava Like a Local · key `coffee in croatia` · /croatia-coffee-culture/ · категория food · фото≥5 · 💰нет · кластер food-drink [long-tail]
+
+### Where to stay
+- [Статья] Where to Stay in Dubrovnik: Best Areas & Neighbourhoods · key `where to stay in dubrovnik` · /where-to-stay-in-dubrovnik/ · категория planning · фото≥5 · 💰отели · кластер where-to-stay [head]
+- [Статья] Where to Stay in Split: Best Areas for First-Timers · key `where to stay in split` · /where-to-stay-in-split/ · категория planning · фото≥5 · 💰отели · кластер where-to-stay [head]
+- [Статья] Where to Stay in Hvar: Hvar Town vs Stari Grad vs Jelsa · key `where to stay in hvar` · /where-to-stay-in-hvar/ · категория planning · фото≥5 · 💰отели · кластер where-to-stay [mid]
+
+### Practical
+- [Статья] Best eSIM & SIM Card for Croatia: Data Plans Compared · key `esim croatia` · /croatia-esim-sim-card/ · категория planning · фото≥5 · 💰eSIM · кластер practical [head]
+- [Статья] Money in Croatia: Euro, Cards vs Cash & ATMs · key `croatia currency cash or card` · /croatia-money-cards-cash/ · категория planning · фото≥5 · 💰eSIM+страховка · кластер practical [head]
+- [Статья] Tipping in Croatia: How Much & When to Tip · key `tipping in croatia` · /tipping-in-croatia/ · категория planning · фото≥5 · 💰нет · кластер practical [mid]
+- [Статья] What to Pack for Croatia: Summer Packing List & Essentials · key `what to pack for croatia` · /croatia-packing-list/ · категория planning · фото≥5 · 💰товары (Amazon) · кластер practical [mid]
+- [Статья] Plugs & Power in Croatia: Adapter & Voltage Guide · key `croatia plug adapter` · /croatia-plug-adapter/ · категория planning · фото≥5 · 💰товары (Amazon) · кластер practical [mid]
+- [Статья] Basic Croatian Phrases for Travellers (with Pronunciation) · key `croatian phrases for tourists` · /croatian-phrases-travelers/ · категория planning · фото≥5 · 💰нет · кластер practical [mid]
+
+### Safety
+- [Статья] Is Croatia Safe? Crime, Scams & Travel Safety Guide · key `is croatia safe` · /is-croatia-safe/ · категория planning · фото≥5 · 💰страховка+eSIM · кластер safety [head]
+- [Статья] Solo Female Travel in Croatia: Safety Tips & Best Spots · key `solo female travel croatia` · /solo-female-travel-croatia/ · категория planning · фото≥5 · 💰страховка+отели · кластер safety [mid]
+
+### Seasonal events
+- [Статья] Zagreb Advent: Europe's Best Christmas Market Guide · key `zagreb advent christmas market` · /zagreb-advent-christmas-market/ · категория planning · фото≥5 · 💰отели+туры · кластер seasonal-events [mid]

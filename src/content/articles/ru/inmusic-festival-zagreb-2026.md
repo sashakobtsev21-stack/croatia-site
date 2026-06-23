@@ -17,6 +17,7 @@ affiliate:
     position: 'body-end'
 sources:
   - 'INmusic Festival — официальный лайн-ап и расписание 2026: https://www.inmusicfestival.com/en/program/2026'
+  - 'INmusic Festival — официальное по-дневное расписание (кто из хедлайнеров играет в какой вечер): https://www.inmusicfestival.com/en/news/daily-lineup-inmusic-festival-18-announced-limited-number-one-day-tickets-now-available'
   - 'INmusic Festival — официальный сайт (даты, выпуск, площадка): https://www.inmusicfestival.com/en'
 draft: false
 ---

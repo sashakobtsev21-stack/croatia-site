@@ -11,7 +11,7 @@ verifiedAt: 2026-06-21
 cover:
   src: '/images/croatia-digital-nomad-visa/cover.webp'
   alt: Набережная Рива и старый город Сплита на адриатическом побережье Хорватии
-coverCredit: 'Фото: Tom Wheatley · Unsplash'
+coverCredit: 'Фото: Tom Wheatley / Unsplash (Unsplash License)'
 sources:
   - 'МВД Хорватии (mup.gov.hr) — Temporary stay of digital nomads'
   - 'Налоговая администрация Хорватии (porezna-uprava.gov.hr) — НДФЛ, резидентство'

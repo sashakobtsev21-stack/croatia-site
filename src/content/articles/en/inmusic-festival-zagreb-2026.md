@@ -17,6 +17,7 @@ affiliate:
     position: 'body-end'
 sources:
   - 'INmusic Festival — official lineup and schedule 2026: https://www.inmusicfestival.com/en/program/2026'
+  - 'INmusic Festival — official daily lineup (which headliner plays each night): https://www.inmusicfestival.com/en/news/daily-lineup-inmusic-festival-18-announced-limited-number-one-day-tickets-now-available'
   - 'INmusic Festival — official site (dates, edition, venue): https://www.inmusicfestival.com/en'
 draft: false
 ---

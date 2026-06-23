@@ -11,7 +11,7 @@ verifiedAt: 2026-06-21
 cover:
   src: '/images/croatia-digital-nomad-visa/cover.webp'
   alt: The Riva seafront and old town of Split on the Croatian Adriatic coast
-coverCredit: 'Photo: Tom Wheatley · Unsplash'
+coverCredit: 'Photo: Tom Wheatley / Unsplash (Unsplash License)'
 sources:
   - 'Croatian Ministry of the Interior (mup.gov.hr) — Temporary stay of digital nomads'
   - 'Croatian Tax Administration (porezna-uprava.gov.hr) — income tax, residency'

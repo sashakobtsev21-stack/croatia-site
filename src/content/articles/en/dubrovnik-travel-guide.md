@@ -187,6 +187,6 @@ Dubrovnik's food is **Dalmatian** — seafood, olive oil and Pelješac wine rath
 
 ## Plan the rest of your trip
 
-Dubrovnik pairs naturally with the rest of Dalmatia. It is the southern endpoint of our [Dalmatia coast route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/), which runs the coast through Ston, Korčula, Hvar and Trogir up to [Split](/cities/split-travel-guide/). For the wider picture, see [the best time to visit Croatia](/planning/) and our [Croatia itineraries](/routes/), which link the south coast with Split and the islands. The [cities hub](/cities/) collects our other Croatian city guides, including the capital, [Zagreb](/cities/zagreb-travel-guide/).
+Dubrovnik pairs naturally with the rest of Dalmatia. It is the southern endpoint of our [Dalmatia coast route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/), which runs the coast through Ston, Korčula, Hvar and Trogir up to [Split](/cities/split-travel-guide/). For the wider picture, see [the best time to visit Croatia](/planning/best-time-to-visit-croatia/) and our [Croatia itineraries](/routes/), which link the south coast with Split and the islands. The [cities hub](/cities/) collects our other Croatian city guides, including the capital, [Zagreb](/cities/zagreb-travel-guide/).
 
 _Opening hours, ticket prices and ferry timetables change with the season — confirm current details with the official sources above before you go._

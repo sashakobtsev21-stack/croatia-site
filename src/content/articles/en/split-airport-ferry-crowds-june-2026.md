@@ -42,7 +42,7 @@ To cope with the rush, national operator **Jadrolinija has added extra sailings*
 - **Arrive early.** Authorities specifically warn drivers to come well ahead of departure for **vehicle (car) ferries**, where queues at the ramp are longest.
 - **Mind the heat.** Intense heat is forecast, so bring water and sun cover while you wait in the open ferry lanes.
 - **Foot passengers have it easier** than cars; if you can travel without a vehicle on the busiest crossings, you will usually board faster.
-- If you are continuing by road afterwards, line up your wheels in advance — see our [car rental in Croatia](/car-rental/) guide, and for picking calmer dates overall, [the best time to visit Croatia](/planning/).
+- If you are continuing by road afterwards, line up your wheels in advance — see our [car rental in Croatia](/car-rental/) guide, and for picking calmer dates overall, [the best time to visit Croatia](/planning/best-time-to-visit-croatia/).
 
 ## Wider context
 

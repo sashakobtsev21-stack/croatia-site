@@ -44,6 +44,6 @@ With tens of thousands of fans converging on the capital, demand for accommodati
 
 ## Plan around it
 
-Even if you are not here for INmusic, it is worth knowing the dates: central Zagreb is livelier and pricier over the weekend of **22–24 June**. For getting around the country before or after, see our [Croatia transport guide](/transport/); for choosing the right travel dates overall, [the best time to visit Croatia](/planning/); and for more nights out in the capital, the [entertainment hub](/entertainment/). We track festival and travel updates in the [news section](/news/).
+Even if you are not here for INmusic, it is worth knowing the dates: central Zagreb is livelier and pricier over the weekend of **22–24 June**. For getting around the country before or after, see our [Croatia transport guide](/transport/); for choosing the right travel dates overall, [the best time to visit Croatia](/planning/best-time-to-visit-croatia/); and for more nights out in the capital, the [entertainment hub](/entertainment/). We track festival and travel updates in the [news section](/news/).
 
 _Honest note: the photos here show Lake Jarun and the festival site, used to illustrate the venue, not this specific edition. Dates and lineup confirmed via the [official INmusic site](https://www.inmusicfestival.com/en/program/2026); always check there for set times before you go._

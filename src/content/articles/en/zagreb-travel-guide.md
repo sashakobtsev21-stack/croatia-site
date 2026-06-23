@@ -152,6 +152,6 @@ If you have extra time, **Mirogoj cemetery** — a monumental complex of ivy-cov
 
 ## Plan the rest of your trip
 
-Zagreb pairs naturally with the coast and the lakes. To slot it into a wider route, see our [7-day Croatia itinerary](/routes/) and, for picking your dates, [the best time to visit Croatia](/planning/). Both lean on the same practical basics covered here, and the [cities hub](/cities/) collects our other Croatian city guides.
+Zagreb pairs naturally with the coast and the lakes. To slot it into a wider route, see our [7-day Croatia itinerary](/routes/) and, for picking your dates, [the best time to visit Croatia](/planning/best-time-to-visit-croatia/). Both lean on the same practical basics covered here, and the [cities hub](/cities/) collects our other Croatian city guides.
 
 _Opening hours and prices change, and the Cathedral restoration is ongoing — confirm current details with the official sources above before you go._

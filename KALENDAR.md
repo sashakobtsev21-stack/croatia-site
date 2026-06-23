@@ -97,7 +97,7 @@
 - Пт 18.09 — [Статья] Hidden Travel Costs in Croatia Nobody Warns You About · `hidden costs croatia travel` · /croatia-hidden-costs/ · категория planning · фото ≥5 · 💰 аренда авто + страховка · перелинк: is-croatia-expensive, one-way-car-rental-croatia
 - Вс 20.09 — [Статья] _(ниша — деприоритизировано)_ Truffle Hunting in Istria: Tours, Season & What to Expect · `truffle hunting istria` · /truffle-hunting-istria/ · категория food · фото ≥5 · 💰 туры · перелинк: istria-travel-guide, rovinj-travel-guide — **ДЕПРИОРИТИЗИРОВАНО (аудит): нишевый запрос. Остаётся мостиком в осенний трюфельный сезон (сен–ноя), но при нехватке слотов уступает место более широким темам; добивка фестивалей Livade/Buzet — октябрь.**
 - Чт 17.09 — 📰 /news (дайджест на согласование, НЕ daily)
-- Пн 22.09 — 📊 Замер GA/GSC (итоги 13 недель: топ-страницы, кластеры под достройку, план след. цикла) + 📰 /news
+- Пн 21.09 — 📊 Замер GA/GSC (итоги 13 недель: топ-страницы, кластеры под достройку, план след. цикла) + 📰 /news
 
 ---
 

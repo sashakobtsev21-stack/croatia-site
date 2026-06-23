@@ -233,6 +233,7 @@ const showcasePicksRaw: ShowcasePick[] = [
   { kind: 'article', category: 'cities', slug: 'dubrovnik-travel-guide', kicker: 'city', city: 'Dubrovnik' },
   { kind: 'article', category: 'cities', slug: 'split-travel-guide', kicker: 'city', city: 'Split' },
   { kind: 'article', category: 'cities', slug: 'hvar-travel-guide', kicker: 'city', city: 'Hvar' },
+  { kind: 'article', category: 'cities', slug: 'rovinj-travel-guide', kicker: 'city', city: 'Rovinj' },
   { kind: 'article', category: 'relocation', slug: 'croatia-digital-nomad-visa', kicker: 'guide' },
   { kind: 'article', category: 'planning', slug: 'croatia-trip-cost', kicker: 'guide' },
   { kind: 'article', category: 'planning', slug: 'best-time-to-visit-croatia', kicker: 'guide' },
@@ -320,7 +321,7 @@ for (const pick of showcasePicks) {
   }
   // Пин-чип города. Латинские названия городов локализуем для ru-витрины
   // (карта CITY_RU), чтобы чип не выпадал из языка страницы; нет в карте → как есть.
-  const CITY_RU: Record<string, string> = { Zagreb: 'Загреб', Dubrovnik: 'Дубровник', Split: 'Сплит', Hvar: 'Хвар' };
+  const CITY_RU: Record<string, string> = { Zagreb: 'Загреб', Dubrovnik: 'Дубровник', Split: 'Сплит', Hvar: 'Хвар', Rovinj: 'Ровинь' };
   const cityLabel = p.city && lang === 'ru' ? (CITY_RU[p.city] ?? p.city) : p.city;
   showcaseItems.push({
     href: articleHref(lang, category, entry.data.slug),

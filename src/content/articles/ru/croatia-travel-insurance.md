@@ -18,9 +18,6 @@ gallery:
     alt: 'Морские каяки под скалами у Дубровника на адриатическом побережье'
     credit: 'Фото: U.S. Air Force / Wikimedia Commons, Public domain'
 affiliate:
-  - partner: 'ekta'
-    label: 'Страховка для путешественников из СНГ и Украины'
-    position: 'body-end'
   - partner: 'safetywing'
     label: 'Помесячная номад-страховка (по всему миру)'
     position: 'body-end'
@@ -119,7 +116,7 @@ draft: false
 
 Что бы вы ни выбрали, сверьте на сертификате три вещи: что **названа Хорватия (или регион Шенген/ЕС)**, что **даты** совпадают с поездкой и что **активности** перечислены. Затем сохраните номер экстренной помощи и номер полиса в телефоне.
 
-Путешественникам из СНГ и Украины стоит <a href="/go/ekta?c=croatia-travel-insurance" rel="sponsored nofollow noopener">посмотреть EKTA</a>, а для долгих поездок удобна <a href="/go/safetywing?c=croatia-travel-insurance" rel="sponsored nofollow noopener">номад-страховка SafetyWing</a> — перед покупкой убедитесь, что условия подходят под вашу поездку.
+Путешественникам из СНГ и Украины подойдёт специализированный сервис вроде EKTA, а для долгих поездок удобна <a href="/go/safetywing?c=croatia-travel-insurance" rel="sponsored nofollow noopener">номад-страховка SafetyWing</a> — перед покупкой убедитесь, что условия подходят под вашу поездку.
 
 ## Перед поездкой
 

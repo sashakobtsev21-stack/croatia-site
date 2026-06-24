@@ -21,9 +21,6 @@ affiliate:
   - partner: 'safetywing'
     label: 'Nomad travel insurance (worldwide, monthly)'
     position: 'body-end'
-  - partner: 'ekta'
-    label: 'Travel insurance for CIS & Ukraine travellers'
-    position: 'body-end'
 sources:
   - 'European Commission — European Health Insurance Card (EHIC)'
   - 'NHS / UK Government (gov.uk) — Global Health Insurance Card (GHIC) and travel abroad'
@@ -119,7 +116,7 @@ The market is split, and the right insurer often depends on your home country:
 
 Whatever you pick, verify three things on the certificate: that **Croatia (or the Schengen/EU region) is named**, that the **dates** match your trip, and that your **activities** are listed. Then keep the emergency number and policy number on your phone.
 
-<a href="/go/safetywing?c=croatia-travel-insurance" rel="sponsored nofollow noopener">Compare SafetyWing's nomad cover</a> for long stays, or for travellers from the CIS and Ukraine, <a href="/go/ekta?c=croatia-travel-insurance" rel="sponsored nofollow noopener">look at EKTA</a> — confirm the wording fits your trip before you buy.
+<a href="/go/safetywing?c=croatia-travel-insurance" rel="sponsored nofollow noopener">Compare SafetyWing's nomad cover</a> for long stays. For travellers from the CIS and Ukraine, a specialist such as EKTA is usually the practical option — confirm the wording fits your trip before you buy.
 
 ## Before you go
 

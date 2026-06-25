@@ -45,3 +45,7 @@
 - **Добор перелинковки:** при выходе `7-day-croatia-itinerary` и `best-time-to-visit-croatia` заменить ссылки-на-хабы в `zagreb-travel-guide` (×3 языка) на прямые ссылки на эти статьи (двунаправленный кластер). Аналогично для `dubrovnik-travel-guide`: при выходе `dubrovnik-game-of-thrones-locations`, `one-day-in-dubrovnik`, `dubrovnik-city-walls`, `day-trips-from-dubrovnik`, island-hopping route и `best-time` заменить ссылки-на-хабы на прямые (×3 языка).
 - **R5 — запуск:** P1, добор до 10+ пар, недельный ритуал §17.
 - **Отложенные фиксы:** `ROADMAP-FIX.md` (overflow 320px, добор фото статьи, www, политика конфиденциальности, dev-зависимости).
+
+## 2026-06-25 — Hero/OG/HTTPS
+- Главная: hero-кадры пересобираются в более высоком качестве (до 1920px AVIF / 1600px WebP; убрано чрезмерное сжатие `q:22/24`), и ротация теперь меняет фото в открытой вкладке по таймеру, а не только при новой загрузке страницы. Также обновлены брендированный `og-default.jpg`, `og:image:secure_url` и HTTP→HTTPS 301 в Worker.
+- Проверки: `npm run check`, `npm run build`, `npm test`, `npm run lint` — зелёные.

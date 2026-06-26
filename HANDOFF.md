@@ -2,9 +2,11 @@
 
 > Снимок «где остановились» для следующей сессии. Обновляется после каждой доработки.
 
-**Дата:** 2026-06-24 · **Ветка:** `main` · **Сборка:** 71 страница (draft в сборку не идёт) · `check`/`build`/`test`/`test:links`/`lint` — зелёные, `qa`=GO.
+**Дата:** 2026-06-26 · **Ветка:** `main` · **Сборка:** `check`/`build`/`test`/`test:links`/`lint` — зелёные, `qa`=GO.
 
 ## Где остановились
+**Published: Croatia Taxes for Foreigners (2026-06-26).** Pair `croatia-taxes-for-foreigners` (en+ru), `category=relocation`, `draft:false` in both languages. EN ~1804 words, RU ~1564 words; 5 new CC/CC0 webp photos ≤200KB under `public/images/croatia-taxes-for-foreigners/`; official Porezna/MUP sources; visible tax disclaimer. Internal links point only to published `croatia-digital-nomad-visa` and `croatia-cost-of-living-nomads`; `open-company-croatia-doo` deliberately not linked until it exists. Wise/banking affiliate was not inserted because no configured partner key exists in `partners.json`; direct partner URLs remain prohibited.
+
 **Published: Game of Thrones Filming Locations in Dubrovnik (2026-06-24).** Pair `dubrovnik-game-of-thrones-locations` (en+ru), `category=attractions`, 7 unique CC photos, AffiliateBox `trip-tours`, `draft:false`, live at `/attractions/dubrovnik-game-of-thrones-locations/` and `/ru/...`. Gates: `qa`=GO. KALENDAR is marked. Follow-up: replace the GoT placeholder link in `dubrovnik-travel-guide` with the direct article link in both languages.
 
 _Ранее (2026-06-23): rehype-external-links._ **rehype-external-links — авто-`rel` на внешних ссылках в теле (2026-06-23).** Подключён плагин `rehype-external-links` (обычная зависимость, одобрено владельцем) в `astro.config.mjs`: добавлен импорт + секция `markdown.rehypePlugins` с `[rehypeExternalLinks, { rel: ['nofollow', 'noopener', 'noreferrer'] }]` (раньше markdown-конфига в файле не было — секция создана с нуля). Теперь любая внешняя http(s)-ссылка в теле .md получает `rel="nofollow noopener noreferrer"` (атрибут `target` НЕ задаётся — ссылки в том же окне). Проверено в `dist/`: внешние ссылки (npkrka.hr, np-plitvicka-jezera.hr, inmusicfestival.com, total-croatia-news.com, mup.gov.hr и др.) получили нужный rel; внутренние/относительные (`/cities/`, `/ru/...`) — НЕ затронуты (плагин трогает только абсолютные http/https-URL); `/go/`-партнёрки сохранили свой `rel="sponsored nofollow noopener"` из AffiliateBox (плагин их не касается). Гейты: `build`(71 стр.)/`check`(0/0)/`test`(enums+parity en/ru 40 файлов+photos+interlinks)/`test:links`(3906 ссылок)/`lint` — все зелёные.

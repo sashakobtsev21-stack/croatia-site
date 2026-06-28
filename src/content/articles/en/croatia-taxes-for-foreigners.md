@@ -19,6 +19,7 @@ sources:
   - 'Croatian Tax Administration — Porezne stope godišnjeg poreza na dohodak: https://porezna-uprava.gov.hr/hr/porezne-stope-godisnjeg-poreza-na-dohodak/4764'
   - 'Croatian Ministry of the Interior (MUP) — Temporary stay of digital nomads: https://mup.gov.hr/aliens-281621/temporary-stay-of-digital-nomads-286853/286853'
   - 'Income Tax Act (Zakon o porezu na dohodak), official consolidated references via Porezna uprava/Narodne novine'
+  - 'VAT registration threshold raised to €60,000 from 1 January 2025 (up from €40,000), VAT Act amendment Narodne novine NN 152/2024 — verify on Croatian Tax Administration (Porezna uprava): https://porezna-uprava.gov.hr'
 draft: false
 ---
 
@@ -99,7 +100,7 @@ That means a person living in Zagreb and a person living in a smaller municipali
 
 Income tax is only one layer. If you work through a Croatian employer or business, social security contributions can be more important than the headline income tax rate. EU coordination rules, certificates of coverage and bilateral agreements may decide where contributions are due. For non-EU freelancers, the answer can depend on residence status, business registration and treaty coverage.
 
-VAT is another separate issue. The Ministry of Finance has highlighted that the VAT registration threshold for companies rose to **€50,000** from 2025. That does not mean every foreign freelancer should register a Croatian company or that VAT is irrelevant below the threshold; cross-border services, EU clients and reverse-charge rules can still matter. Treat VAT as a separate adviser question, especially if your clients are in the EU.
+VAT is another separate issue. The Ministry of Finance has highlighted that the VAT registration threshold rose to **€60,000** from 2025 (up from €40,000). That does not mean every foreign freelancer should register a Croatian company or that VAT is irrelevant below the threshold; cross-border services, EU clients and reverse-charge rules can still matter. Treat VAT as a separate adviser question, especially if your clients are in the EU.
 
 If you are considering a Croatian d.o.o., do not improvise from a tourist tax guide. Company profit tax, director salary, dividends, bookkeeping, VAT and social contributions are a different decision tree. Until a dedicated company guide exists on this site, avoid relying on a half-link or a generic "open a company" promise.
 

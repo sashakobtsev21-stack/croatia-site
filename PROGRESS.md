@@ -3,7 +3,7 @@
 > Статус и роадмап-трекинг. Обновляется после каждой доработки (CLAUDE правило 9 / ПРАВИЛО ДИСЦИПЛИНЫ).
 > Источник истины по стратегии — `docs/STRATEGY.md` + `docs/CROATIA-ANALYSIS-2026-06-20.md`. Аудит — `AUDIT.md` / `AUDIT-2026-06-22.md`. Отложенные фиксы — `ROADMAP-FIX.md`.
 
-**Date:** 2026-06-26 · **Phase:** R4 content · **PUBLISHED: `category=relocation` article `Croatia Taxes for Foreigners: 2026 Guide` (`croatia-taxes-for-foreigners`, en+ru, 5 CC photos, official Porezna/MUP sources, `draft:false`)** plus W1-W2 KALENDAR/news/route/planning/attractions/food/entertainment/car-rental/insurance/cities/transport packages. **Build:** qa = GO.
+**Date:** 2026-06-28 · **Phase:** R4 content · **PUBLISHED: `category=relocation` article `How to Open a d.o.o. Company in Croatia as a Foreigner` (`open-company-croatia-doo`, en+ru, 5 CC photos, YMYL — все числа из официальных источников investcroatia.gov.hr / porezna-uprava.gov.hr / sudreg.pravosudje.hr / gov.hr: d.o.o. €2 500 · j.d.o.o. €1 · налог на прибыль 10%↔18% при €1 млн · VAT €60k (не €50k) · регистрация 5 раб. дней; видимый бизнес/право-дисклеймер; AffiliateBox trip-hotels+safetywing; Wise — текстом без своего /go/; перелинк taxes + cost-of-living; `draft:false`)** plus prior `croatia-taxes-for-foreigners` + W1-W2 KALENDAR/news/route/planning/attractions/food/entertainment/car-rental/insurance/cities/transport/relocation packages. **Build:** qa = GO.
 
 ## Текущее состояние (по факту)
 - **Языки — 2: en (по умолчанию, корень) + ru (`/ru/`).** Украинский (uk) **убран 2026-06-22** по решению владельца: удалены `src/pages/uk/`, контент `*/uk/`, словарь `i18n/uk.ts`; `LANGS=['ru','en']`; hreflang/sitemap/`check-parity` — без uk; `/uk/* → корень` 301 в `public/_redirects`.

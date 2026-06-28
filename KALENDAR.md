@@ -1,7 +1,7 @@
 # Контент-календарь Хорватия — единый план, 5 статей/нед (старт 24.06.2026)
 
 **Опубликовано: 15 материалов** (14 статей + 1 маршрут) + 2 новости. Сверено с `src/content` 2026-06-23. Опубликованные стоят на реальных датах и НЕ переносятся.
-Статьи/маршруты: zagreb-travel-guide, dubrovnik-travel-guide, dalmatia-split-to-dubrovnik (route), split-travel-guide, rovinj-travel-guide, best-time-to-visit-croatia, hvar-travel-guide, croatia-island-hopping, krka-national-park, croatia-trip-cost, plitvice-lakes-national-park, croatia-digital-nomad-visa, renting-a-car-in-croatia, croatia-travel-insurance (сирота), split-nightlife (сирота). Новости: inmusic-festival-zagreb-2026, split-airport-ferry-crowds-june-2026.
+Статьи/маршруты: zagreb-travel-guide, dubrovnik-travel-guide, dalmatia-split-to-dubrovnik (route), split-travel-guide, rovinj-travel-guide, best-time-to-visit-croatia, hvar-travel-guide, croatia-island-hopping, krka-national-park, croatia-trip-cost, plitvice-lakes-national-park, croatia-digital-nomad-visa, renting-a-car-in-croatia, croatia-travel-insurance (усилено 2026-06-28, сиротство снято), split-nightlife (сирота). Новости: inmusic-festival-zagreb-2026, split-airport-ferry-crowds-june-2026.
 
 **Темп: 5 статей/нед, дни Пн–Пт.** Неопубликованные темы уплотнены по 5/нед с ближайшей свободной даты от 24.06.2026 вперёд. **Override 2026-06-24:** владелец выбрал `relocation/money first` для Хорватии (см. `docs/STRATEGY.md`, `ROADMAP.md`), поэтому ближайшие неопубликованные слоты переставлены на DNV/налоги/d.o.o./living/cost/insurance/banking. Broad-travel остаётся как long-tail/backlog и не масштабируется без живого моата (стрингер/поездка/свои фото). Замеры GA/GSC — по понедельникам (📊 на Пн-слоте статьи). Слаги — английские, из SEO-отчёта.
 
@@ -159,7 +159,7 @@
 ---
 
 ## Опубликовано вне плана (сироты — учтены, не плодить дубли)
-- [x] [Статья] Travel Insurance for Croatia: Do You Need It? · /croatia-travel-insurance/ · `category=insurance` · ✅ ОПУБЛИКОВАНО (slug `croatia-travel-insurance`). Покрывает insurance-интент; ETIAS-страница (Неделя 1) перелинкует на неё. Отдельную страховую статью НЕ дублировать.
+- [x] [Статья] Croatia Travel Insurance: Do You Need It? (2026) · /insurance/croatia-travel-insurance/ · `category=insurance` · ✅ ОПУБЛИКОВАНО (slug `croatia-travel-insurance`). **УСИЛЕНО 2026-06-28** под GSC-спрос `croatia travel insurance` (100+ показов, поз. 64–76; хаб /insurance/ 187 показов): точный запрос в title/H1/первом H2/meta/desc; +2 раздела (типы полисов — сравнение; диапазоны цен с «check current», без выдуманных сумм); объём en ~1.9k / ru ~1.65k слов (паритет, числа сверены); **сиротство снято** — добавлены обратные deep-ссылки из croatia-digital-nomad-visa, croatia-trip-cost, renting-a-car-in-croatia (en+ru) + уже было из cost-of-living-nomads; updatedAt=2026-06-28; YMYL-дисклеймер на месте. Покрывает insurance-интент. Отдельную страховую статью НЕ дублировать.
 - [x] [Статья] Split Nightlife: Bars, Clubs & Going Out · /split-nightlife/ · `category=entertainment` · ✅ ОПУБЛИКОВАНО (slug `split-nightlife`). Supporting к split-travel-guide; Ultra/party-интент. Не дублировать.
 
 ---

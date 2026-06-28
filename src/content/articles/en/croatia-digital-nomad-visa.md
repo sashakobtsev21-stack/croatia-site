@@ -72,7 +72,7 @@ You can apply at a **Croatian embassy/consulate** before you travel, or **in Cro
 
 ## Before you go
 
-- **Health insurance** is required for the permit, and a private policy is worth having anyway — see our guide to [travel and long-stay insurance for Croatia](/insurance/). For long stays, monthly nomad cover such as SafetyWing is convenient (<a href="/go/safetywing?c=croatia-digital-nomad-visa" rel="sponsored nofollow noopener">compare SafetyWing</a>); travellers from CIS countries and Ukraine should look at EKTA, which some Western insurers exclude.
+- **Health insurance** is required for the permit, and a private policy is worth having anyway — see our full guide to [Croatia travel insurance](/insurance/croatia-travel-insurance/) for what to look for and the long-stay options. For long stays, monthly nomad cover such as SafetyWing is convenient (<a href="/go/safetywing?c=croatia-digital-nomad-visa" rel="sponsored nofollow noopener">compare SafetyWing</a>); travellers from CIS countries and Ukraine should look at EKTA, which some Western insurers exclude.
 - Budgeting the move? See [the cost of living in Croatia](/relocation/) and, if you'll invoice clients, [taxes for foreigners](/relocation/) and whether to [register a company](/relocation/).
 - More practical settling-in steps — SIM, bank account, housing — are in the [relocation section](/relocation/).
 

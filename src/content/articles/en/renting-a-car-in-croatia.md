@@ -72,6 +72,8 @@ Every rental includes basic **Collision Damage Waiver (CDW)** and theft protecti
 
 You can reduce or remove that excess by buying **extra excess-reduction cover**. At the desk this is convenient but expensive; a **standalone excess-reimbursement policy bought online in advance** is usually far cheaper for the same protection. Watch the standard exclusions, too: **tyres, windscreen, undercarriage and wing mirrors** are often *not* covered by basic CDW. Photograph the car from every angle (and film a short video) at pick-up and again at drop-off, and make sure any existing scratches are logged on the contract.
 
+One thing CDW does **not** do is cover *you* — your health, a cancelled trip or your belongings. That's a separate product; see our [Croatia travel insurance guide](/insurance/croatia-travel-insurance/) for how the two differ and why some travel policies bundle a car-hire excess refund.
+
 ## Driving in Croatia: tolls, the coast road and old towns
 
 Croatia uses no national windscreen *vignette*. Instead, the modern **motorways (autoceste, the A1, A2 and so on) are tolled per distance** — you take a ticket on entry and pay on exit, by card or cash, or use the **ENC electronic tag** for a discount and faster lanes. Budget for tolls on long motorway legs (for example Zagreb–Split), and note that the scenic coastal **Jadranska Magistrala (the D8)** is **toll-free** but slower and winding.

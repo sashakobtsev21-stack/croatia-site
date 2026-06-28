@@ -132,6 +132,6 @@ If you can travel in the shoulder, you get most of the summer upside at a meanin
 
 ## Plan the rest of your trip
 
-For the cheapest-value window, see our guide to [the best time to visit Croatia](/planning/best-time-to-visit-croatia/) and weigh a city base with [Split](/cities/split-travel-guide/) versus [Dubrovnik](/cities/dubrovnik-travel-guide/). To link the coast on a budget, the [Dalmatia route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/) shows the ferry-and-bus way to do it. More cost and logistics tips live in the [trip-planning hub](/planning/), with practical add-ons in our [car-hire](/car-rental/) and [transport](/transport/) sections.
+For the cheapest-value window, see our guide to [the best time to visit Croatia](/planning/best-time-to-visit-croatia/) and weigh a city base with [Split](/cities/split-travel-guide/) versus [Dubrovnik](/cities/dubrovnik-travel-guide/). To link the coast on a budget, the [Dalmatia route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/) shows the ferry-and-bus way to do it. One budget line worth getting right before anything goes wrong is cover — our [Croatia travel insurance guide](/insurance/croatia-travel-insurance/) breaks down what a policy should include and roughly what it costs. More cost and logistics tips live in the [trip-planning hub](/planning/), with practical add-ons in our [car-hire](/car-rental/) and [transport](/transport/) sections.
 
 _Prices and ticket fares change with the season — confirm current figures with the official sources above before you book._

@@ -142,7 +142,7 @@ Further out, the **Elaphiti Islands** — chiefly **Koločep, Lopud and Šipan**
 <figcaption>Šunj beach on Lopud — one of the few sandy beaches near Dubrovnik, on the car-free Elaphiti Islands. <span class="figure__credit">Photo: dronepicr / Wikimedia Commons, CC BY 2.0</span></figcaption>
 </figure>
 
-If you have a full day and want to cross a border, **Kotor** in Montenegro and **Cavtat** just down the coast are also popular trips — but Lokrum and the Elaphiti are the classic Dubrovnik pairings.
+If you have a full day and want to cross a border, **[Kotor](https://montenegroguidebook.com/cities/kotor/)** in Montenegro and **Cavtat** just down the coast are also popular trips — but Lokrum and the Elaphiti are the classic Dubrovnik pairings.
 
 ## Where to stay: best areas
 

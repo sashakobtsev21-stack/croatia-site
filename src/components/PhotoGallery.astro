@@ -144,10 +144,16 @@ const headingId = `gallery-heading-${Math.random().toString(36).slice(2, 8)}`;
     font-size: var(--text-sm);
     color: var(--text-body);
     line-height: 1.4;
+    /* Подписи/кредиты содержат длинные URL источников (Wikimedia File:…, sourceUrl) —
+       принудительный перенос, иначе неразрывное слово даёт перелив на ~320px. */
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .gallery__credit {
     font-size: var(--text-sm);
     color: var(--text-muted);
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   @media (prefers-reduced-motion: reduce) {

@@ -63,6 +63,11 @@ Two caveats worth checking with the **Tax Administration** before you rely on th
 
 ## How to apply
 
+<figure class="figure">
+  <img src="/images/croatia-digital-nomad-visa/zagreb.webp" alt="Ban Jelačić Square in central Zagreb, the Croatian capital" width="1280" height="960" loading="lazy" />
+  <figcaption>Zagreb, the capital — many nomads handle the in-country paperwork at a police administration office here before settling on the coast. <span class="credit">Vojtěch Dočkal / Wikimedia Commons · CC BY-SA 4.0</span></figcaption>
+</figure>
+
 You can apply at a **Croatian embassy/consulate** before you travel, or **in Croatia** at a police administration office, and part of the process is handled online. You'll submit proof of remote work, the income evidence above, health insurance and accommodation, plus a background check. There are **state fees**: applying **in Croatia** runs roughly **€46 for granting the stay plus about €32–42 for the biometric residence card** (a small administrative fee applies on top); applying **at a consulate** is a little higher, and a separate **visa D (~€93)** may be needed just to enter. Amounts are re-set periodically — confirm the current figures on [mup.gov.hr](https://mup.gov.hr) before you pay. Importantly, **time spent on the nomad stay does not count** toward the five years needed for permanent residence.
 
 <figure class="figure">

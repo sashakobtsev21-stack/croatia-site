@@ -27,11 +27,33 @@ interface Env {
 
 const DATA = partnersData as unknown as PartnersMap;
 const SAFE_FALLBACK = '/';
+const APEX_HOST = 'croatiaguidebook.com';
 
 function httpsRedirect(url: URL): Response | null {
   if (url.protocol !== 'http:') return null;
   const target = new URL(url.href);
   target.protocol = 'https:';
+  return new Response(null, {
+    status: 301,
+    headers: {
+      Location: target.href,
+      'X-Content-Type-Options': 'nosniff',
+    },
+  });
+}
+
+/**
+ * Канонизация хоста: www.croatiaguidebook.com → apex croatiaguidebook.com (301),
+ * с сохранением пути и query (SEO: один канонический хост, без дубля www).
+ * Срабатывает только если запрос реально дошёл до воркера на www-хосте — для
+ * этого в Cloudflare должна существовать DNS-запись `www` (CNAME → apex,
+ * proxied) ИЛИ www-хост привязан к воркеру как custom domain/route. Сама
+ * DNS-запись делается в дашборде (в репо её не выразить) — см. ROADMAP-FIX.md.
+ */
+function wwwRedirect(url: URL): Response | null {
+  if (url.hostname !== `www.${APEX_HOST}`) return null;
+  const target = new URL(url.href);
+  target.hostname = APEX_HOST;
   return new Response(null, {
     status: 301,
     headers: {
@@ -88,7 +110,7 @@ function handleGo(url: URL): Response {
 export default {
   fetch(request: Request, env: Env): Response | Promise<Response> {
     const url = new URL(request.url);
-    const redirect = httpsRedirect(url);
+    const redirect = httpsRedirect(url) ?? wwwRedirect(url);
     if (redirect) return redirect;
 
     if (request.method === 'GET' && url.pathname.startsWith('/go/')) {

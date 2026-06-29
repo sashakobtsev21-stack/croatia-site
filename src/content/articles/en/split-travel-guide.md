@@ -168,7 +168,7 @@ Split fills up in July and August, so reserve early and compare locations before
 | Public city bus | ~40–50 min | Cheapest; via Kaštela, more stops |
 | Taxi / transfer | ~30 min | Door-to-door; agree the fare or use the meter/app first |
 
-Inside Split you rarely need a car — the old town is pedestrian and the sights are walkable. If you are touring the coast afterwards, see our guide to [renting a car in Croatia](/car-rental/); for moving between towns and islands, the [transport hub](/transport/) covers buses and ferries. In peak season the port gets extremely busy — our news desk covered one such weekend when [Split braced for 100,000+ travellers](/news/split-airport-ferry-crowds-june-2026/), and the advice holds all summer: arrive early, especially for car ferries.
+Inside Split you rarely need a car — the old town is pedestrian and the sights are walkable. For the airport run in detail, see [Split Airport transfers: bus, ferry and taxi](/transport/split-airport-to-city/). If you are touring the coast afterwards, see our guide to [renting a car in Croatia](/car-rental/); for moving between towns and islands, [getting around Croatia](/transport/getting-around-croatia/) and the [transport hub](/transport/) cover buses and ferries. In peak season the port gets extremely busy — our news desk covered one such weekend when [Split braced for 100,000+ travellers](/news/split-airport-ferry-crowds-june-2026/), and the advice holds all summer: arrive early, especially for car ferries.
 
 ## Where to eat
 

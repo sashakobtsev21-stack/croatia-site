@@ -167,7 +167,7 @@ Dubrovnik is one of Croatia's most expensive towns and books out in July–Augus
 | Taxi / ride-hail | ~30 min | Door-to-door; agree the fare or use the meter/app first |
 | Rental car | ~30 min | Useful only if you're touring the coast — parking in the Old Town is impractical |
 
-Inside Dubrovnik you rarely need a car: the Old Town is pedestrian-only and **Libertas city buses** link it with Lapad, Gruž and the airport. If you're continuing up the coast, see our guide to [renting a car in Croatia](/car-rental/) — and note that the drive toward Split now uses the **Pelješac Bridge** to bypass the short stretch of Bosnian coast at Neum.
+Inside Dubrovnik you rarely need a car: the Old Town is pedestrian-only and **Libertas city buses** link it with Lapad, Gruž and the airport. If you're continuing up the coast, see our guide to [renting a car in Croatia](/car-rental/) — and note that the drive toward Split now uses the **Pelješac Bridge** to bypass the short stretch of Bosnian coast at Neum. To compare all the ways between the two cities, see [Split to Dubrovnik: bus, ferry, car or transfer](/transport/split-to-dubrovnik-transport/).
 
 ## Where to eat
 

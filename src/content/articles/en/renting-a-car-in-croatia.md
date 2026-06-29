@@ -130,6 +130,7 @@ Treat the figures below as **rough orientation, not quotes** — confirm live pr
 - Buy excess-reduction cover **online in advance** rather than at the desk.
 - Photograph and film the car at pick-up and drop-off.
 - Plan parking outside the old towns of [Split](/cities/split-travel-guide/) and [Dubrovnik](/cities/dubrovnik-travel-guide/) — you can't drive in.
+- Deciding between the car and public transport? See [getting around Croatia](/transport/getting-around-croatia/) for how driving compares with buses, ferries and trains.
 - For the wider picture, see our [trip-planning](/planning/) and [transport](/transport/) sections, and the full [car-rental hub](/car-rental/).
 
 _This guide is informational and uses ballpark figures for planning. Rental terms, tolls and ferry fares change — always confirm the current details with the rental company and official sources before you travel._

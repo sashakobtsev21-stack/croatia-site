@@ -57,6 +57,11 @@ How long it takes depends on the service. A **direct, motorway bus can do it in 
 
 Buses leave from **Zadar's main bus station (Autobusni kolodvor)** on Ante Starčevića, about a 15-minute walk or short taxi from the old town peninsula, and arrive at **Split's main bus station** on Obala kneza Domagoja — which sits **right beside the ferry port and the train station**, a five-minute walk from Diocletian's Palace. That last point matters: in Split you step off the bus essentially in the old town, with the ferry terminal next door if you're heading to the islands.
 
+<figure class="figure">
+<img src="/images/zadar-to-split-transport/zadar-riva.webp" alt="People strolling along Zadar's marble Riva promenade beside the sea, with the old town buildings behind" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Zadar's marble Riva runs along the old town peninsula; the bus station is a short walk inland, so it's easy to spend the morning here before the early-afternoon departures to Split. <span class="figure__credit">Photo: Fred Romero / Wikimedia Commons, CC BY 2.0; sourceUrl: https://commons.wikimedia.org/wiki/File:Zadar_(48913303688).jpg</span></figcaption>
+</figure>
+
 Book ahead online in **July and August** and around public holidays, when the best departures sell out. In spring and autumn you can usually buy a day or two before, or even at the station. For how this slots into the wider network — buses, ferries and driving across the country — see our [getting around Croatia](/transport/getting-around-croatia/) guide.
 
 ## By car: fastest on the A1, but mind the parking

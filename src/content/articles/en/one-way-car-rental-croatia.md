@@ -86,6 +86,11 @@ It comes down to your route shape:
 - **A round trip wins if** you're based in one city and exploring out and back, or doing a loop that returns you near the pickup point — then there's no drop-off fee at all, and a same-city return is often free.
 - **Either way, build the drive in:** the Split–Dubrovnik run is a highlight, not just a transfer. Stop in **Ston** for the walls and oysters, detour onto the **Pelješac wine road**, and you've turned the transfer into part of the trip.
 
+<figure class="figure">
+<img src="/images/one-way-car-rental-croatia/dubrovnik-dropoff.webp" alt="Aerial view of Dubrovnik's walled old town on its cliffs above the Adriatic" width="1280" height="719" loading="lazy" decoding="async" />
+<figcaption>Dubrovnik as the drop-off point: its old town is pedestrian-only, so you return the car at the rental's depot or the airport, not at the city walls — handy if you're flying out from here rather than driving back to Split. <span class="figure__credit">Photo: dronepicr / Wikimedia Commons, CC BY 2.0; sourceUrl: https://commons.wikimedia.org/wiki/File:Steep_coast_near_the_city_wall_in_the_Old_Town_of_Dubrovnik,_Croatia_(48613191222).jpg</span></figcaption>
+</figure>
+
 For the route itself, our [Dalmatia coast route from Split to Dubrovnik](/routes/dalmatia-split-to-dubrovnik/) maps the drive stop by stop, and the [Split to Dubrovnik transport](/transport/split-to-dubrovnik-transport/) guide compares the car against the bus, ferry and transfer if you're still weighing how to make the journey.
 
 _All fees and times here are planning estimates in euros, not quotes. One-way charges, insurance terms and border rules change by company and over time — confirm current details with the rental company before you book, and check the bridge's renovation status if driving in late 2026. Checked July 2026._

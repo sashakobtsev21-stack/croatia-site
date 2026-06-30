@@ -19,7 +19,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Book a Croatia island boat trip or tour'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Arrange a port or airport transfer'
     position: 'body-end'
 sources:

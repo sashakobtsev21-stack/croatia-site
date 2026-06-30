@@ -41,7 +41,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Экскурсия на Плитвицкие озёра'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Трансфер до Плитвице'
     position: 'body-end'
 sources:

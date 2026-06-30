@@ -19,7 +19,7 @@ affiliate:
   - partner: 'kiwitaxi'
     label: 'Заказать частный трансфер из аэропорта Сплита'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить аренду авто в аэропорту Сплита'
     position: 'body-end'
 sources:

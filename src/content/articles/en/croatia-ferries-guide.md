@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Book a Croatia boat trip or island tour'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Compare car rental in Croatia'
     position: 'body-end'
 sources:

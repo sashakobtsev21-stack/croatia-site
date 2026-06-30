@@ -12,7 +12,7 @@ cover:
 coverCredit: 'Фото: Nick Savchenko / Wikimedia Commons, CC BY-SA 2.0'
 gallery: []
 affiliate:
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Заказать трансфер из аэропорта Сплита'
     position: 'body-end'
 sources:

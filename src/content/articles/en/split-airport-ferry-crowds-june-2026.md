@@ -12,7 +12,7 @@ cover:
 coverCredit: 'Photo: Nick Savchenko / Wikimedia Commons, CC BY-SA 2.0'
 gallery: []
 affiliate:
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Book an airport transfer in Split'
     position: 'body-end'
 sources:

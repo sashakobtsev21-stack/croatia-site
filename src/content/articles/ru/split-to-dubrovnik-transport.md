@@ -19,7 +19,7 @@ affiliate:
   - partner: 'kiwitaxi'
     label: 'Заказать частный трансфер Сплит → Дубровник'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить аренду авто для поездки по побережью'
     position: 'body-end'
 sources:

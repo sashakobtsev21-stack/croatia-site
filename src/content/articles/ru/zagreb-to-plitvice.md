@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Забронировать тур на Плитвице из Загреба'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить аренду авто в Загребе'
     position: 'body-end'
 sources:

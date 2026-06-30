@@ -38,7 +38,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Book a Krka & Skradinski Buk day tour'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Arrange a transfer to Krka'
     position: 'body-end'
 sources:

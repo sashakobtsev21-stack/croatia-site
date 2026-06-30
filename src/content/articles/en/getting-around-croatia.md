@@ -16,10 +16,10 @@ gallery:
     alt: 'The D8 coastal road near Split with traffic and the Dalmatian mountains behind'
     credit: 'Photo: Macic7 / Wikimedia Commons, CC BY-SA 3.0'
 affiliate:
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Compare car hire across Croatia'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Arrange a private transfer or port pick-up'
     position: 'body-end'
 sources:

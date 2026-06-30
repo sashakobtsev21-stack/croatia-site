@@ -19,7 +19,7 @@ gallery:
     alt: A narrow stepped stone lane in the old town of Dubrovnik, closed to cars
     credit: 'Photo: Richard Mortel / Wikimedia Commons, CC BY 2.0'
 affiliate:
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Compare car-hire prices in Croatia'
     position: 'body-end'
   - partner: 'localrent'

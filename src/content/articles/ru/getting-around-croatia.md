@@ -16,10 +16,10 @@ gallery:
     alt: 'Прибрежная дорога D8 у Сплита с трафиком и далматинскими горами позади'
     credit: 'Фото: Macic7 / Wikimedia Commons, CC BY-SA 3.0'
 affiliate:
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить аренду авто по Хорватии'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Организовать частный трансфер или встречу в порту'
     position: 'body-end'
 sources:

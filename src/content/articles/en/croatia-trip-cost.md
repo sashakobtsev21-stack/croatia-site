@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-hotels'
     label: 'Compare places to stay in Croatia'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Check car-hire prices in Croatia'
     position: 'body-end'
 sources:

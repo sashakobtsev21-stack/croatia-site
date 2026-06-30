@@ -19,7 +19,7 @@ affiliate:
   - partner: 'safetywing'
     label: 'Сравнить помесячную страховку для кочевников'
     position: 'body-end'
-  - partner: 'airalo'
+  - partner: 'yesim'
     label: 'Посмотреть eSIM-тарифы для Хорватии'
     position: 'body-end'
   - partner: 'trip-hotels'

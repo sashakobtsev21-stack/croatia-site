@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Book a Plitvice day tour from Split'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Compare car rental in Croatia'
     position: 'body-end'
 sources:

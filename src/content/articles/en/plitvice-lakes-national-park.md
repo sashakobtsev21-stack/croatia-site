@@ -41,7 +41,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Book a Plitvice Lakes day tour'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Arrange a transfer to Plitvice'
     position: 'body-end'
 sources:

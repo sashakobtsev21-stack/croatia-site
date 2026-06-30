@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Забронировать тур на Плитвице из Сплита'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить аренду авто в Хорватии'
     position: 'body-end'
 sources:

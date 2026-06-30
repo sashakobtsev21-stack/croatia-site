@@ -19,7 +19,7 @@ gallery:
     alt: Узкий каменный переулок со ступенями в старом городе Дубровника, закрытый для машин
     credit: 'Фото: Richard Mortel / Wikimedia Commons, CC BY 2.0'
 affiliate:
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить цены на аренду авто в Хорватии'
     position: 'body-end'
   - partner: 'localrent'

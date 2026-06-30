@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-hotels'
     label: 'Сравнить жильё в Хорватии'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Посмотреть цены на аренду авто'
     position: 'body-end'
 sources:

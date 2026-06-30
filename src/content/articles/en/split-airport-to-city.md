@@ -19,7 +19,7 @@ affiliate:
   - partner: 'kiwitaxi'
     label: 'Book a private Split Airport transfer'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Compare car hire at Split Airport'
     position: 'body-end'
 sources:

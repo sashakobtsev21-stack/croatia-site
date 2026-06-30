@@ -19,7 +19,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Заказать лодочную прогулку или тур по островам Хорватии'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Заказать трансфер в порт или из аэропорта'
     position: 'body-end'
 sources:

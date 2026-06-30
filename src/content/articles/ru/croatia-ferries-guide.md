@@ -22,7 +22,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Забронировать морскую прогулку или тур по островам'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Сравнить аренду авто в Хорватии'
     position: 'body-end'
 sources:

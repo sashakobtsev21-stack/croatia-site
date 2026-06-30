@@ -38,7 +38,7 @@ affiliate:
   - partner: 'trip-tours'
     label: 'Экскурсия в Крку и на Скрадински-Бук'
     position: 'body-end'
-  - partner: 'trip-transfers'
+  - partner: 'kiwitaxi'
     label: 'Трансфер до парка Крка'
     position: 'body-end'
 sources:

@@ -19,7 +19,7 @@ affiliate:
   - partner: 'kiwitaxi'
     label: 'Book a private Split → Dubrovnik transfer'
     position: 'body-end'
-  - partner: 'trip-carhire'
+  - partner: 'localrent'
     label: 'Compare car hire for the coastal drive'
     position: 'body-end'
 sources:

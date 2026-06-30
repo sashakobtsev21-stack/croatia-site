@@ -19,7 +19,7 @@ affiliate:
   - partner: 'safetywing'
     label: 'Compare monthly nomad insurance'
     position: 'body-end'
-  - partner: 'airalo'
+  - partner: 'yesim'
     label: 'Check Croatia eSIM data plans'
     position: 'body-end'
   - partner: 'trip-hotels'

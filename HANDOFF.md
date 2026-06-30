@@ -1,7 +1,7 @@
 # HANDOFF — Croatia Guidebook
 > Снимок для возобновления (обновляется после каждой доработки). Подробная история — `PROGRESS.md`; план — `ROADMAP.md`/`KALENDAR.md`; аудит — `AUDIT.md`.
 
-**Дата:** 2026-06-30 · **Фаза:** R4 наполнение · **Статей:** ~27 (цель ~80) · **Сайт:** live (`croatiaguidebook.com`) · **Языки:** en/ru · **Последний коммит:** `d57ed52 publish(croatia): Plitvice Lakes from Zagreb or Split Without a Car (en+ru)` (+ docs-коммит следом)
+**Дата:** 2026-06-30 · **Фаза:** R4 наполнение · **Статей:** 27 (на язык; цель ~80) · **Сайт:** live (`croatiaguidebook.com`) · **Языки:** en/ru · **Последний коммит:** `chore(docs): housekeeping FIX-LIST P3 — HANDOFF на HEAD + 27 статей` (до него HEAD был `d3c47e6`, контент-волна Plitvice/транспорт 30.06)
 
 ## Где остановились
 - **📱 B3 тап-зона стрелок витрины ≥44×44px (mobile, WCAG 2.5.5) 30.06:** портировано с gruzia `284cb30` (общий движок). В `src/components/ShowcaseRail.astro` стрелки карусели `.scard__nav` были кликабельны лишь 30×30px. Теперь `<button>` = тап-зона `min-width:44px; min-height:44px` (фон прозрачный, без рамки, центрирование), видимая «пилюля» ~30px вынесена в `::before` (контраст-фикс a11y slate 60% + обводка 40%, hover 78% сохранён, теперь на `::before`); иконка `z-index:1` над пилюлей; `--prev/--next` смещены `calc(var(--space-2) - 7px)` (кнопка на 14px шире пилюли) → визуально пилюля у того же края. Только CSS, токены из `tokens.css`, без React. **qa=GO** (крит 0/сред 0), **qa:responsive=GO** (0 переполнений, 9×5 ширин), **test:links=GO** (94 стр., 5713 ссылок, 0 битых, паритет en↔ru). Отмечено в `ROADMAP-FIX.md` (P2 `[x] B3`).

@@ -124,7 +124,7 @@ Dubrovnik stood in for **King's Landing** in *Game of Thrones*, and many sites a
 | Blackwater Bay / harbour scenes | The **Old Port** and the **West Harbour** below Lovrijenac |
 | The City of Qarth (a different show, but filmed nearby) | **Lokrum** island |
 
-A guided *Game of Thrones* walking tour adds the on-set detail, but the walls-plus-Lovrijenac ticket already lets you stand on most of the main spots. For the full route, see our dedicated guide to [Game of Thrones filming locations in Dubrovnik](/attractions/).
+A guided *Game of Thrones* walking tour adds the on-set detail, but the walls-plus-Lovrijenac ticket already lets you stand on most of the main spots. For the full route, see our dedicated guide to [Game of Thrones filming locations in Dubrovnik](/attractions/dubrovnik-game-of-thrones-locations/).
 
 ## Day trips: Lokrum and the Elaphiti Islands
 

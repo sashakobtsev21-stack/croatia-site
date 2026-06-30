@@ -138,7 +138,7 @@ From Ston it’s about an hour’s drive to Dubrovnik, crossing the **Pelješac 
 
 ## Day 5–6: Dubrovnik, the finale
 
-The route ends at **Dubrovnik**, the “Pearl of the Adriatic.” The complete circuit of the **city walls** — about 1,940 metres around — is the single must-do, looking down over a sea of terracotta roofs and out to the island of Lokrum. Walk the marble **Stradun**, ride the cable car up Mount Srđ at sunset, and give yourself a full day inside the Old Town. Everything to see, plus where to eat and how the walls ticket works, is in our [Dubrovnik travel guide](/cities/dubrovnik-travel-guide/).
+The route ends at **Dubrovnik**, the “Pearl of the Adriatic.” The complete circuit of the **city walls** — about 1,940 metres around — is the single must-do, looking down over a sea of terracotta roofs and out to the island of Lokrum. Walk the marble **Stradun**, ride the cable car up Mount Srđ at sunset, and give yourself a full day inside the Old Town. Everything to see, plus where to eat and how the walls ticket works, is in our [Dubrovnik travel guide](/cities/dubrovnik-travel-guide/). Fans can also walk the Old Town as King's Landing — our guide to [Game of Thrones filming locations in Dubrovnik](/attractions/dubrovnik-game-of-thrones-locations/) maps the spots.
 
 ## How to do it: car, ferry or both
 

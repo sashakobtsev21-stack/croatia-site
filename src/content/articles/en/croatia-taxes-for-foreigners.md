@@ -102,7 +102,7 @@ Income tax is only one layer. If you work through a Croatian employer or busines
 
 VAT is another separate issue. The Ministry of Finance has highlighted that the VAT registration threshold rose to **€60,000** from 2025 (up from €40,000). That does not mean every foreign freelancer should register a Croatian company or that VAT is irrelevant below the threshold; cross-border services, EU clients and reverse-charge rules can still matter. Treat VAT as a separate adviser question, especially if your clients are in the EU.
 
-If you are considering a Croatian d.o.o., do not improvise from a tourist tax guide. Company profit tax, director salary, dividends, bookkeeping, VAT and social contributions are a different decision tree. Until a dedicated company guide exists on this site, avoid relying on a half-link or a generic "open a company" promise.
+If you are considering a Croatian d.o.o., do not improvise from a tourist tax guide. Company profit tax, director salary, dividends, bookkeeping, VAT and social contributions are a different decision tree — start with our dedicated guide to [opening a d.o.o. company in Croatia](/relocation/open-company-croatia-doo/), then confirm the tax side with an accountant.
 
 ## Filing, paperwork and banking
 

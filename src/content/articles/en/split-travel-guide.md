@@ -112,7 +112,7 @@ Rising straight out of the old town to the west, **Marjan** is the forested hill
 <figcaption>Marjan, the pine-covered hill above the old town — the locals' "lungs," laced with trails and viewpoints over the city and sea. <span class="figure__credit">Photo: dronepicr / Wikimedia Commons, CC BY 2.0</span></figcaption>
 </figure>
 
-For a swim close to the centre, **Bačvice** is the famous shallow sandy bay just east of the ferry port — home of *picigin*, the local game of keeping a small ball out of the water in the shallows. The pebble coves along the foot of Marjan, such as **Kašjuni**, are quieter and clearer. Croatia's beaches are mostly pebble or rock, so water shoes help.
+For a swim close to the centre, **Bačvice** is the famous shallow sandy bay just east of the ferry port — home of *picigin*, the local game of keeping a small ball out of the water in the shallows. By night the same bay turns into Split's main cluster of beach bars and clubs; our guide to [Split's nightlife](/entertainment/split-nightlife/) covers where to drink and dance from the Riva to Bačvice. The pebble coves along the foot of Marjan, such as **Kašjuni**, are quieter and clearer. Croatia's beaches are mostly pebble or rock, so water shoes help.
 
 ## Day trips: islands and national parks
 

@@ -10,7 +10,6 @@ featuredOrder: 2
 geo:
   coord: [42.6407, 18.1077]
   address: 'Дубровник, Хорватия'
-hotelWidget: true
 accessFrom:
   dubrovnik:
     km: 20

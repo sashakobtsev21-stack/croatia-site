@@ -10,7 +10,6 @@ featuredOrder: 3
 geo:
   coord: [43.5081, 16.4402]
   address: 'Сплит, Хорватия'
-hotelWidget: true
 accessFrom:
   split:
     km: 24

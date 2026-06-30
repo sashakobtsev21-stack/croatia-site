@@ -10,7 +10,6 @@ featuredOrder: 4
 geo:
   coord: [43.1729, 16.4413]
   address: 'Хвар, Хорватия'
-hotelWidget: true
 accessFrom:
   split:
     km: 0

@@ -10,7 +10,6 @@ featuredOrder: 5
 geo:
   coord: [45.0811, 13.6387]
   address: 'Ровинь, Истрия, Хорватия'
-hotelWidget: true
 accessFrom:
   zagreb:
     km: 250

@@ -10,7 +10,6 @@ featuredOrder: 1
 geo:
   coord: [45.8131, 15.9775]
   address: 'Загреб, Хорватия'
-hotelWidget: true
 cover:
   src: '/images/zagreb-travel-guide/cover.webp'
   alt: 'Панорама центра Загреба с красными крышами с башни Лотрщак'

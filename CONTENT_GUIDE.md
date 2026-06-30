@@ -90,13 +90,12 @@
 | `attractionType` / `region` | нет | Только для `attractions` (фильтры каталога). Слаги — в `content.config.ts`. |
 | `razvlType` | нет | Только для `entertainment` (`kazino`/`mesta`/`nochnaya-zhizn`/`afisha`/`aktivnyy`). |
 | `tags` | нет | Свободные теги (показ в смежных разделах). |
-| `hotelWidget` | нет | `true` → виджет отелей Trip.com (для городов с высоким спросом на жильё). |
 | `draft` | да на старте | `true` = скелет, в сборку НЕ попадает. Снять (`false`) только когда статья готова и гейты зелёные. |
 
 **Пример (реальная статья — посмотри её целиком):**
 - `src/content/articles/{en,ru}/croatia-digital-nomad-visa.md` — справочная YMYL-статья: cover + инлайн-фигуры + `sources` + дисклеймер «сверьте на mup.gov.hr» + `AffiliateBox` (SafetyWing) через `/go/` + ≥2 внутренние ссылки.
 
-Остальные типы появятся по мере наполнения (Этап 4): статья о месте (`geo`, `gallery`, `accessFrom`); **город = статья `category=cities`** (`featuredOrder`, `hotelWidget`, `visit`) — отдельная коллекция `cities` для наполнения не используется; маршрут (`days`/`stops`).
+Остальные типы появятся по мере наполнения (Этап 4): статья о месте (`geo`, `gallery`, `accessFrom`); **город = статья `category=cities`** (`featuredOrder`, `visit`) — отдельная коллекция `cities` для наполнения не используется; маршрут (`days`/`stops`).
 
 ---
 

@@ -10,7 +10,6 @@ featuredOrder: 5
 geo:
   coord: [45.0811, 13.6387]
   address: 'Rovinj, Istria, Croatia'
-hotelWidget: true
 accessFrom:
   zagreb:
     km: 250

@@ -10,7 +10,6 @@ featuredOrder: 1
 geo:
   coord: [45.8131, 15.9775]
   address: 'Zagreb, Croatia'
-hotelWidget: true
 cover:
   src: '/images/zagreb-travel-guide/cover.webp'
   alt: 'Panorama of central Zagreb with its red rooftops seen from Lotrščak Tower'

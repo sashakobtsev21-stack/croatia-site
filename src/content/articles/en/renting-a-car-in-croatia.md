@@ -93,7 +93,7 @@ The coast road rewards a relaxed pace. For one classic itinerary, our [Dalmatia 
 
 ## One-way rentals and returning in a different city
 
-If your trip runs one direction — say, fly into Zagreb and out of Dubrovnik — you can usually pick up in one city and **drop off in another**, but the rental company charges a **one-way fee** for repositioning the car. That fee is small or waived within the same region and steeper for long cross-country drop-offs, so factor it in when comparing an open-jaw plan against a return-to-base loop. Always confirm the drop-off location, date and time on the contract.
+If your trip runs one direction — say, fly into Zagreb and out of Dubrovnik — you can usually pick up in one city and **drop off in another**, but the rental company charges a **one-way fee** for repositioning the car. That fee is small or waived within the same region and steeper for long cross-country drop-offs, so factor it in when comparing an open-jaw plan against a return-to-base loop. Always confirm the drop-off location, date and time on the contract. For the popular Split→Dubrovnik case specifically — the typical fee and the Pelješac Bridge vs Bosnia-border choice — see [one-way car rental from Split to Dubrovnik](/planning/one-way-car-rental-croatia/).
 
 ## Crossing borders: the Neum corridor and the Pelješac Bridge
 

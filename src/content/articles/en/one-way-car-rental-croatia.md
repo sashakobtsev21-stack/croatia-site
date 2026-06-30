@@ -24,7 +24,7 @@ sources:
   - 'Total Croatia News (total-croatia-news.com) — Pelješac Bridge vs Neum corridor distance, time, border waits'
   - 'Visit Croatia / Wikipedia — Pelješac Bridge (opened July 2022, 2.4 km, no toll), 2026 renovation'
   - 'Autowill, Hertz, rentalcars.com — published one-way fee policies'
-draft: true
+draft: false
 ---
 
 A one-way car rental from **Split to Dubrovnik** — picking up in one city and dropping in the other — is a popular way to drive the Dalmatian coast without doubling back. Expect a **one-way drop-off fee of roughly €100–€250** on top of the rental itself, and know that since the **Pelješac Bridge opened in 2022, the drive stays entirely inside Croatia** — no more Bosnia/Neum border stop, no passport needed for the route itself. One-way makes sense if Dubrovnik is your end point and you're flying out from there; if you're looping back to Split anyway, a normal return rental is cheaper. Fees below are planning ballparks in euros (€), not quotes — always confirm with the rental company when you book.

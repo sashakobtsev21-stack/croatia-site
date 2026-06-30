@@ -28,7 +28,7 @@ sources:
   - 'Getbybus / Busbud / Omio — Zadar–Split operators and fare comparison'
   - 'Hrvatske autoceste (hac.hr) — A1 motorway, Maslenica Bridge'
   - 'Croatian National Tourist Board (croatia.hr) — driving distances, coastal D8 (Jadranska magistrala)'
-draft: true
+draft: false
 ---
 
 Zadar and Split sit about **120–160 km apart down the northern Dalmatian coast**, and there are really only two sensible ways between them: a **bus** (cheapest and most frequent, roughly 1h45 to 3 hours) or **driving** (fastest on the A1 motorway, about 1h30–1h45). There is **no direct ferry and no train** on this stretch, despite both being coastal cities. For most travellers the bus wins — it runs more than a dozen times a day and drops you in the centre of each town — while a hire car only pays off if you want to stop along the way or carry on south afterward. Fares and times below are planning ballparks in euros (€), not live quotes; always confirm with the operator before you book.

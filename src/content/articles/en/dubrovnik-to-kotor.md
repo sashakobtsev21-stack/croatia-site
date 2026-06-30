@@ -30,7 +30,7 @@ sources:
   - 'Getbybus / Omio / Bookaway — Dubrovnik–Kotor operators and fares'
   - 'A-transfers Croatia border guide 2026 (a-transfers-croatia.com) — Karasovići crossing, wait times, EES, Green Card'
   - 'Croatian and Montenegrin border police / EU EES — passport and entry-exit requirements'
-draft: true
+draft: false
 ---
 
 Kotor sits about **90 km southeast of Dubrovnik** around the Adriatic coast, just over the border in Montenegro, and you can reach it three ways: a **public bus** (cheapest, roughly 2.5–3.5 hours including the border), an **organised day tour** (the easiest, with a guide and no logistics), or **your own car** (most flexible, but you'll deal with the border yourself). The scheduled drive is under two hours, but the **Croatia–Montenegro border crossing is the wild card** — quick off-season, potentially hours in peak summer. A day trip is very doable, but only if you start early. Costs and times below are planning ballparks in euros (€), not live quotes — confirm before you book.
